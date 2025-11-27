@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Conditions d’utilisation",
+    "description": "Les présentes conditions encadrent l’utilisation de HEIC JPG NOW (le service). En convertissant des fichiers via cet outil HEIC→JPG dans le navigateur, vous acceptez les règles ci-dessous afin de garantir un environnement sûr et équitable.",
+    "updated": "Dernière mise à jour : 27 novembre 2025"
+  },
+  "tocTitle": "Sommaire",
+  "toc": [
+    { "id": "terms-section-1", "label": "1. Champ d’application" },
+    { "id": "terms-section-2", "label": "2. Conditions d’utilisation" },
+    { "id": "terms-section-3", "label": "3. Comportements interdits" },
+    { "id": "terms-section-4", "label": "4. Contenu et propriété intellectuelle" },
+    { "id": "terms-section-5", "label": "5. Clauses de non-responsabilité" },
+    { "id": "terms-section-6", "label": "6. Modifications du service" },
+    { "id": "terms-section-7", "label": "7. Suspension et responsabilité" },
+    { "id": "terms-section-8", "label": "8. Droit applicable et contact" }
+  ],
+  "sections": [
+    {
+      "title": "1. Champ d’application",
+      "body": [
+        "Les présentes conditions s’appliquent à toutes les fonctionnalités proposées sur heicjpgnow.com et ses domaines associés. L’utilisation du service vaut acceptation intégrale du contrat."
+      ],
+      "list": [
+        "Si vous êtes mineur, vous garantissez que votre représentant légal a approuvé votre utilisation.",
+        "Si une clause contredit une disposition impérative, ladite disposition prévaut sans invalider les autres articles."
+      ]
+    },
+    {
+      "title": "2. Conditions d’utilisation",
+      "body": [
+        "Vous êtes responsable des fichiers téléversés et garantissez disposer des droits nécessaires pour les traiter via le service."
+      ],
+      "list": [
+        "L’usage est gratuit, qu’il soit personnel ou professionnel, tant qu’il reste raisonnable et n’entraîne pas de surcharge.",
+        "Les organisations souhaitant intégrer l’outil à leurs systèmes doivent nous contacter au préalable."
+      ]
+    },
+    {
+      "title": "3. Comportements interdits",
+      "body": [
+        "Il est interdit d’effectuer les actions suivantes :"
+      ],
+      "list": [
+        "Ingénierie inverse, modification, redistribution ou revente du service ou de son code.",
+        "Exécution massive de scripts automatisés susceptibles de saturer l’infrastructure.",
+        "Téléversement de fichiers portant atteinte aux droits d’auteur, aux marques, à la vie privée ou à d’autres droits de tiers.",
+        "Utilisation du service à des fins illicites, offensantes ou contraires à l’ordre public."
+      ]
+    },
+    {
+      "title": "4. Contenu et propriété intellectuelle",
+      "body": [
+        "Les droits relatifs à l’interface, aux logos, au code et à la documentation appartiennent à HEIC JPG NOW ou à ses concédants. Vous conservez vos droits sur vos propres fichiers, mais nous accordez la licence limitée nécessaire pour les traiter durant votre session."
+      ]
+    },
+    {
+      "title": "5. Clauses de non-responsabilité",
+      "body": [
+        "Les conversions étant locales, le résultat dépend de l’appareil, du navigateur et du réseau. Nous déclinons toute responsabilité concernant :"
+      ],
+      "list": [
+        "L’exactitude, l’exhaustivité ou l’adéquation des fichiers convertis, ainsi que la perte éventuelle de fichiers téléversés.",
+        "Les dommages dus à un accès non autorisé, à un logiciel malveillant, à un cas de force majeure ou à des services tiers.",
+        "Les litiges entre utilisateurs ou avec des tiers."
+      ],
+      "notes": [
+        "Cette limitation ne s’applique pas en cas de faute intentionnelle ou de négligence grave de notre part."
+      ]
+    },
+    {
+      "title": "6. Modifications du service",
+      "body": [
+        "Nous pouvons modifier, suspendre ou arrêter toute fonctionnalité à tout moment pour des raisons de sécurité, de conformité légale ou pour d’autres motifs raisonnables. Les changements importants seront annoncés sur le site dès que possible."
+      ]
+    },
+    {
+      "title": "7. Suspension et responsabilité",
+      "body": [
+        "En cas de violation des présentes conditions, nous pourrons suspendre l’accès, bloquer l’usage ou réclamer des dommages-intérêts sans préavis. Vous supporterez les pertes et frais résultant de votre manquement."
+      ]
+    },
+    {
+      "title": "8. Droit applicable et contact",
+      "body": [
+        "Les conditions sont régies par les lois applicables à l’exploitant du service. Pour toute question relative au contrat ou au traitement des données, contactez-nous à l’adresse suivante."
+      ],
+      "list": [
+        "Adresse e-mail : guom0900@gmail.com",
+        "Nous répondons habituellement sous 3 jours ouvrables."
+      ]
+    }
+  ]
+}

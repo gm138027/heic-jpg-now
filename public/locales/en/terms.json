@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Terms of Service",
+    "description": "These Terms govern your use of HEIC JPG NOW (the Service). By converting files through this browser-based HEIC→JPG tool, you agree to the conditions below so we can operate a safe and fair platform.",
+    "updated": "Last updated: November 27, 2025"
+  },
+  "tocTitle": "Contents",
+  "toc": [
+    { "id": "terms-section-1", "label": "1. Scope" },
+    { "id": "terms-section-2", "label": "2. Eligibility and Use" },
+    { "id": "terms-section-3", "label": "3. Prohibited Conduct" },
+    { "id": "terms-section-4", "label": "4. Content and Intellectual Property" },
+    { "id": "terms-section-5", "label": "5. Disclaimers" },
+    { "id": "terms-section-6", "label": "6. Service Changes" },
+    { "id": "terms-section-7", "label": "7. Suspension and Liability" },
+    { "id": "terms-section-8", "label": "8. Governing Law & Contact" }
+  ],
+  "sections": [
+    {
+      "title": "1. Scope",
+      "body": [
+        "These Terms apply to all functionality provided at heicjpgnow.com and related domains. Using the Service means you accept the entire agreement."
+      ],
+      "list": [
+        "If you are a minor, you represent that a parent or legal guardian has reviewed and approved your use.",
+        "If any provision conflicts with mandatory law, that law prevails but the remaining clauses continue to apply."
+      ]
+    },
+    {
+      "title": "2. Eligibility and Use",
+      "body": [
+        "You are responsible for the files you upload and warrant that you own or have permission to process them through the Service."
+      ],
+      "list": [
+        "The Service is free for personal or commercial conversion as long as usage remains reasonable and does not overload the system.",
+        "Organizations integrating the tool into internal workflows should contact us in advance."
+      ]
+    },
+    {
+      "title": "3. Prohibited Conduct",
+      "body": [
+        "You must not engage in the following acts."
+      ],
+      "list": [
+        "Reverse-engineering, modifying, redistributing, or reselling the Service or any part of its code.",
+        "Running automated scripts at a scale that places excessive load on our infrastructure.",
+        "Uploading files that infringe copyrights, trademarks, privacy rights, or other third-party rights.",
+        "Using the Service for unlawful, harmful, or offensive purposes."
+      ]
+    },
+    {
+      "title": "4. Content and Intellectual Property",
+      "body": [
+        "All rights to the Service, including logos, UI design, code, and documentation, belong to HEIC JPG NOW or its licensors. You retain rights to your own content but grant us the limited permission necessary to process it in your browser session."
+      ]
+    },
+    {
+      "title": "5. Disclaimers",
+      "body": [
+        "Because conversions run locally, results may differ depending on your device, browser, or network environment. We are not liable for:"
+      ],
+      "list": [
+        "Accuracy, completeness, or suitability of conversion outputs, or loss of uploaded files.",
+        "Damage arising from unauthorized access, malware, force majeure, or third-party services.",
+        "Disputes between users or between a user and a third party."
+      ],
+      "notes": [
+        "These limitations do not apply if damage is caused by our intentional misconduct or gross negligence."
+      ]
+    },
+    {
+      "title": "6. Service Changes",
+      "body": [
+        "We may modify, suspend, or discontinue any feature at any time for security, legal, operational, or other reasonable reasons. Significant changes will be announced on the site beforehand whenever possible."
+      ]
+    },
+    {
+      "title": "7. Suspension and Liability",
+      "body": [
+        "If you violate these Terms, we may suspend access, block usage, or seek damages without prior notice. You are responsible for losses and expenses arising from your violation."
+      ]
+    },
+    {
+      "title": "8. Governing Law & Contact",
+      "body": [
+        "These Terms are governed by the laws applicable to the Service operator. Questions about this agreement or data handling should be sent to the email below."
+      ],
+      "list": [
+        "Contact email: guom0900@gmail.com",
+        "We typically respond within 3 business days."
+      ]
+    }
+  ]
+}

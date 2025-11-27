@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "Privacy Policy",
+    "description": "HEIC JPG NOW (the Service) prioritizes protecting your images and personal information. This policy explains our transparent and secure privacy practices.",
+    "updated": "Last updated: November 27, 2025"
+  },
+  "tocTitle": "Contents",
+  "toc": [
+    { "id": "privacy-section-1", "label": "1. Information We Handle" },
+    { "id": "privacy-section-2", "label": "2. How We Use Information" },
+    { "id": "privacy-section-3", "label": "3. Retention and Deletion" },
+    { "id": "privacy-section-4", "label": "4. Security and Access Controls" },
+    { "id": "privacy-section-5", "label": "5. Cookies & Local Storage" },
+    { "id": "privacy-section-6", "label": "6. Your Rights" },
+    { "id": "privacy-section-7", "label": "7. Policy Changes" }
+  ],
+  "sections": [
+    {
+      "title": "1. Information We Handle",
+      "body": [
+        "The Service does not automatically collect personally identifiable data. All HEIC to JPG conversions run on your device, and we only process the limited information below."
+      ],
+      "list": [
+        "Uploaded HEIC / HEIF / JPG files stay in your browser memory only and are never transmitted to or stored on our servers.",
+        "Aggregated, non-identifiable analytics events such as page views, feature usage counts, or error types.",
+        "Details you voluntarily include when contacting support, limited to what is necessary to resolve the request."
+      ]
+    },
+    {
+      "title": "2. How We Use Information",
+      "body": [
+        "We use the above information solely for the purposes below."
+      ],
+      "list": [
+        "Ensure core conversion features operate reliably and troubleshoot issues using aggregated analytics.",
+        "Understand usage trends to improve UI/UX and plan infrastructure capacity.",
+        "Respond to legal obligations or prevent misuse when strictly necessary, using only the minimal records required."
+      ]
+    },
+    {
+      "title": "3. Retention and Deletion",
+      "body": [
+        "Analytics data never includes personal identifiers, and retention windows are minimized. Files and support records are removed under the following conditions."
+      ],
+      "list": [
+        "Files are deleted immediately when you clear the queue, close the tab, refresh the page, or complete the workflow.",
+        "Analytics metrics remain in aggregated form only; they cannot be used to reconstruct individual behavior.",
+        "Support emails are erased or anonymized within 90 days after the ticket is resolved."
+      ],
+      "notes": [
+        "We never persist original files or converted outputs on servers.",
+        "Operational logs are kept for up to 90 days for auditing, after which only summary statistics remain."
+      ]
+    },
+    {
+      "title": "4. Security and Access Controls",
+      "body": [
+        "All conversions run locally so uploaded files never traverse external networks.",
+        "Analytics requests use encrypted HTTPS connections, and access to dashboards is restricted to the smallest possible team."
+      ]
+    },
+    {
+      "title": "5. Cookies & Local Storage",
+      "body": [
+        "We do not use advertising or behavioral tracking cookies.",
+        "We may store short-lived first-party cookies or local-storage items to remember preferences or support anonymous analytics. You can clear or block them in your browser, though some features may degrade."
+      ]
+    },
+    {
+      "title": "6. Your Rights",
+      "body": [
+        "If you wish to review, correct, or delete information, contact us at the email below and we will respond within a reasonable timeframe.",
+        "We honor rights granted by applicable data-protection laws."
+      ]
+    },
+    {
+      "title": "7. Policy Changes",
+      "body": [
+        "We may update this policy when the Service or legal requirements change. Significant updates will be announced on the site along with the new revision date."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "description": "For privacy questions or rights requests, please reach out via the email address below.",
+    "emailLabel": "Email",
+    "email": "guom0900@gmail.com",
+    "response": "We typically reply within 3 business days."
+  }
+}

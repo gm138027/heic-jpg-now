@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Nutzungsbedingungen",
+    "description": "Diese Bedingungen regeln die Nutzung von HEIC JPG NOW (dem Dienst). Durch das Konvertieren von Dateien über dieses browserbasierte HEIC→JPG-Tool akzeptieren Sie die folgenden Regeln, damit die Plattform sicher und fair bleibt.",
+    "updated": "Zuletzt aktualisiert: 27. November 2025"
+  },
+  "tocTitle": "Inhalt",
+  "toc": [
+    { "id": "terms-section-1", "label": "1. Geltungsbereich" },
+    { "id": "terms-section-2", "label": "2. Nutzungsvoraussetzungen" },
+    { "id": "terms-section-3", "label": "3. Verbotene Handlungen" },
+    { "id": "terms-section-4", "label": "4. Inhalte und geistiges Eigentum" },
+    { "id": "terms-section-5", "label": "5. Haftungsausschlüsse" },
+    { "id": "terms-section-6", "label": "6. Änderungen des Dienstes" },
+    { "id": "terms-section-7", "label": "7. Sperrung und Haftung" },
+    { "id": "terms-section-8", "label": "8. Anwendbares Recht & Kontakt" }
+  ],
+  "sections": [
+    {
+      "title": "1. Geltungsbereich",
+      "body": [
+        "Diese Bedingungen gelten für alle Funktionen von heicjpgnow.com und verbundenen Domains. Durch die Nutzung erklären Sie sich mit dem gesamten Vertrag einverstanden."
+      ],
+      "list": [
+        "Minderjährige versichern, dass ein Erziehungsberechtigter der Nutzung zugestimmt hat.",
+        "Steht eine Klausel im Widerspruch zu zwingendem Recht, hat dieses Vorrang; die übrigen Regelungen bleiben bestehen."
+      ]
+    },
+    {
+      "title": "2. Nutzungsvoraussetzungen",
+      "body": [
+        "Sie sind für die hochgeladenen Dateien verantwortlich und garantieren, dass Sie über die erforderlichen Rechte verfügen."
+      ],
+      "list": [
+        "Die Nutzung ist kostenlos, sofern sie in einem angemessenen Rahmen bleibt und das System nicht überlastet.",
+        "Organisationen, die den Dienst in eigene Prozesse integrieren möchten, sollten uns vorher kontaktieren."
+      ]
+    },
+    {
+      "title": "3. Verbotene Handlungen",
+      "body": [
+        "Folgende Handlungen sind unzulässig:"
+      ],
+      "list": [
+        "Reverse Engineering, Veränderung, Weitergabe oder Verkauf des Dienstes oder einzelner Programmteile.",
+        "Automatisierte Skripte in einem Umfang ausführen, der die Infrastruktur übermäßig belastet.",
+        "Dateien hochladen, welche Urheberrechte, Markenrechte, Persönlichkeitsrechte oder sonstige Rechte Dritter verletzen.",
+        "Den Dienst für rechtswidrige oder anstößige Zwecke verwenden."
+      ]
+    },
+    {
+      "title": "4. Inhalte und geistiges Eigentum",
+      "body": [
+        "Rechte an Oberfläche, Logos, Code und Dokumentation liegen bei HEIC JPG NOW oder den jeweiligen Rechteinhabern. Sie behalten die Rechte an Ihren Dateien, räumen uns jedoch die für die Verarbeitung während Ihrer Session notwendige Lizenz ein."
+      ]
+    },
+    {
+      "title": "5. Haftungsausschlüsse",
+      "body": [
+        "Da die Konvertierung lokal erfolgt, hängen Ergebnisse von Gerät, Browser und Netzwerk ab. Wir übernehmen keine Haftung für:"
+      ],
+      "list": [
+        "Genauigkeit, Vollständigkeit oder Eignung der konvertierten Dateien sowie Verlust hochgeladener Daten.",
+        "Schäden durch unbefugten Zugriff, Malware, höhere Gewalt oder Dienste Dritter.",
+        "Streitigkeiten zwischen Nutzern oder zwischen Nutzer und Dritten."
+      ],
+      "notes": [
+        "Der Haftungsausschluss gilt nicht bei vorsätzlichem oder grob fahrlässigem Verhalten unsererseits."
+      ]
+    },
+    {
+      "title": "6. Änderungen des Dienstes",
+      "body": [
+        "Wir können Funktionen jederzeit aus Sicherheits-, Rechts- oder betrieblichen Gründen ändern, aussetzen oder einstellen. Größere Änderungen werden nach Möglichkeit vorab auf der Website angekündigt."
+      ]
+    },
+    {
+      "title": "7. Sperrung und Haftung",
+      "body": [
+        "Bei Verstößen gegen diese Bedingungen dürfen wir den Zugriff ohne Vorankündigung sperren oder Schadensersatz verlangen. Für Schäden und Kosten, die durch Ihren Verstoß entstehen, haften Sie."
+      ]
+    },
+    {
+      "title": "8. Anwendbares Recht & Kontakt",
+      "body": [
+        "Diese Bedingungen unterliegen dem Recht, das für den Betreiber des Dienstes maßgeblich ist. Fragen zu diesem Vertrag oder zur Datenverarbeitung richten Sie bitte an die folgende Adresse."
+      ],
+      "list": [
+        "Kontakt-E-Mail: guom0900@gmail.com",
+        "Antworten erfolgen in der Regel innerhalb von drei Werktagen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Términos de servicio",
+    "description": "Estos Términos regulan el uso de HEIC JPG NOW (el servicio). Al convertir archivos con esta herramienta en el navegador, aceptas las condiciones siguientes para mantener un entorno seguro y transparente.",
+    "updated": "Última actualización: 27 de noviembre de 2025"
+  },
+  "tocTitle": "Contenido",
+  "toc": [
+    { "id": "terms-section-1", "label": "1. Alcance" },
+    { "id": "terms-section-2", "label": "2. Condiciones de uso" },
+    { "id": "terms-section-3", "label": "3. Actividades prohibidas" },
+    { "id": "terms-section-4", "label": "4. Contenido y propiedad intelectual" },
+    { "id": "terms-section-5", "label": "5. Exenciones de responsabilidad" },
+    { "id": "terms-section-6", "label": "6. Cambios del servicio" },
+    { "id": "terms-section-7", "label": "7. Suspensión y responsabilidad" },
+    { "id": "terms-section-8", "label": "8. Ley aplicable y contacto" }
+  ],
+  "sections": [
+    {
+      "title": "1. Alcance",
+      "body": [
+        "Estos Términos se aplican a todas las funciones ofrecidas en heicjpgnow.com y dominios relacionados. El uso del servicio implica la aceptación total del acuerdo."
+      ],
+      "list": [
+        "Si eres menor de edad, declaras contar con la autorización de tu padre, madre o tutor legal.",
+        "Si alguna cláusula entra en conflicto con una norma imperativa, prevalecerá dicha norma sin invalidar el resto del documento."
+      ]
+    },
+    {
+      "title": "2. Condiciones de uso",
+      "body": [
+        "Eres responsable de los archivos que cargas y garantizas que tienes los derechos o permisos necesarios para procesarlos mediante el servicio."
+      ],
+      "list": [
+        "El uso es gratuito para fines personales o comerciales siempre que sea razonable y no genere sobrecarga.",
+        "Las organizaciones que deseen integrar la herramienta en sus sistemas deben contactar previamente."
+      ]
+    },
+    {
+      "title": "3. Actividades prohibidas",
+      "body": [
+        "No se permite realizar las siguientes acciones:"
+      ],
+      "list": [
+        "Ingeniería inversa, modificación, redistribución o reventa del servicio o su código.",
+        "Ejecución masiva de scripts automatizados que generen una carga excesiva.",
+        "Subir archivos que vulneren derechos de autor, marcas, privacidad u otros derechos de terceros.",
+        "Usar el servicio con fines ilegales, ofensivos o que violen el orden público."
+      ]
+    },
+    {
+      "title": "4. Contenido y propiedad intelectual",
+      "body": [
+        "Los derechos sobre la interfaz, logotipos, código y documentación pertenecen a HEIC JPG NOW o a sus licenciatarios. Mantienes los derechos sobre tus archivos, pero nos otorgas el permiso limitado necesario para procesarlos en tu sesión del navegador."
+      ]
+    },
+    {
+      "title": "5. Exenciones de responsabilidad",
+      "body": [
+        "Las conversiones se ejecutan localmente y los resultados dependen del dispositivo, navegador y entorno de red. No seremos responsables de:"
+      ],
+      "list": [
+        "Precisión, integridad o idoneidad de los archivos convertidos ni de la pérdida de archivos cargados.",
+        "Daños derivados de accesos no autorizados, malware, fuerza mayor u otros servicios externos.",
+        "Conflictos entre usuarios o entre un usuario y un tercero."
+      ],
+      "notes": [
+        "Esta limitación no aplica cuando exista dolo o negligencia grave por nuestra parte."
+      ]
+    },
+    {
+      "title": "6. Cambios del servicio",
+      "body": [
+        "Podemos modificar, suspender o finalizar cualquier función en cualquier momento por motivos de seguridad, cumplimiento legal u otras razones justificadas. Cuando sea posible, anunciaremos los cambios relevantes en el sitio."
+      ]
+    },
+    {
+      "title": "7. Suspensión y responsabilidad",
+      "body": [
+        "Si incumples estos Términos, podremos suspender tu acceso, bloquear el uso o reclamar daños sin aviso previo. Serás responsable de las pérdidas y gastos que se originen por tu infracción."
+      ]
+    },
+    {
+      "title": "8. Ley aplicable y contacto",
+      "body": [
+        "Los presentes Términos se rigen por las leyes aplicables al operador del servicio. Para consultas sobre este acuerdo o el tratamiento de datos, contáctanos en el correo siguiente."
+      ],
+      "list": [
+        "Correo de contacto: guom0900@gmail.com",
+        "Habitualmente respondemos en un plazo máximo de 3 días laborables."
+      ]
+    }
+  ]
+}

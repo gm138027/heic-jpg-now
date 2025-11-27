@@ -1,0 +1,90 @@
+{
+  "hero": {
+    "title": "Datenschutzerklärung",
+    "description": "HEIC JPG NOW (der Dienst) stellt den Schutz Ihrer Bilder und personenbezogenen Daten an erste Stelle. Diese Richtlinie beschreibt unsere transparenten und sicheren Datenschutzpraktiken.",
+    "updated": "Zuletzt aktualisiert: 27. November 2025"
+  },
+  "tocTitle": "Inhalt",
+  "toc": [
+    { "id": "privacy-section-1", "label": "1. Welche Daten wir verarbeiten" },
+    { "id": "privacy-section-2", "label": "2. Zweck der Datenverwendung" },
+    { "id": "privacy-section-3", "label": "3. Aufbewahrung und Löschung" },
+    { "id": "privacy-section-4", "label": "4. Sicherheit und Zugriffskontrollen" },
+    { "id": "privacy-section-5", "label": "5. Cookies und lokaler Speicher" },
+    { "id": "privacy-section-6", "label": "6. Ihre Rechte" },
+    { "id": "privacy-section-7", "label": "7. Änderungen dieser Richtlinie" }
+  ],
+  "sections": [
+    {
+      "title": "1. Welche Daten wir verarbeiten",
+      "body": [
+        "Der Dienst erfasst keine personenbezogenen Daten automatisch. Alle HEIC-zu-JPG-Konvertierungen laufen auf Ihrem Gerät, und wir verarbeiten nur die unten aufgeführten Informationen."
+      ],
+      "list": [
+        "Hochgeladene HEIC / HEIF / JPG-Dateien verbleiben ausschließlich im Speicher Ihres Browsers und werden weder übertragen noch auf unseren Servern gespeichert.",
+        "Aggregierte, nicht identifizierbare Analyseereignisse wie Seitenaufrufe, Funktionsnutzung oder Fehlertypen.",
+        "Angaben, die Sie bei Supportanfragen freiwillig machen, beschränkt auf das zur Bearbeitung notwendige Minimum."
+      ]
+    },
+    {
+      "title": "2. Zweck der Datenverwendung",
+      "body": [
+        "Wir nutzen die genannten Informationen nur zu folgenden Zwecken."
+      ],
+      "list": [
+        "Sicherstellen, dass die Kernfunktionen stabil laufen, und Fehler mithilfe aggregierter Analysen beheben.",
+        "Nutzungstrends verstehen, um die Benutzererfahrung zu verbessern und Kapazitäten zu planen.",
+        "Gesetzliche Pflichten erfüllen oder Missbrauch verhindern, wenn dies zwingend erforderlich ist – unter Verwendung minimaler Protokolle."
+      ]
+    },
+    {
+      "title": "3. Aufbewahrung und Löschung",
+      "body": [
+        "Analysedaten enthalten keine persönlichen Kennungen, und die Aufbewahrungsfristen werden so kurz wie möglich gehalten. Dateien und Supportnachrichten löschen wir unter folgenden Bedingungen."
+      ],
+      "list": [
+        "Dateien werden sofort entfernt, wenn Sie die Warteschlange leeren, den Tab schließen, die Seite neu laden oder den Ablauf beenden.",
+        "Analytics-Metriken verbleiben nur in aggregierter Form und lassen keine Rückschlüsse auf einzelne Personen zu.",
+        "Support-E-Mails werden spätestens 90 Tage nach Abschluss des Tickets gelöscht oder anonymisiert."
+      ],
+      "notes": [
+        "Originaldateien oder konvertierte Ergebnisse speichern wir niemals auf Servern.",
+        "Betriebsprotokolle bewahren wir bis zu 90 Tage für Auditzwecke auf; danach bleiben lediglich zusammengefasste Statistiken."
+      ]
+    },
+    {
+      "title": "4. Sicherheit und Zugriffskontrollen",
+      "body": [
+        "Die Konvertierungen laufen lokal, sodass hochgeladene Dateien keine externen Netzwerke durchlaufen.",
+        "Analytics-Anfragen erfolgen über verschlüsselte HTTPS-Verbindungen und der Zugang zu Dashboards ist auf das kleinste notwendige Team beschränkt."
+      ]
+    },
+    {
+      "title": "5. Cookies und lokaler Speicher",
+      "body": [
+        "Wir verwenden keine Werbe- oder Tracking-Cookies.",
+        "Wir können kurzlebige Erstanbieter-Cookies oder lokale Speicherwerte einsetzen, um Einstellungen zu merken oder anonyme Analysen zu ermöglichen. Sie können diese im Browser löschen oder blockieren; einige Funktionen könnten dadurch eingeschränkt sein."
+      ]
+    },
+    {
+      "title": "6. Ihre Rechte",
+      "body": [
+        "Wenn Sie Daten einsehen, berichtigen oder löschen möchten, kontaktieren Sie uns unter der unten stehenden Adresse – wir antworten innerhalb angemessener Frist.",
+        "Wir erfüllen die Rechte, die Ihnen nach den geltenden Datenschutzgesetzen zustehen."
+      ]
+    },
+    {
+      "title": "7. Änderungen dieser Richtlinie",
+      "body": [
+        "Diese Richtlinie kann angepasst werden, wenn sich der Dienst oder rechtliche Anforderungen ändern. Wichtige Änderungen kündigen wir auf der Website zusammen mit dem neuen Datum an."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Kontakt",
+    "description": "Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte schreiben Sie uns bitte an die folgende Adresse.",
+    "emailLabel": "E-Mail",
+    "email": "guom0900@gmail.com",
+    "response": "In der Regel antworten wir innerhalb von drei Werktagen."
+  }
+}
