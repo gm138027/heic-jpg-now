@@ -6,7 +6,6 @@ async function convertWithHeic2Any(file: File): Promise<ConvertResult> {
   const output = await heic2any({
     blob: file,
     toType: "image/jpeg",
-    force: true,
   });
 
   const blob = Array.isArray(output) ? output[0] : (output as Blob);
