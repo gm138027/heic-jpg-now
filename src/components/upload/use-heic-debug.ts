@@ -32,16 +32,18 @@ export function installHeicDebugHooks() {
   };
 
   const OriginalWorker = window.Worker;
-  window.Worker = function patchedWorker(...args: ConstructorParameters<typeof Worker>) {
-    const worker = new OriginalWorker(...args);
-    worker.addEventListener("error", (event) => {
-      record("worker:error", event.message, event.error);
-    });
-    worker.addEventListener("messageerror", (event) => {
-      record("worker:messageerror", event.data);
-    });
-    return worker;
-  };
+  class PatchedWorker extends OriginalWorker {
+    constructor(...args: ConstructorParameters<typeof Worker>) {
+      super(...args);
+      this.addEventListener("error", (event) => {
+        record("worker:error", event.message, event.error);
+      });
+      this.addEventListener("messageerror", (event) => {
+        record("worker:messageerror", event.data);
+      });
+    }
+  }
+  window.Worker = PatchedWorker;
 
   const originalFetch = window.fetch;
   window.fetch = async (...args) => {
