@@ -10,6 +10,7 @@ import { BottomActionBar } from "./bottom-action-bar";
 import { installHeicDebugHooks } from "./use-heic-debug";
 import { useUploadQueue } from "./hooks/use-upload-queue";
 import { useConversionWorkflow } from "./hooks/use-conversion-workflow";
+import { trackEvent } from "@/lib/analytics/ga";
 
 export function UploadTool() {
   const t = useTranslations();
@@ -85,8 +86,10 @@ export function UploadTool() {
       resetWorkflow();
       baseHandleClearQueue();
       setError(null);
+      trackEvent("convert_more");
       return;
     }
+    trackEvent("add_file_click", { source: "queue_button" });
     openFileDialog();
   }, [
     convertStage,
@@ -112,6 +115,11 @@ export function UploadTool() {
     baseHandleClearQueue();
     setError(null);
   }, [cancelAllTasks, resetWorkflow, baseHandleClearQueue, setError]);
+
+  const handleBrowseFromDropzone = useCallback(() => {
+    trackEvent("add_file_click", { source: "dropzone" });
+    openFileDialog();
+  }, [openFileDialog]);
 
   const displayedCompletedCount = hasRevealedProgress ? completedCount : 0;
   const addButtonLabel =
@@ -165,7 +173,7 @@ export function UploadTool() {
             onDrop={handleDrop}
           >
             <UploadDropzone
-              onBrowse={openFileDialog}
+              onBrowse={handleBrowseFromDropzone}
               disabled={isProcessing}
               isDragging={isDragging}
               error={error}

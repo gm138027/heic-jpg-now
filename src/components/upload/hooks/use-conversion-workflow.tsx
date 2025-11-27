@@ -6,6 +6,7 @@ import { QueueFile } from "@/types/queue";
 import { convertToJpeg } from "@/lib/conversion";
 import { deriveOutputName, formatFileSize } from "@/lib/file-utils";
 import { useProgressAnimator } from "../use-progress-animator";
+import { trackEvent } from "@/lib/analytics/ga";
 
 const MAX_PARALLEL_CONVERSIONS = 1;
 
@@ -201,6 +202,7 @@ export function useConversionWorkflow({
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
     setHasDownloadedAll(true);
+    trackEvent("download", { file_count: queueRef.current.length });
   }, [downloadBlob]);
 
   const handlePrimaryAction = useCallback(() => {
@@ -226,7 +228,8 @@ export function useConversionWorkflow({
     setPackagingProgress(0);
     packagingInFlightRef.current = false;
     packagingGenerationRef.current += 1;
-  }, [convertStage, handleDownloadAll, hasFiles, setError, t]);
+    trackEvent("convert", { file_count: queue.length });
+  }, [convertStage, handleDownloadAll, hasFiles, queue.length, setError, t]);
 
   const completedCount = useMemo(
     () => queue.filter((file) => file.status === "done" || file.status === "error").length,

@@ -5,6 +5,7 @@ import { useTranslations } from "@/components/i18n/translation-provider";
 import { QueueFile } from "@/types/queue";
 import { formatFileSize } from "@/lib/file-utils";
 import { useUploadQueueStore } from "../context/upload-queue-provider";
+import { trackEvent } from "@/lib/analytics/ga";
 
 type UseUploadQueueOptions = {
   beforeAddRef?: MutableRefObject<(() => void) | null>;
@@ -75,6 +76,9 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
           file,
         }));
         setQueue((prev) => [...prev, ...prepared]);
+        if (prepared.length > 0) {
+          trackEvent("upload", { file_count: prepared.length });
+        }
       } catch (uploadError) {
         console.error(uploadError);
         setError(t("upload.errors.addFailed"));
