@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { UploadQueueProvider } from "@/components/upload/context/upload-queue-provider";
 import { GATracker } from "@/components/analytics/ga-tracker";
-import { defaultLocale, locales, type Locale } from "@/lib/i18n/locales";
+import { defaultLocale } from "@/lib/i18n/locales";
 import { buildLanguageAlternates } from "@/lib/seo/alternates";
 import { getAbsoluteUrl } from "@/lib/url";
 
@@ -80,24 +80,11 @@ export const metadata: Metadata = {
 
 type RootLayoutProps = Readonly<{
   children: React.ReactNode;
-  params: {
-    locale?: Locale;
-  };
 }>;
 
-function resolveHtmlLang(params?: RootLayoutProps["params"]) {
-  const locale = params?.locale;
-  if (locale && locales.includes(locale)) {
-    return locale;
-  }
-  return defaultLocale;
-}
-
-export default function RootLayout({ children, params }: RootLayoutProps) {
-  const htmlLang = resolveHtmlLang(params);
-
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang={htmlLang}>
+    <html lang={defaultLocale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <GATracker />
         <UploadQueueProvider>{children}</UploadQueueProvider>
