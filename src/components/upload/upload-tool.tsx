@@ -7,17 +7,12 @@ import { UploadDropzone } from "./upload-dropzone";
 import { QueueHeader } from "./queue-header";
 import { FileQueueList } from "./file-queue-list";
 import { BottomActionBar } from "./bottom-action-bar";
-import { installHeicDebugHooks } from "./use-heic-debug";
 import { useUploadQueue } from "./hooks/use-upload-queue";
 import { useConversionWorkflow } from "./hooks/use-conversion-workflow";
 import { trackEvent } from "@/lib/analytics/ga";
 
 export function UploadTool() {
   const t = useTranslations();
-
-  useEffect(() => {
-    installHeicDebugHooks();
-  }, []);
 
   const beforeAddRef = useRef<(() => void) | null>(null);
 

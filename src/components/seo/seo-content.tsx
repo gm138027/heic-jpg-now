@@ -1,4 +1,4 @@
-import { defaultLocale, type Locale } from "@/lib/i18n/locales";
+﻿import { defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { UploadTool } from "@/components/upload/upload-tool";
 import { HowToSteps } from "./how-to-steps";
@@ -15,10 +15,13 @@ type SEOContentProps = {
 export async function SEOContent({ locale }: SEOContentProps) {
   const messages = await getDictionary(locale);
   const seo = messages.common.seo;
+  const homeBreadcrumbLabel =
+    messages.common.site.breadcrumb?.home ?? messages.common.site.name ?? "Home";
+  const homeBreadcrumbUrl = getAbsoluteUrl(locale === defaultLocale ? "" : `/${locale}`);
 
   return (
     <>
-      {/* H1 Section - 放在工具区之前 */}
+      {/* H1 Section */}
       {seo?.h1 && (
         <section className="mb-12 space-y-4 text-center">
           <h1 className="text-4xl font-bold leading-tight text-slate-900 md:text-5xl">
@@ -26,9 +29,8 @@ export async function SEOContent({ locale }: SEOContentProps) {
           </h1>
           <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-600 md:text-xl">
             {(() => {
-              // 查找第一个句号、破折号或逗号
               const text = seo.h1.subtitle;
-              const separators = ['。', '—', '–', ','];
+              const separators = ["。", "—", "–", ","];
               let firstBreakIndex = -1;
               let foundSeparator = '';
               
@@ -41,7 +43,6 @@ export async function SEOContent({ locale }: SEOContentProps) {
               }
               
               if (firstBreakIndex === -1) {
-                // 没有找到分隔符，全部显示为普通文字
                 return text;
               }
               
@@ -229,8 +230,8 @@ export async function SEOContent({ locale }: SEOContentProps) {
             {
               "@type": "ListItem",
               position: 1,
-              name: seo?.h1?.title ?? "HEIC JPG Now",
-              item: getAbsoluteUrl(locale === defaultLocale ? "" : `/${locale}`),
+              name: homeBreadcrumbLabel,
+              item: homeBreadcrumbUrl,
             },
           ],
         }}

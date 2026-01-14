@@ -5,6 +5,7 @@ import { getDictionary, type PrivacyDictionary } from "@/lib/i18n/get-dictionary
 import { defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { getAbsoluteUrl } from "@/lib/url";
 import { JsonLd } from "@/components/seo/json-ld";
+import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 
 type PrivacyScreenProps = {
   locale: Locale;
@@ -25,6 +26,7 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
           label: section.title,
         }));
   const localePrefix = locale === defaultLocale ? "" : `/${locale}`;
+  const homeBreadcrumbLabel = site.breadcrumb?.home ?? site.name ?? "Home";
   const breadcrumbData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -32,7 +34,7 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
       {
         "@type": "ListItem",
         position: 1,
-        name: "HEIC JPG Now",
+        name: homeBreadcrumbLabel,
         item: getAbsoluteUrl(localePrefix),
       },
       {
@@ -43,6 +45,12 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
       },
     ],
   };
+
+  const homeLabel = site.breadcrumb?.home ?? site.name ?? "Home";
+  const breadcrumbItems = [
+    { key: "home", label: homeLabel, href: "" },
+    { key: "privacy", label: privacy.hero.title },
+  ];
 
   return (
     <TranslationProvider locale={locale} messages={messages}>
@@ -61,6 +69,7 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
         footerLegal={footer.legal}
       >
         <article className="mx-auto max-w-4xl space-y-12 py-6">
+          <Breadcrumbs locale={locale} items={breadcrumbItems} />
           <section className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-sm">
             <p className="text-sm font-medium text-emerald-600">{privacy.hero.updated}</p>
             <h1 className="mt-3 text-3xl font-bold text-slate-900">{privacy.hero.title}</h1>

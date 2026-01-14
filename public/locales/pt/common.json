@@ -10,6 +10,9 @@
       "fr": "Francês",
       "de": "Alemão",
       "pt": "Português"
+    },
+    "breadcrumb": {
+      "home": "Início"
     }
   },
   "hero": {

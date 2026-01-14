@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useMemo, useState } from "react";
 import type { QueueFile } from "@/types/queue";
 
 type UploadQueueStore = {
@@ -16,37 +16,11 @@ type UploadQueueStore = {
 
 const UploadQueueContext = createContext<UploadQueueStore | null>(null);
 
-type SharedState = {
-  queue: QueueFile[];
-  error: string | null;
-  isProcessing: boolean;
-  isDragging: boolean;
-};
-
-const sharedState: SharedState = {
-  queue: [],
-  error: null,
-  isProcessing: false,
-  isDragging: false,
-};
-
-function useSharedState<Key extends keyof SharedState>(
-  key: Key,
-): [SharedState[Key], React.Dispatch<React.SetStateAction<SharedState[Key]>>] {
-  const [value, setValue] = useState<SharedState[Key]>(() => sharedState[key]);
-
-  useEffect(() => {
-    sharedState[key] = value;
-  }, [key, value]);
-
-  return [value, setValue];
-}
-
 export function UploadQueueProvider({ children }: { children: React.ReactNode }) {
-  const [queue, setQueue] = useSharedState("queue");
-  const [error, setError] = useSharedState("error");
-  const [isProcessing, setIsProcessing] = useSharedState("isProcessing");
-  const [isDragging, setIsDragging] = useSharedState("isDragging");
+  const [queue, setQueue] = useState<QueueFile[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
 
   const value = useMemo(
     () => ({
