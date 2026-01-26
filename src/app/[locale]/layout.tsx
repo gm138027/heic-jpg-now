@@ -11,8 +11,6 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const lang = locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
 
   return (
-    <html lang={lang}>
-      <body>{children}</body>
-    </html>
+    <div lang={lang}>{children}</div>
   );
 }

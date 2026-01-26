@@ -66,7 +66,7 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
 
       try {
         const prepared = files.map((file) => ({
-          id: crypto.randomUUID(),
+          id: createQueueId(),
           name: file.name,
           sizeLabel: formatFileSize(file.size),
           status: "ready" as QueueFile["status"],
@@ -197,6 +197,13 @@ function isHeicFile(file: File) {
 
   const lower = file.name.toLowerCase();
   return ACCEPTED_EXTENSIONS.some((ext) => lower.endsWith(ext));
+}
+
+function createQueueId() {
+  if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
+    return crypto.randomUUID();
+  }
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
 }
 
 function revokePreview(url: string | null) {

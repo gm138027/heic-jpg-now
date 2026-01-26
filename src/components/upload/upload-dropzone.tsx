@@ -32,7 +32,7 @@ export function UploadDropzone({
         className="absolute left-1/2 top-1/2 -mt-8 flex h-[66px] w-[280px] -translate-x-1/2 -translate-y-1/2 items-center justify-center gap-2 rounded-md bg-emerald-500 px-6 text-base font-semibold text-white shadow-[0_4px_12px_rgba(16,185,129,0.25)] transition hover:bg-emerald-600 disabled:cursor-not-allowed disabled:opacity-70"
         disabled={disabled}
       >
-        <Image src="/icons/folder .svg" alt="" width={40} height={40} className="h-10 w-10" />
+        <Image src="/icons/folder.svg" alt="" width={40} height={40} className="h-10 w-10" />
         {buttonLabel}
       </button>
       
