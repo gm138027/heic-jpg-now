@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import { UploadQueueProvider } from "@/components/upload/context/upload-queue-provider";
 import { GATracker } from "@/components/analytics/ga-tracker";
 import { defaultLocale } from "@/lib/i18n/locales";

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { LocaleHome } from "../_components/locale-home";
+import { LocaleHome } from "@/app/_components/locale-home";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { buildLanguageAlternates } from "@/lib/seo/alternates";
 import { getAbsoluteUrl } from "@/lib/url";

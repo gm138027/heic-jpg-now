@@ -12,6 +12,14 @@ type LanguageSwitcherProps = {
 };
 
 const translatableLocales = locales.filter((locale) => locale !== defaultLocale);
+const LOCALE_COOKIE = "site_locale";
+
+function setLocaleCookie(locale: Locale) {
+  if (typeof document === "undefined") return;
+  const maxAge = 60 * 60 * 24 * 365;
+  const secure = window.location.protocol === "https:" ? " Secure;" : "";
+  document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; Max-Age=${maxAge}; SameSite=Lax;${secure}`;
+}
 
 export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwitcherProps) {
   const router = useRouter();
@@ -31,6 +39,7 @@ export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwit
           ? `/${restSegments.join("/")}`
           : "/"
         : `/${[nextLocale, ...restSegments].join("/")}`;
+    setLocaleCookie(nextLocale);
     startTransition(() => {
       router.replace(href, { scroll: false });
     });
