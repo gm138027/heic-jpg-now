@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useTransition, type ChangeEvent } from "react";
+import { useCallback, useEffect, useRef, useTransition, type ChangeEvent } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/locales";
 
@@ -21,24 +21,42 @@ function setLocaleCookie(locale: Locale) {
   document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; Max-Age=${maxAge}; SameSite=Lax;${secure}`;
 }
 
+function buildLocaleHref(locale: Locale, pathname: string) {
+  const segments = pathname.split("/").filter(Boolean);
+  const hasLocalePrefix =
+    segments.length > 0 && translatableLocales.includes(segments[0] as Locale);
+  const restSegments = hasLocalePrefix ? segments.slice(1) : segments;
+  return locale === defaultLocale
+    ? restSegments.length
+      ? `/${restSegments.join("/")}`
+      : "/"
+    : `/${[locale, ...restSegments].join("/")}`;
+}
+
 export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwitcherProps) {
   const router = useRouter();
   const pathname = usePathname() ?? "/";
   const [isPending, startTransition] = useTransition();
+  const prefetchTriggeredRef = useRef(false);
+
+  useEffect(() => {
+    prefetchTriggeredRef.current = false;
+  }, [pathname]);
+
+  const prefetchLocales = useCallback(() => {
+    if (prefetchTriggeredRef.current) return;
+    prefetchTriggeredRef.current = true;
+    locales
+      .filter((locale) => locale !== currentLocale)
+      .forEach((locale) => {
+        router.prefetch(buildLocaleHref(locale, pathname));
+      });
+  }, [currentLocale, pathname, router]);
 
   const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = event.target.value as Locale;
     if (nextLocale === currentLocale) return;
-    const segments = pathname.split("/").filter(Boolean);
-    const hasLocalePrefix =
-      segments.length > 0 && translatableLocales.includes(segments[0] as Locale);
-    const restSegments = hasLocalePrefix ? segments.slice(1) : segments;
-    const href =
-      nextLocale === defaultLocale
-        ? restSegments.length
-          ? `/${restSegments.join("/")}`
-          : "/"
-        : `/${[nextLocale, ...restSegments].join("/")}`;
+    const href = buildLocaleHref(nextLocale, pathname);
     setLocaleCookie(nextLocale);
     startTransition(() => {
       router.replace(href, { scroll: false });
@@ -58,6 +76,9 @@ export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwit
         className="cursor-pointer rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 transition hover:border-slate-400 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-50"
         value={currentLocale}
         onChange={handleChange}
+        onFocus={prefetchLocales}
+        onPointerDown={prefetchLocales}
+        onMouseEnter={prefetchLocales}
         disabled={isPending}
         aria-label={label}
       >
