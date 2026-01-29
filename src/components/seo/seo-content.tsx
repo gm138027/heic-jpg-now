@@ -114,6 +114,8 @@ export async function SEOContent({ locale }: SEOContentProps) {
             seo.sections.useCases.list?.social,
             seo.sections.useCases.list?.compatibility,
             seo.sections.useCases.list?.web,
+            seo.sections.useCases.list?.windows,
+            seo.sections.useCases.list?.iphoneBatch,
           ].filter((f): f is { title: string; content: string } => f !== undefined)}
         />
       )}

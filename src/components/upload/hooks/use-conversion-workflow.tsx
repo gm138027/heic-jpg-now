@@ -36,6 +36,7 @@ export function useConversionWorkflow({
 
   const activeConversionsRef = useRef(new Set<string>());
   const canceledTasksRef = useRef(new Set<string>());
+  const conversionGenerationRef = useRef(0);
   const packagingInFlightRef = useRef(false);
   const packagingGenerationRef = useRef(0);
   const queueRef = useRef(queue);
@@ -59,6 +60,7 @@ export function useConversionWorkflow({
   }, []);
 
   const cancelAllTasks = useCallback(() => {
+    conversionGenerationRef.current += 1;
     canceledTasksRef.current.clear();
     activeConversionsRef.current.clear();
   }, []);
@@ -68,6 +70,7 @@ export function useConversionWorkflow({
       if (activeConversionsRef.current.has(file.id) || canceledTasksRef.current.has(file.id)) {
         return;
       }
+      const generation = conversionGenerationRef.current;
       activeConversionsRef.current.add(file.id);
       mutateQueueFile(file.id, (current) => ({
         ...current,
@@ -78,6 +81,9 @@ export function useConversionWorkflow({
 
       void convertToJpeg(file.file)
         .then(({ blob }) => {
+          if (conversionGenerationRef.current !== generation) {
+            return;
+          }
           if (canceledTasksRef.current.has(file.id)) {
             return;
           }
@@ -95,6 +101,9 @@ export function useConversionWorkflow({
           }));
         })
         .catch((conversionError) => {
+          if (conversionGenerationRef.current !== generation) {
+            return;
+          }
           if (canceledTasksRef.current.has(file.id)) {
             return;
           }
