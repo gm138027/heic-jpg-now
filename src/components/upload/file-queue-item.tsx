@@ -21,7 +21,9 @@ export function FileQueueItem({
   hideRemove = false,
 }: FileQueueItemProps) {
   const t = useTranslations();
-  const previewAlt = t("upload.queue.previewAlt", { name: file.name });
+  const displayName =
+    file.status === "done" && file.converted?.fileName ? file.converted.fileName : file.name;
+  const previewAlt = t("upload.queue.previewAlt", { name: displayName });
 
   return (
     <div
@@ -37,7 +39,7 @@ export function FileQueueItem({
         </div>
       )}
       <div className="flex-1">
-        <p className="text-sm font-medium text-gray-700">{file.name}</p>
+        <p className="text-sm font-medium text-gray-700">{displayName}</p>
         <p className="text-xs text-gray-400">
           {file.status === "done" && file.converted?.sizeLabel
             ? file.converted.sizeLabel
@@ -70,7 +72,7 @@ export function FileQueueItem({
         <button
           type="button"
           className="rounded-md p-1 text-gray-300 transition hover:text-gray-500 disabled:cursor-not-allowed disabled:text-gray-200"
-          aria-label={t("upload.queue.removeAria", { name: file.name })}
+          aria-label={t("upload.queue.removeAria", { name: displayName })}
           onClick={() => onRemove(file.id)}
           disabled={disableRemove}
         >
