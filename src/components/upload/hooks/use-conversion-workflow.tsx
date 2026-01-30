@@ -156,6 +156,20 @@ export function useConversionWorkflow({
     candidates.slice(0, available).forEach(startConversion);
   }, [queue, isProcessing, startConversion]);
 
+  useEffect(() => {
+    if (convertStage !== "ready") return;
+    const hasPendingWork = queue.some(
+      (file) => file.status === "ready" || file.status === "processing",
+    );
+    if (!hasPendingWork) return;
+    setConvertStage("progress");
+    setDownloadBlob(null);
+    setPackagingProgress(0);
+    setHasDownloadedAll(false);
+    packagingInFlightRef.current = false;
+    packagingGenerationRef.current += 1;
+  }, [convertStage, queue]);
+
   const packageResults = useCallback(async () => {
     if (packagingInFlightRef.current || queueRef.current.length === 0) {
       return;
