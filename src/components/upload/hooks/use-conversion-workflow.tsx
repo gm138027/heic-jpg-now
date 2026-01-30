@@ -8,7 +8,18 @@ import { deriveOutputName, formatFileSize } from "@/lib/file-utils";
 import { useProgressAnimator } from "../use-progress-animator";
 import { trackEvent } from "@/lib/analytics/ga";
 
-const MAX_PARALLEL_CONVERSIONS = 1;
+const MAX_PARALLEL_CONVERSIONS = getMaxParallelConversions();
+
+function getMaxParallelConversions() {
+  if (typeof navigator === "undefined") return 1;
+  const isMobile =
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const cores = navigator.hardwareConcurrency || 0;
+  if (isMobile || cores > 0 && cores <= 4) {
+    return 1;
+  }
+  return 2;
+}
 
 type ConvertStage = "idle" | "progress" | "packaging" | "ready";
 

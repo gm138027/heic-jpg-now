@@ -32,7 +32,7 @@
       "browse": "Choose Files",
       "busy": "Preparing...",
       "hint": "Choose or drag & drop HEIC / HEIF images",
-      "subHint": "Supported: HEIC / HEIF. Up to 30MB per file, 200 files or 1GB total. No registration—add more files and batch convert anytime."
+      "subHint": "Supported: HEIC / HEIF. Recommended per batch: keep each batch to no more than 200 files, under 30MB each, and under 1GB total. No registration—add more files and batch convert anytime."
     },
     "queue": {
       "title": "File Queue {{completed}} / {{total}}",
@@ -136,7 +136,7 @@
           },
           "quality": {
             "title": "Fast, high-quality output",
-            "content": "Modern conversion tech keeps image quality and EXIF metadata intact while producing lightweight JPG files ready for sharing or editing."
+            "content": "Fast, high-quality conversion with minimal visible loss. EXIF data (date, location, etc.) is preserved when possible, but browser-based conversion cannot guarantee complete retention."
           }
         }
       },
@@ -234,7 +234,7 @@
         },
         {
           "question": "Are there limits on usage or number of files?",
-          "answer": "Upload up to 30MB per file and 200 files (1GB total) per batch with no registration required. You can run as many batches as you like."
+          "answer": "There are no hard limits on file count or file size. The practical limit depends on your device performance. Suggested per batch: no more than 200 files, each file under 30MB, total under 1GB. You can use it unlimited times per day."
         },
         {
           "question": "Is HEIC JPG NOW really free? How is it different from desktop software?",

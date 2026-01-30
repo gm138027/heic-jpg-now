@@ -32,7 +32,7 @@
       "browse": "Elegir archivos",
       "busy": "Preparando...",
       "hint": "Elige o arrastra imágenes HEIC / HEIF",
-      "subHint": "Formatos admitidos: HEIC / HEIF. Hasta 30 MB por archivo, 200 archivos o 1 GB por lote. Sin registro: añade más archivos y conviértelos en lote cuando quieras."
+      "subHint": "Formatos admitidos: HEIC / HEIF. Recomendación por lote: como referencia, no más de 200 archivos, menos de 30 MB por archivo y menos de 1 GB en total. Sin registro: añade más archivos y conviértelos en lote cuando quieras."
     },
     "queue": {
       "title": "Cola de archivos {{completed}} / {{total}}",
@@ -136,7 +136,7 @@
           },
           "quality": {
             "title": "Resultados rápidos y de alta calidad",
-            "content": "La tecnología moderna mantiene la calidad de imagen y los metadatos EXIF mientras genera JPG ligeros listos para compartir o editar."
+            "content": "Conversión rápida y de alta calidad, con la mínima pérdida visible. Los datos EXIF (fecha, ubicación, etc.) se conservan cuando es posible, pero la conversión en el navegador no puede garantizar una retención completa."
           }
         }
       },
@@ -234,7 +234,7 @@
         },
         {
           "question": "¿Hay límites de uso o número de archivos?",
-          "answer": "Puedes subir hasta 30 MB por archivo y 200 archivos (1 GB en total) por lote sin registrarte. Ejecuta todos los lotes que necesites."
+          "answer": "No hay límites estrictos de cantidad ni tamaño de archivos. El límite real depende del rendimiento de tu dispositivo. Sugerencia por lote: no más de 200 archivos, cada archivo por debajo de 30 MB y un total inferior a 1 GB. Puedes usarlo sin límite de veces al día."
         },
         {
           "question": "¿Este convertidor es realmente gratis? ¿En qué se diferencia de un programa de escritorio?",

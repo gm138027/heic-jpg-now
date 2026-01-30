@@ -32,7 +32,7 @@
       "browse": "Dateien auswählen",
       "busy": "Wird vorbereitet...",
       "hint": "HEIC / HEIF-Bilder auswählen oder hierher ziehen",
-      "subHint": "Unterstützte Formate: HEIC / HEIF. Bis zu 30 MB pro Datei, 200 Dateien bzw. 1 GB pro Stapel. Keine Registrierung – jederzeit Dateien hinzufügen und im Stapel umwandeln."
+      "subHint": "Unterstützte Formate: HEIC / HEIF. Empfehlung pro Batch: bleiben Sie unter 200 Dateien, unter 30 MB pro Datei und unter 1 GB insgesamt. Keine Registrierung - jederzeit Dateien hinzufügen und im Batch konvertieren."
     },
     "queue": {
       "title": "Dateiwarteschlange {{completed}} / {{total}}",
@@ -136,7 +136,7 @@
           },
           "quality": {
             "title": "Schnelle Ergebnisse in hoher Qualität",
-            "content": "Moderne Technologie erhält Bildqualität und EXIF-Metadaten und erzeugt dennoch leichte JPG-Dateien, die sofort teilbar oder bearbeitbar sind."
+            "content": "Schnelle, hochwertige Konvertierung mit minimalem Qualitätsverlust. EXIF-Daten (Aufnahmedatum, Standort usw.) bleiben nach Möglichkeit erhalten, eine vollständige Übernahme kann im Browser jedoch nicht garantiert werden."
           }
         }
       },
@@ -234,7 +234,7 @@
         },
         {
           "question": "Gibt es Nutzungs- oder Dateilimits?",
-          "answer": "Sie können bis zu 30 MB pro Datei und 200 Dateien (1 GB gesamt) pro Stapel hochladen. Es ist keine Registrierung erforderlich, und Sie können beliebig viele Stapel durchführen."
+          "answer": "Es gibt keine festen Limits für Dateianzahl oder Dateigröße. Die tatsächlichen Grenzen hängen von der Leistung Ihres Geräts ab. Empfehlung pro Stapel: nicht mehr als 200 Dateien, jede Datei unter 30 MB, insgesamt unter 1 GB. Sie können es täglich unbegrenzt nutzen."
         },
         {
           "question": "Ist HEIC JPG NOW wirklich kostenlos? Worin unterscheidet es sich von Desktop-Software?",

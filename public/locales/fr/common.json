@@ -32,7 +32,7 @@
       "browse": "Choisir des fichiers",
       "busy": "Préparation...",
       "hint": "Choisissez ou glissez-déposez des images HEIC / HEIF",
-      "subHint": "Formats pris en charge : HEIC / HEIF. Jusqu’à 30 Mo par fichier, 200 fichiers ou 1 Go par lot. Sans inscription – ajoutez des fichiers et convertissez-les en lot quand vous voulez."
+      "subHint": "Formats pris en charge : HEIC / HEIF. Recommandation par lot : restez sous 200 fichiers, 30 Mo max par fichier et 1 Go max au total. Sans inscription - ajoutez des fichiers et convertissez-les en lot quand vous voulez."
     },
     "queue": {
       "title": "File d’attente {{completed}} / {{total}}",
@@ -136,7 +136,7 @@
           },
           "quality": {
             "title": "Rapide et haute qualité",
-            "content": "Une technologie moderne conserve la qualité de l’image et les métadonnées EXIF tout en générant des JPG légers prêts à être partagés ou retouchés."
+            "content": "Conversion rapide et de qualité, avec une perte minimale. Les données EXIF (date, localisation, etc.) sont conservées quand c’est possible, mais une conversion dans le navigateur ne peut pas en garantir la conservation intégrale."
           }
         }
       },
@@ -234,7 +234,7 @@
         },
         {
           "question": "Y a-t-il des limites d’utilisation ou de nombre de fichiers ?",
-          "answer": "Vous pouvez importer jusqu’à 30 Mo par fichier et 200 fichiers (1 Go au total) par lot sans inscription. Exécutez autant de lots que nécessaire."
+          "answer": "Il n'y a pas de limite stricte du nombre ou de la taille des fichiers. Les limites réelles dépendent des performances de votre appareil. Suggestion par lot : pas plus de 200 fichiers, moins de 30 Mo par fichier et moins de 1 Go au total. Vous pouvez l'utiliser un nombre illimité de fois par jour."
         },
         {
           "question": "Ce convertisseur est-il vraiment gratuit ? Quelle différence avec un logiciel de bureau ?",
