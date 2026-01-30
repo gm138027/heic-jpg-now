@@ -15,10 +15,13 @@ function getMaxParallelConversions() {
   const isMobile =
     /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   const cores = navigator.hardwareConcurrency || 0;
-  if (isMobile || cores > 0 && cores <= 4) {
+  if (isMobile) {
     return 1;
   }
-  return 2;
+  if (cores > 4) {
+    return 2;
+  }
+  return 1;
 }
 
 type ConvertStage = "idle" | "progress" | "packaging" | "ready";

@@ -225,7 +225,7 @@ function parseInfe(view: DataView, box: Box) {
   cursor += 2; // item_protection_index
   if (version === 1) {
     const name = readCString(view, cursor, box.offset + box.size);
-    return { id: itemId, type: null, name, contentType: null };
+    return { id: itemId, type: null, name: name.value, contentType: null };
   }
 
   if (cursor + 4 > box.offset + box.size) return null;

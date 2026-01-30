@@ -25,9 +25,10 @@ export function readUint32(data: Uint8Array, offset: number) {
 }
 
 export function readUint(view: DataView, offset: number, size: number) {
-  let value = 0n;
+  let value = BigInt(0);
+  const shift = BigInt(8);
   for (let i = 0; i < size; i += 1) {
-    value = (value << 8n) + BigInt(view.getUint8(offset + i));
+    value = (value << shift) + BigInt(view.getUint8(offset + i));
   }
   return value;
 }
