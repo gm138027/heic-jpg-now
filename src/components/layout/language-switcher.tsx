@@ -52,7 +52,6 @@ export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwit
         router.prefetch(buildLocaleHref(locale, pathname));
       });
   }, [currentLocale, pathname, router]);
-
   const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = event.target.value as Locale;
     if (nextLocale === currentLocale) return;

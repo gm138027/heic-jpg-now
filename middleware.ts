@@ -12,6 +12,13 @@ function isBot(userAgent: string | null) {
   );
 }
 
+function isPrefetch(request: NextRequest) {
+  const purpose = request.headers.get("purpose");
+  const prefetch = request.headers.get("x-middleware-prefetch");
+  const nextRouterPrefetch = request.headers.get("next-router-prefetch");
+  return purpose === "prefetch" || prefetch === "1" || nextRouterPrefetch === "1";
+}
+
 function normalizeLocale(value?: string): Locale | null {
   if (!value) return null;
   const lower = value.toLowerCase();
@@ -74,6 +81,9 @@ function applyVary(response: NextResponse) {
 }
 
 export function middleware(request: NextRequest) {
+  if (isPrefetch(request)) {
+    return NextResponse.next();
+  }
   if (isBot(request.headers.get("user-agent"))) {
     return NextResponse.next();
   }
