@@ -12,12 +12,15 @@ type LanguageSwitcherProps = {
 };
 
 const translatableLocales = locales.filter((locale) => locale !== defaultLocale);
-const LOCALE_COOKIE = "site_locale";
+const SESSION_LOCALE_KEY = "site_locale_session";
 
-function setLocaleCookie(locale: Locale) {
-  if (typeof document === "undefined") return;
-  const secure = window.location.protocol === "https:" ? " Secure;" : "";
-  document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; SameSite=Lax;${secure}`;
+function setSessionLocale(locale: Locale) {
+  if (typeof window === "undefined") return;
+  try {
+    sessionStorage.setItem(SESSION_LOCALE_KEY, locale);
+  } catch {
+    // Ignore storage errors (private mode, disabled storage, etc.)
+  }
 }
 
 function buildLocaleHref(locale: Locale, pathname: string) {
@@ -55,7 +58,7 @@ export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwit
     const nextLocale = event.target.value as Locale;
     if (nextLocale === currentLocale) return;
     const href = buildLocaleHref(nextLocale, pathname);
-    setLocaleCookie(nextLocale);
+    setSessionLocale(nextLocale);
     startTransition(() => {
       router.replace(href, { scroll: false });
     });

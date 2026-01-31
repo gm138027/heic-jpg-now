@@ -6,6 +6,7 @@ import { UploadQueueProvider } from "@/components/upload/context/upload-queue-pr
 import { GATracker } from "@/components/analytics/ga-tracker";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { getAbsoluteUrl } from "@/lib/url";
+import { LocaleSessionWriter } from "@/components/i18n/locale-session-writer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,6 +58,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={lang}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <LocaleSessionWriter locale={lang} />
         <GATracker />
         <UploadQueueProvider>{children}</UploadQueueProvider>
       </body>
