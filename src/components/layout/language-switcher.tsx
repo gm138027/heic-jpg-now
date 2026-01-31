@@ -16,9 +16,8 @@ const LOCALE_COOKIE = "site_locale";
 
 function setLocaleCookie(locale: Locale) {
   if (typeof document === "undefined") return;
-  const maxAge = 60 * 60 * 24 * 365;
   const secure = window.location.protocol === "https:" ? " Secure;" : "";
-  document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; Max-Age=${maxAge}; SameSite=Lax;${secure}`;
+  document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; SameSite=Lax;${secure}`;
 }
 
 function buildLocaleHref(locale: Locale, pathname: string) {
