@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { defaultLocale, locales, type Locale } from "@/lib/i18n/locales";
+import { readSessionLocale, writeSessionLocale } from "@/lib/i18n/session-locale";
 
-const SESSION_LOCALE_KEY = "site_locale_session";
 const supportedLocales = locales.filter((locale) => locale !== defaultLocale);
 
 function resolveBrowserLocale(languages: readonly string[]): Locale | null {
@@ -32,48 +32,54 @@ function readBrowserLanguages() {
   return [];
 }
 
-function setSessionLocale(locale: Locale) {
-  try {
-    sessionStorage.setItem(SESSION_LOCALE_KEY, locale);
-  } catch {
-    // Ignore storage errors (private mode, disabled storage, etc.)
-  }
-}
-
-function readSessionLocale(): Locale | null {
-  try {
-    const stored = sessionStorage.getItem(SESSION_LOCALE_KEY);
-    if (!stored) return null;
-    return locales.includes(stored as Locale) ? (stored as Locale) : null;
-  } catch {
-    return null;
-  }
+function isLikelyBot() {
+  if (typeof navigator === "undefined") return false;
+  return /bot|crawler|spider|crawling|slurp|bingpreview|bingbot|googlebot|yandex|baiduspider|duckduckbot|sogou/i.test(
+    navigator.userAgent,
+  );
 }
 
 export function LanguageAutoRedirect() {
   const router = useRouter();
   const pathname = usePathname() ?? "/";
+  const searchParams = useSearchParams();
 
   useEffect(() => {
+    if (isLikelyBot()) {
+      return;
+    }
+
     const stored = readSessionLocale();
     if (stored) {
       if (stored !== defaultLocale) {
-        const target = pathname === "/" ? `/${stored}` : `/${stored}${pathname}`;
-        router.replace(target);
+        const query = searchParams?.toString();
+        const hash = typeof window !== "undefined" ? window.location.hash : "";
+        const targetBase = pathname === "/" ? `/${stored}` : `/${stored}${pathname}`;
+        const target = `${targetBase}${query ? `?${query}` : ""}${hash}`;
+        const current = `${pathname}${query ? `?${query}` : ""}${hash}`;
+        if (target !== current) {
+          router.replace(target);
+        }
       }
       return;
     }
 
     const detected = resolveBrowserLocale(readBrowserLanguages());
     if (!detected || detected === defaultLocale) {
-      setSessionLocale(defaultLocale);
+      writeSessionLocale(defaultLocale);
       return;
     }
 
-    setSessionLocale(detected);
-    const target = pathname === "/" ? `/${detected}` : `/${detected}${pathname}`;
-    router.replace(target);
-  }, [pathname, router]);
+    writeSessionLocale(detected);
+    const query = searchParams?.toString();
+    const hash = typeof window !== "undefined" ? window.location.hash : "";
+    const targetBase = pathname === "/" ? `/${detected}` : `/${detected}${pathname}`;
+    const target = `${targetBase}${query ? `?${query}` : ""}${hash}`;
+    const current = `${pathname}${query ? `?${query}` : ""}${hash}`;
+    if (target !== current) {
+      router.replace(target);
+    }
+  }, [pathname, router, searchParams]);
 
   return null;
 }

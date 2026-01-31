@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useCallback, useEffect, useRef, useTransition, type ChangeEvent } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/locales";
+import { writeSessionLocale } from "@/lib/i18n/session-locale";
 
 type LanguageSwitcherProps = {
   currentLocale: Locale;
@@ -12,17 +13,6 @@ type LanguageSwitcherProps = {
 };
 
 const translatableLocales = locales.filter((locale) => locale !== defaultLocale);
-const SESSION_LOCALE_KEY = "site_locale_session";
-
-function setSessionLocale(locale: Locale) {
-  if (typeof window === "undefined") return;
-  try {
-    sessionStorage.setItem(SESSION_LOCALE_KEY, locale);
-  } catch {
-    // Ignore storage errors (private mode, disabled storage, etc.)
-  }
-}
-
 function buildLocaleHref(locale: Locale, pathname: string) {
   const segments = pathname.split("/").filter(Boolean);
   const hasLocalePrefix =
@@ -58,7 +48,7 @@ export function LanguageSwitcher({ currentLocale, label, options }: LanguageSwit
     const nextLocale = event.target.value as Locale;
     if (nextLocale === currentLocale) return;
     const href = buildLocaleHref(nextLocale, pathname);
-    setSessionLocale(nextLocale);
+    writeSessionLocale(nextLocale);
     startTransition(() => {
       router.replace(href, { scroll: false });
     });
