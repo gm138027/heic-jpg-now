@@ -10,10 +10,13 @@ const supportedLocales = locales.filter((locale) => locale !== defaultLocale);
 function resolveBrowserLocale(languages: readonly string[]): Locale | null {
   for (const language of languages) {
     const lower = language.toLowerCase();
+    const base = lower.split("-")[0];
+    if (lower === defaultLocale || base === defaultLocale) {
+      return null;
+    }
     if (supportedLocales.includes(lower as Locale)) {
       return lower as Locale;
     }
-    const base = lower.split("-")[0];
     if (supportedLocales.includes(base as Locale)) {
       return base as Locale;
     }
