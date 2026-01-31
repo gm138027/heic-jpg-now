@@ -4,7 +4,6 @@ import "../globals.css";
 import { UploadQueueProvider } from "@/components/upload/context/upload-queue-provider";
 import { GATracker } from "@/components/analytics/ga-tracker";
 import { defaultLocale } from "@/lib/i18n/locales";
-import { LanguageAutoRedirect } from "@/components/i18n/language-auto-redirect";
 import { buildLanguageAlternates } from "@/lib/seo/alternates";
 import { getAbsoluteUrl } from "@/lib/url";
 
@@ -87,7 +86,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang={defaultLocale}>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <LanguageAutoRedirect />
         <GATracker />
         <UploadQueueProvider>{children}</UploadQueueProvider>
       </body>
