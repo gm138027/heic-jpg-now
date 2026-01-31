@@ -19,6 +19,15 @@ function isPrefetch(request: NextRequest) {
   return purpose === "prefetch" || prefetch === "1" || nextRouterPrefetch === "1";
 }
 
+function isDocumentRequest(request: NextRequest) {
+  const dest = request.headers.get("sec-fetch-dest");
+  if (dest) {
+    return dest === "document";
+  }
+  const accept = request.headers.get("accept");
+  return accept ? accept.includes("text/html") : true;
+}
+
 function normalizeLocale(value?: string): Locale | null {
   if (!value) return null;
   const lower = value.toLowerCase();
@@ -84,6 +93,9 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
   if (isBot(request.headers.get("user-agent"))) {
+    return NextResponse.next();
+  }
+  if (!isDocumentRequest(request)) {
     return NextResponse.next();
   }
 
