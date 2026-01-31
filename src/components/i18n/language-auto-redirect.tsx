@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { defaultLocale, locales, type Locale } from "@/lib/i18n/locales";
 import { readSessionLocale, writeSessionLocale } from "@/lib/i18n/session-locale";
 
@@ -42,7 +42,6 @@ function isLikelyBot() {
 export function LanguageAutoRedirect() {
   const router = useRouter();
   const pathname = usePathname() ?? "/";
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     if (isLikelyBot()) {
@@ -52,11 +51,11 @@ export function LanguageAutoRedirect() {
     const stored = readSessionLocale();
     if (stored) {
       if (stored !== defaultLocale) {
-        const query = searchParams?.toString();
+        const search = typeof window !== "undefined" ? window.location.search : "";
         const hash = typeof window !== "undefined" ? window.location.hash : "";
         const targetBase = pathname === "/" ? `/${stored}` : `/${stored}${pathname}`;
-        const target = `${targetBase}${query ? `?${query}` : ""}${hash}`;
-        const current = `${pathname}${query ? `?${query}` : ""}${hash}`;
+        const target = `${targetBase}${search}${hash}`;
+        const current = `${pathname}${search}${hash}`;
         if (target !== current) {
           router.replace(target);
         }
@@ -71,15 +70,15 @@ export function LanguageAutoRedirect() {
     }
 
     writeSessionLocale(detected);
-    const query = searchParams?.toString();
+    const search = typeof window !== "undefined" ? window.location.search : "";
     const hash = typeof window !== "undefined" ? window.location.hash : "";
     const targetBase = pathname === "/" ? `/${detected}` : `/${detected}${pathname}`;
-    const target = `${targetBase}${query ? `?${query}` : ""}${hash}`;
-    const current = `${pathname}${query ? `?${query}` : ""}${hash}`;
+    const target = `${targetBase}${search}${hash}`;
+    const current = `${pathname}${search}${hash}`;
     if (target !== current) {
       router.replace(target);
     }
-  }, [pathname, router, searchParams]);
+  }, [pathname, router]);
 
   return null;
 }
