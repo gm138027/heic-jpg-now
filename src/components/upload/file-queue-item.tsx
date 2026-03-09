@@ -23,21 +23,14 @@ export function FileQueueItem({
   const t = useTranslations();
   const displayName =
     file.status === "done" && file.converted?.fileName ? file.converted.fileName : file.name;
-  const previewAlt = t("upload.queue.previewAlt", { name: displayName });
 
   return (
     <div
       className={`flex items-center gap-4 px-6 py-4 ${showDivider ? "border-b border-gray-100" : ""}`}
     >
-      {file.previewUrl ? (
-        <div className="relative h-12 w-12 overflow-hidden rounded-md ring-1 ring-gray-100">
-          <Image src={file.previewUrl} alt={previewAlt} fill className="object-cover" unoptimized />
-        </div>
-      ) : (
-        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-br from-emerald-100 via-emerald-200 to-emerald-300 text-xs font-semibold text-emerald-700">
-          {t("upload.queue.placeholder")}
-        </div>
-      )}
+      <div className="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-br from-emerald-100 via-emerald-200 to-emerald-300 text-xs font-semibold text-emerald-700">
+        {t("upload.queue.placeholder")}
+      </div>
       <div className="flex-1">
         <p className="text-sm font-medium text-gray-700">{displayName}</p>
         <p className="text-xs text-gray-400">

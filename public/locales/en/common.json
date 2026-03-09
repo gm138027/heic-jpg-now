@@ -40,7 +40,6 @@
       "empty": "No files yet. Add your HEIC photos to start converting.",
       "scrollDown": "Scroll down",
       "scrollUp": "Scroll up",
-      "previewAlt": "Preview of {{name}}",
       "remove": "Remove",
       "removeAria": "Remove {{name}}",
       "placeholder": "HEIC"
@@ -204,6 +203,7 @@
             "No plug-ins needed on older operating systems",
             "Works with every major website builder and CMS",
             "Smaller, optimized files improve upload speeds",
+            "Safer for business sharing with clients and partners",
             "Long-term archival is easier because JPG is an open standard"
           ]
         }

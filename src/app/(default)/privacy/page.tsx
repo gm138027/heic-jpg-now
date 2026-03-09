@@ -11,6 +11,8 @@ const PRIVACY_DESCRIPTION =
   "HEIC JPG NOWのプライバシーポリシー。ブラウザ内で完結する HEIC→JPG 変換ツールとして、利用情報の取り扱いやセキュリティ対策を明記しています。";
 
 export const metadata: Metadata = {
+  // Intentionally omit meta keywords for legal pages.
+  // Google does not use meta keywords for ranking, and legal pages are not keyword targets.
   title: PRIVACY_TITLE,
   description: PRIVACY_DESCRIPTION,
   alternates: buildLanguageAlternates("privacy", defaultLocale),

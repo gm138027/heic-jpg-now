@@ -46,6 +46,8 @@ export async function generateMetadata({
   const fullTitle = `${title} | HEIC JPG NOW`;
 
   return {
+    // Intentionally omit meta keywords for legal pages.
+    // Google does not use meta keywords for ranking, and legal pages are not keyword targets.
     title: fullTitle,
     description,
     alternates: buildLanguageAlternates("privacy", locale),

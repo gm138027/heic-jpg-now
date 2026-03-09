@@ -40,7 +40,6 @@
       "empty": "まだファイルがありません。HEIC写真を追加してください。",
       "scrollDown": "下にスクロール",
       "scrollUp": "上にスクロール",
-      "previewAlt": "{{name}} のプレビュー",
       "remove": "削除",
       "removeAria": "{{name}} を削除",
       "placeholder": "HEIC"

@@ -40,7 +40,6 @@
       "empty": "Noch keine Dateien. Füge deine HEIC-Fotos hinzu, um zu starten.",
       "scrollDown": "Nach unten scrollen",
       "scrollUp": "Nach oben scrollen",
-      "previewAlt": "Vorschau von {{name}}",
       "remove": "Entfernen",
       "removeAria": "{{name}} entfernen",
       "placeholder": "HEIC"
@@ -204,6 +203,7 @@
             "Keine Plug-ins auf älteren Betriebssystemen nötig",
             "Funktioniert mit allen gängigen Website-Baukästen und CMS",
             "Optimierte Dateien beschleunigen Uploads",
+            "Sicherer im geschäftlichen Austausch mit Kunden und Partnern",
             "Leicht langfristig zu archivieren, da JPG ein offener Standard ist"
           ]
         }

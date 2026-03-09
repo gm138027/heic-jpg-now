@@ -32,9 +32,6 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
         prev.map((file) => {
           if (file.id !== id) return file;
           const next = updater(file);
-          if (file.previewUrl && file.previewUrl !== next.previewUrl) {
-            revokePreview(file.previewUrl);
-          }
           if (file.converted?.url && file.converted.url !== next.converted?.url) {
             revokeConverted(file.converted.url);
           }
@@ -70,7 +67,6 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
           name: file.name,
           sizeLabel: formatFileSize(file.size),
           status: "ready" as QueueFile["status"],
-          previewUrl: null,
           converted: null,
           error: null,
           file,
@@ -146,7 +142,6 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
       setQueue((prev) => {
         const target = prev.find((file) => file.id === id);
         if (!target) return prev;
-        revokePreview(target.previewUrl);
         revokeConverted(target.converted?.url);
         return prev.filter((file) => file.id !== id);
       });
@@ -157,7 +152,6 @@ export function useUploadQueue(options?: UseUploadQueueOptions) {
   const handleClearQueue = useCallback(() => {
     setQueue((prev) => {
       prev.forEach((file) => {
-        revokePreview(file.previewUrl);
         revokeConverted(file.converted?.url);
       });
       return [];
@@ -204,12 +198,6 @@ function createQueueId() {
     return crypto.randomUUID();
   }
   return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`;
-}
-
-function revokePreview(url: string | null) {
-  if (url) {
-    URL.revokeObjectURL(url);
-  }
 }
 
 function revokeConverted(url?: string | null) {

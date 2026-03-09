@@ -11,6 +11,8 @@ const TERMS_DESCRIPTION =
   "HEIC JPG NOW の利用規約。サービスの適用範囲、禁止事項、免責事項、問い合わせ先などを明記しています。";
 
 export const metadata: Metadata = {
+  // Intentionally omit meta keywords for legal pages.
+  // Google does not use meta keywords for ranking, and legal pages are not keyword targets.
   title: TERMS_TITLE,
   description: TERMS_DESCRIPTION,
   alternates: buildLanguageAlternates("terms", defaultLocale),

@@ -12,7 +12,6 @@ export type QueueFile = {
   name: string;
   sizeLabel: string;
   status: QueueFileStatus;
-  previewUrl: string | null;
   converted?: ConvertedAsset | null;
   error?: string | null;
   file: File;

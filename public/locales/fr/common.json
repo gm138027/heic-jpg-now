@@ -40,7 +40,6 @@
       "empty": "Aucun fichier pour l’instant. Ajoutez vos photos HEIC pour commencer.",
       "scrollDown": "Faire défiler vers le bas",
       "scrollUp": "Faire défiler vers le haut",
-      "previewAlt": "Aperçu de {{name}}",
       "remove": "Supprimer",
       "removeAria": "Supprimer {{name}}",
       "placeholder": "HEIC"
@@ -204,6 +203,7 @@
             "Aucun plug-in requis sur les systèmes anciens",
             "Fonctionne avec tous les créateurs de sites et CMS",
             "Fichiers optimisés qui accélèrent les envois",
+            "Plus sûr en contexte professionnel lors de l’envoi à des clients et partenaires",
             "Archivage à long terme facilité car JPG est un standard ouvert"
           ]
         }

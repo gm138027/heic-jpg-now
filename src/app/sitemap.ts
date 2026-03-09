@@ -12,11 +12,13 @@ function toAbsoluteUrl(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
   BASE_PATHS.forEach((path) => {
     entries.push({
       url: toAbsoluteUrl(path),
+      lastModified,
     });
   });
 
@@ -27,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         const localizedPath = path ? `${locale}/${path}` : locale;
         entries.push({
           url: toAbsoluteUrl(localizedPath),
+          lastModified,
         });
       });
     });
