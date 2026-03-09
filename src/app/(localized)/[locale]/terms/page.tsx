@@ -4,18 +4,11 @@ import { TermsScreen } from "@/components/terms/terms-screen";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { buildLanguageAlternates } from "@/lib/seo/alternates";
+import { OG_LOCALE_MAP } from "@/lib/site-config";
 import { getAbsoluteUrl } from "@/lib/url";
 
 const secondaryLocales = locales.filter((locale) => locale !== defaultLocale);
 const OG_IMAGE = getAbsoluteUrl("/logo/android-chrome-512x512.png");
-const ogLocaleMap: Record<Locale, string> = {
-  ja: "ja_JP",
-  en: "en_US",
-  es: "es_ES",
-  fr: "fr_FR",
-  de: "de_DE",
-  pt: "pt_PT",
-};
 
 type LocaleTermsPageProps = {
   params: Promise<{
@@ -42,7 +35,7 @@ export async function generateMetadata({
     "Terms of Service for HEIC JPG NOW. Review usage scope, restrictions, and contact information.";
   const path = locale === defaultLocale ? "/terms" : `/${locale}/terms`;
   const pageUrl = getAbsoluteUrl(path);
-  const ogLocale = ogLocaleMap[locale] || "en_US";
+  const ogLocale = OG_LOCALE_MAP[locale] || "en_US";
   const fullTitle = `${title} | HEIC JPG NOW`;
 
   return {

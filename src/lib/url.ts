@@ -1,4 +1,4 @@
-const BASE_URL = "https://heicjpgnow.com";
+import { SITE_BASE_URL } from "@/lib/site-config";
 
 function normalizePath(path?: string) {
   if (!path) return "";
@@ -7,5 +7,5 @@ function normalizePath(path?: string) {
 }
 
 export function getAbsoluteUrl(path = "") {
-  return `${BASE_URL}${normalizePath(path)}`;
+  return `${SITE_BASE_URL}${normalizePath(path)}`;
 }

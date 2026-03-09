@@ -1,19 +1,11 @@
 import type { Metadata } from "next";
 import type { AppDictionary } from "@/lib/i18n/get-dictionary";
 import { defaultLocale, type Locale } from "@/lib/i18n/locales";
+import { OG_LOCALE_MAP } from "@/lib/site-config";
 import { getAbsoluteUrl } from "@/lib/url";
 import { buildLanguageAlternates } from "./alternates";
 
 const OG_IMAGE = getAbsoluteUrl("/logo/android-chrome-512x512.png");
-
-const ogLocaleMap: Record<Locale, string> = {
-  ja: "ja_JP",
-  en: "en_US",
-  es: "es_ES",
-  fr: "fr_FR",
-  de: "de_DE",
-  pt: "pt_PT",
-};
 
 function buildTitle(baseTitle: string, siteName: string) {
   const title = baseTitle.trim();
@@ -43,7 +35,7 @@ export function buildHomeMetadata(locale: Locale, dictionary: AppDictionary): Me
       description,
       url: pageUrl,
       siteName,
-      locale: ogLocaleMap[locale] || "en_US",
+      locale: OG_LOCALE_MAP[locale] || "en_US",
       type: "website",
       images: [
         {
