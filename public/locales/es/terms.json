@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Términos de servicio",
-    "description": "Consulta los Términos de servicio de HEIC JPG NOW: uso permitido, restricciones, exenciones y datos de contacto.",
-    "updated": "Última actualización: 27 de noviembre de 2025"
+    "description": "Estos Términos explican las reglas para usar HEIC JPG NOW. Redactamos este texto de forma clara para que usted sepa cómo utilizar el servicio de manera segura y justa.",
+    "updated": "Última actualización: 9 de marzo de 2026"
   },
   "tocTitle": "Contenido",
   "toc": [
@@ -19,48 +19,48 @@
     {
       "title": "1. Alcance",
       "body": [
-        "Estos Términos se aplican a todas las funciones ofrecidas en heicjpgnow.com y dominios relacionados. El uso del servicio implica la aceptación total del acuerdo."
+        "Estos Términos se aplican a todas las funciones que ofrecemos en heicjpgnow.com y dominios relacionados. Al utilizar cualquier función del sitio, usted acepta estos Términos."
       ],
       "list": [
-        "Si eres menor de edad, declaras contar con la autorización de tu padre, madre o tutor legal.",
-        "Si alguna cláusula entra en conflicto con una norma imperativa, prevalecerá dicha norma sin invalidar el resto del documento."
+        "Si es menor de edad, utilice el servicio con el consentimiento de su padre, madre o tutor legal.",
+        "Si alguna cláusula entra en conflicto con una norma imperativa, prevalecerá dicha norma y el resto de las cláusulas seguirá vigente."
       ]
     },
     {
       "title": "2. Condiciones de uso",
       "body": [
-        "Eres responsable de los archivos que cargas y garantizas que tienes los derechos o permisos necesarios para procesarlos mediante el servicio."
+        "Usted es responsable de los archivos que sube o procesa y declara que cuenta con los derechos o permisos necesarios para utilizarlos en el servicio."
       ],
       "list": [
-        "El uso es gratuito para fines personales o comerciales siempre que sea razonable y no genere sobrecarga.",
-        "Las organizaciones que deseen integrar la herramienta en sus sistemas deben contactar previamente."
+        "El servicio es gratuito para uso personal y comercial, siempre que el uso sea razonable y no provoque sobrecarga.",
+        "Si una empresa u organización desea integrar la herramienta en un flujo interno, le pedimos que nos contacte con antelación."
       ]
     },
     {
       "title": "3. Actividades prohibidas",
       "body": [
-        "No se permite realizar las siguientes acciones:"
+        "Queda prohibido realizar las siguientes acciones:"
       ],
       "list": [
-        "Ingeniería inversa, modificación, redistribución o reventa del servicio o su código.",
+        "Realizar ingeniería inversa, modificar, copiar, redistribuir o revender el servicio o su código relacionado.",
         "Ejecución masiva de scripts automatizados que generen una carga excesiva.",
         "Subir archivos que vulneren derechos de autor, marcas, privacidad u otros derechos de terceros.",
-        "Usar el servicio con fines ilegales, ofensivos o que violen el orden público."
+        "Usar el servicio con fines ilegales, dañinos o abusivos."
       ]
     },
     {
       "title": "4. Contenido y propiedad intelectual",
       "body": [
-        "Los derechos sobre la interfaz, logotipos, código y documentación pertenecen a HEIC JPG NOW o a sus licenciatarios. Mantienes los derechos sobre tus archivos, pero nos otorgas el permiso limitado necesario para procesarlos en tu sesión del navegador."
+        "Los derechos de autor, marcas y demás derechos de propiedad intelectual sobre logotipos, diseño, código y documentación del sitio pertenecen a HEIC JPG NOW o a sus titulares legítimos. Usted conserva los derechos sobre sus archivos y nos concede únicamente el permiso necesario para procesarlos y prestar el servicio."
       ]
     },
     {
       "title": "5. Exenciones de responsabilidad",
       "body": [
-        "Las conversiones se ejecutan localmente y los resultados dependen del dispositivo, navegador y entorno de red. No seremos responsables de:"
+        "La conversión se realiza en su navegador, por lo que los resultados pueden variar según el dispositivo, el navegador y la red. No asumimos responsabilidad por:"
       ],
       "list": [
-        "Precisión, integridad o idoneidad de los archivos convertidos ni de la pérdida de archivos cargados.",
+        "La precisión, integridad o idoneidad de los resultados de conversión, ni la pérdida de archivos subidos.",
         "Daños derivados de accesos no autorizados, malware, fuerza mayor u otros servicios externos.",
         "Conflictos entre usuarios o entre un usuario y un tercero."
       ],
@@ -71,23 +71,26 @@
     {
       "title": "6. Cambios del servicio",
       "body": [
-        "Podemos modificar, suspender o finalizar cualquier función en cualquier momento por motivos de seguridad, cumplimiento legal u otras razones justificadas. Cuando sea posible, anunciaremos los cambios relevantes en el sitio."
+        "Podemos modificar, suspender o finalizar funciones, incluidas integraciones con servicios de terceros, por motivos de seguridad, cumplimiento legal u operación.",
+        "Cuando los cambios sean relevantes, los anunciaremos con antelación en el sitio siempre que sea razonablemente posible."
       ]
     },
     {
       "title": "7. Suspensión y responsabilidad",
       "body": [
-        "Si incumples estos Términos, podremos suspender tu acceso, bloquear el uso o reclamar daños sin aviso previo. Serás responsable de las pérdidas y gastos que se originen por tu infracción."
+        "Si incumple estos Términos, podremos suspender el acceso, bloquear el uso o reclamar daños sin aviso previo. Usted será responsable de las pérdidas y costes derivados de su incumplimiento."
       ]
     },
     {
       "title": "8. Ley aplicable y contacto",
       "body": [
-        "Los presentes Términos se rigen por las leyes aplicables al operador del servicio. Para consultas sobre este acuerdo o el tratamiento de datos, contáctanos en el correo siguiente."
+        "Estos Términos se interpretan conforme a las leyes aplicables a nuestra operación.",
+        "Si tiene dudas sobre estos Términos, el tratamiento de datos o los servicios de terceros, contáctenos mediante la información siguiente."
       ],
       "list": [
+        "Podemos utilizar servicios de terceros para operar y mejorar el sitio. Para más detalles sobre el tratamiento de datos, consulte también nuestra Política de privacidad.",
         "Correo de contacto: guom0900@gmail.com",
-        "Habitualmente respondemos en un plazo máximo de 3 días laborables."
+        "Solemos responder en un plazo de 3 días laborables."
       ]
     }
   ]

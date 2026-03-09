@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Conditions d’utilisation",
-    "description": "Consultez les conditions d’utilisation de HEIC JPG NOW : usage autorisé, restrictions, clauses de non-responsabilité et contact.",
-    "updated": "Dernière mise à jour : 27 novembre 2025"
+    "description": "Ces conditions expliquent les règles d'utilisation de HEIC JPG NOW. Nous les rédigeons de manière claire pour vous aider à utiliser le service de façon sûre et équitable.",
+    "updated": "Dernière mise à jour : 9 mars 2026"
   },
   "tocTitle": "Sommaire",
   "toc": [
@@ -19,48 +19,48 @@
     {
       "title": "1. Champ d’application",
       "body": [
-        "Les présentes conditions s’appliquent à toutes les fonctionnalités proposées sur heicjpgnow.com et ses domaines associés. L’utilisation du service vaut acceptation intégrale du contrat."
+        "Les présentes conditions s'appliquent à toutes les fonctionnalités que nous proposons sur heicjpgnow.com et ses domaines associés. En utilisant une fonctionnalité du site, vous acceptez ces conditions."
       ],
       "list": [
-        "Si vous êtes mineur, vous garantissez que votre représentant légal a approuvé votre utilisation.",
-        "Si une clause contredit une disposition impérative, ladite disposition prévaut sans invalider les autres articles."
+        "Si vous êtes mineur, veuillez utiliser le service avec l'accord de votre représentant légal.",
+        "Si une clause est contraire à une règle impérative, cette règle prévaut et les autres clauses restent applicables."
       ]
     },
     {
       "title": "2. Conditions d’utilisation",
       "body": [
-        "Vous êtes responsable des fichiers téléversés et garantissez disposer des droits nécessaires pour les traiter via le service."
+        "Vous êtes responsable des fichiers téléversés ou traités et vous garantissez disposer des droits ou autorisations nécessaires pour les utiliser via le service."
       ],
       "list": [
-        "L’usage est gratuit, qu’il soit personnel ou professionnel, tant qu’il reste raisonnable et n’entraîne pas de surcharge.",
-        "Les organisations souhaitant intégrer l’outil à leurs systèmes doivent nous contacter au préalable."
+        "Le service est gratuit pour un usage personnel ou professionnel, tant que l'utilisation reste raisonnable et ne provoque pas de surcharge.",
+        "Si une entreprise ou une organisation souhaite intégrer l'outil dans un processus interne, merci de nous contacter à l'avance."
       ]
     },
     {
       "title": "3. Comportements interdits",
       "body": [
-        "Il est interdit d’effectuer les actions suivantes :"
+        "Vous ne devez pas effectuer les actions suivantes :"
       ],
       "list": [
-        "Ingénierie inverse, modification, redistribution ou revente du service ou de son code.",
+        "Effectuer de l'ingénierie inverse, modifier, copier, redistribuer ou revendre le service ou son code associé.",
         "Exécution massive de scripts automatisés susceptibles de saturer l’infrastructure.",
         "Téléversement de fichiers portant atteinte aux droits d’auteur, aux marques, à la vie privée ou à d’autres droits de tiers.",
-        "Utilisation du service à des fins illicites, offensantes ou contraires à l’ordre public."
+        "Utiliser le service à des fins illicites, nuisibles ou abusives."
       ]
     },
     {
       "title": "4. Contenu et propriété intellectuelle",
       "body": [
-        "Les droits relatifs à l’interface, aux logos, au code et à la documentation appartiennent à HEIC JPG NOW ou à ses concédants. Vous conservez vos droits sur vos propres fichiers, mais nous accordez la licence limitée nécessaire pour les traiter durant votre session."
+        "Les droits d'auteur, marques et autres droits de propriété intellectuelle relatifs aux logos, au design, au code et à la documentation du site appartiennent à HEIC JPG NOW ou aux titulaires de droits concernés. Vous conservez vos droits sur vos fichiers et nous accordez uniquement l'autorisation nécessaire pour les traiter dans le cadre du service."
       ]
     },
     {
       "title": "5. Clauses de non-responsabilité",
       "body": [
-        "Les conversions étant locales, le résultat dépend de l’appareil, du navigateur et du réseau. Nous déclinons toute responsabilité concernant :"
+        "La conversion s'exécute dans votre navigateur. Les résultats peuvent donc varier selon l'appareil, le navigateur et le réseau. Nous déclinons toute responsabilité concernant :"
       ],
       "list": [
-        "L’exactitude, l’exhaustivité ou l’adéquation des fichiers convertis, ainsi que la perte éventuelle de fichiers téléversés.",
+        "L'exactitude, l'exhaustivité ou l'adéquation des résultats de conversion, ainsi que la perte éventuelle de fichiers téléversés.",
         "Les dommages dus à un accès non autorisé, à un logiciel malveillant, à un cas de force majeure ou à des services tiers.",
         "Les litiges entre utilisateurs ou avec des tiers."
       ],
@@ -71,23 +71,26 @@
     {
       "title": "6. Modifications du service",
       "body": [
-        "Nous pouvons modifier, suspendre ou arrêter toute fonctionnalité à tout moment pour des raisons de sécurité, de conformité légale ou pour d’autres motifs raisonnables. Les changements importants seront annoncés sur le site dès que possible."
+        "Nous pouvons modifier, suspendre ou arrêter des fonctionnalités, y compris des intégrations avec des services tiers, pour des raisons de sécurité, de conformité légale ou d'exploitation.",
+        "Lorsque les changements sont importants, nous les annonçons à l'avance sur le site dans la mesure du possible."
       ]
     },
     {
       "title": "7. Suspension et responsabilité",
       "body": [
-        "En cas de violation des présentes conditions, nous pourrons suspendre l’accès, bloquer l’usage ou réclamer des dommages-intérêts sans préavis. Vous supporterez les pertes et frais résultant de votre manquement."
+        "En cas de violation des présentes conditions, nous pouvons suspendre l'accès, bloquer l'usage ou réclamer des dommages-intérêts sans préavis. Vous assumez les pertes et frais causés par votre manquement."
       ]
     },
     {
       "title": "8. Droit applicable et contact",
       "body": [
-        "Les conditions sont régies par les lois applicables à l’exploitant du service. Pour toute question relative au contrat ou au traitement des données, contactez-nous à l’adresse suivante."
+        "Les présentes conditions sont interprétées conformément aux lois applicables à notre activité.",
+        "Pour toute question sur ces conditions, le traitement des données ou les services tiers, veuillez nous contacter via les coordonnées ci-dessous."
       ],
       "list": [
+        "Nous pouvons utiliser des services tiers pour exploiter et améliorer le site. Pour en savoir plus sur le traitement des données, veuillez également consulter notre politique de confidentialité.",
         "Adresse e-mail : guom0900@gmail.com",
-        "Nous répondons habituellement sous 3 jours ouvrables."
+        "Nous répondons généralement sous 3 jours ouvrés."
       ]
     }
   ]

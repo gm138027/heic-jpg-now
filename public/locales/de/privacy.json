@@ -1,90 +1,109 @@
 {
   "hero": {
     "title": "Datenschutzerklärung",
-    "description": "Erfahren Sie, wie HEIC JPG NOW Ihre Bilder und personenbezogenen Daten schützt, einschließlich Analyse, Aufbewahrung und Ihrer Datenschutzrechte.",
-    "updated": "Zuletzt aktualisiert: 27. November 2025"
+    "description": "Vielen Dank, dass Sie HEIC JPG NOW nutzen. Wir nehmen Ihre Privatsphäre ernst und erklären klar, welche Daten wir verarbeiten, warum wir sie nutzen und welche Möglichkeiten Sie haben.",
+    "updated": "Zuletzt aktualisiert: 9. März 2026"
   },
   "tocTitle": "Inhalt",
   "toc": [
-    { "id": "privacy-section-1", "label": "1. Welche Daten wir verarbeiten" },
-    { "id": "privacy-section-2", "label": "2. Zweck der Datenverwendung" },
-    { "id": "privacy-section-3", "label": "3. Aufbewahrung und Löschung" },
-    { "id": "privacy-section-4", "label": "4. Sicherheit und Zugriffskontrollen" },
-    { "id": "privacy-section-5", "label": "5. Cookies und lokaler Speicher" },
-    { "id": "privacy-section-6", "label": "6. Ihre Rechte" },
-    { "id": "privacy-section-7", "label": "7. Änderungen dieser Richtlinie" }
+    {
+      "id": "privacy-section-1",
+      "label": "1. Welche Daten wir nicht erfassen"
+    },
+    {
+      "id": "privacy-section-2",
+      "label": "2. Welche Daten wir erfassen"
+    },
+    {
+      "id": "privacy-section-3",
+      "label": "3. Wofür wir Daten verwenden"
+    },
+    {
+      "id": "privacy-section-4",
+      "label": "4. Von uns genutzte Drittanbieter"
+    },
+    {
+      "id": "privacy-section-5",
+      "label": "5. Ihre Rechte"
+    },
+    {
+      "id": "privacy-section-6",
+      "label": "6. Aktualisierungen dieser Richtlinie"
+    }
   ],
   "sections": [
     {
-      "title": "1. Welche Daten wir verarbeiten",
+      "title": "1. Welche Daten wir nicht erfassen",
       "body": [
-        "Der Dienst erfasst keine personenbezogenen Daten automatisch. Alle HEIC-zu-JPG-Konvertierungen laufen auf Ihrem Gerät, und wir verarbeiten nur die unten aufgeführten Informationen."
+        "Die HEIC-zu-JPG-Konvertierung läuft in Ihrem Browser. Ihre Bilddateien werden weder auf unsere Server hochgeladen noch dort gespeichert."
       ],
       "list": [
-        "Hochgeladene HEIC / HEIF / JPG-Dateien verbleiben ausschließlich im Speicher Ihres Browsers und werden weder übertragen noch auf unseren Servern gespeichert.",
-        "Aggregierte, nicht identifizierbare Analyseereignisse wie Seitenaufrufe, Funktionsnutzung oder Fehlertypen.",
-        "Angaben, die Sie bei Supportanfragen freiwillig machen, beschränkt auf das zur Bearbeitung notwendige Minimum."
+        "Sie können unser Tool ohne Kontoerstellung und ohne Angabe personenbezogener Daten nutzen.",
+        "Wir speichern Ihre Bilddateien nicht auf unseren Servern, weder vor noch nach der Konvertierung."
       ]
     },
     {
-      "title": "2. Zweck der Datenverwendung",
+      "title": "2. Welche Daten wir erfassen",
       "body": [
-        "Wir nutzen die genannten Informationen nur zu folgenden Zwecken."
+        "Um den Dienst stabil zu betreiben und weiter zu verbessern, können wir in begrenztem Umfang folgende Informationen erfassen."
       ],
       "list": [
-        "Sicherstellen, dass die Kernfunktionen stabil laufen, und Fehler mithilfe aggregierter Analysen beheben.",
-        "Nutzungstrends verstehen, um die Benutzererfahrung zu verbessern und Kapazitäten zu planen.",
-        "Gesetzliche Pflichten erfüllen oder Missbrauch verhindern, wenn dies zwingend erforderlich ist – unter Verwendung minimaler Protokolle."
+        "Analyseinformationen (z. B. Seitenaufrufe, Funktionsnutzung sowie Geräte-/Browserinformationen).",
+        "Einstellungsdaten wie die Anzeigesprache (wir können Cookies, ähnliche Technologien und sessionStorage verwenden).",
+        "Informationen, die Sie uns freiwillig bei einer Kontaktaufnahme übermitteln (z. B. E-Mail-Adresse und Nachricht)."
       ]
     },
     {
-      "title": "3. Aufbewahrung und Löschung",
+      "title": "3. Wofür wir Daten verwenden",
       "body": [
-        "Analysedaten enthalten keine persönlichen Kennungen, und die Aufbewahrungsfristen werden so kurz wie möglich gehalten. Dateien und Supportnachrichten löschen wir unter folgenden Bedingungen."
+        "Wir verwenden die erfassten Daten ausschließlich für die folgenden Zwecke."
       ],
       "list": [
-        "Dateien werden sofort entfernt, wenn Sie die Warteschlange leeren, den Tab schließen, die Seite neu laden oder den Ablauf beenden.",
-        "Analytics-Metriken verbleiben nur in aggregierter Form und lassen keine Rückschlüsse auf einzelne Personen zu.",
-        "Support-E-Mails werden spätestens 90 Tage nach Abschluss des Tickets gelöscht oder anonymisiert."
+        "Bereitstellung des Dienstes, stabiler Betrieb und Behebung technischer Probleme.",
+        "Analyse der Nutzung, um Funktionen und Benutzerfreundlichkeit zu verbessern.",
+        "Verhinderung von Missbrauch und Aufrechterhaltung der Sicherheit.",
+        "Bearbeitung von Anfragen sowie Erfüllung rechtlicher Verpflichtungen."
+      ]
+    },
+    {
+      "title": "4. Von uns genutzte Drittanbieter",
+      "body": [
+        "Für Betrieb und Weiterentwicklung nutzen wir die folgenden Drittanbieter-Dienste."
+      ],
+      "list": [
+        "Google Analytics (für Nutzungsanalyse und Produktverbesserung).",
+        "Google Search Console (für Suchleistung und Indexierungsstatus).",
+        "Google AdSense: Google und seine Partner können Cookies oder ähnliche Technologien verwenden, um auf Grundlage Ihrer früheren Besuche auf dieser und anderen Websites Werbung anzuzeigen.",
+        "Personalisierte Werbung können Sie in den Google Ads-Einstellungen verwalten (https://adssettings.google.com/).",
+        "Mehr Informationen zur Datennutzung durch Google finden Sie unter https://support.google.com/adsense/answer/1348695?hl=de."
       ],
       "notes": [
-        "Originaldateien oder konvertierte Ergebnisse speichern wir niemals auf Servern.",
-        "Betriebsprotokolle bewahren wir bis zu 90 Tage für Auditzwecke auf; danach bleiben lediglich zusammengefasste Statistiken."
+        "Daten, die durch Drittanbieter erhoben und verarbeitet werden, unterliegen den jeweiligen Richtlinien der Anbieter."
       ]
     },
     {
-      "title": "4. Sicherheit und Zugriffskontrollen",
+      "title": "5. Ihre Rechte",
       "body": [
-        "Die Konvertierungen laufen lokal, sodass hochgeladene Dateien keine externen Netzwerke durchlaufen.",
-        "Analytics-Anfragen erfolgen über verschlüsselte HTTPS-Verbindungen und der Zugang zu Dashboards ist auf das kleinste notwendige Team beschränkt."
+        "Wir verlangen keine Kontoerstellung und speichern keine hochgeladenen Bilddateien auf unseren Servern. Sofern Sie uns nicht freiwillig kontaktieren, erfassen wir grundsätzlich keine Informationen, die Sie unmittelbar identifizieren."
+      ],
+      "list": [
+        "Für Informationen, die Sie uns in Support-E-Mails bereitstellen, können Sie Auskunft, Berichtigung oder Löschung verlangen.",
+        "Cookies können Sie in den Einstellungen Ihres Browsers löschen oder deaktivieren. Für personalisierte Werbung und Datennutzung durch Drittanbieter wie Google nutzen Sie bitte die offiziellen Einstellungsseiten der jeweiligen Anbieter."
       ]
     },
     {
-      "title": "5. Cookies und lokaler Speicher",
+      "title": "6. Aktualisierungen dieser Richtlinie",
       "body": [
-        "Wir verwenden keine Werbe- oder Tracking-Cookies.",
-        "Wir können kurzlebige Erstanbieter-Cookies oder lokale Speicherwerte einsetzen, um Einstellungen zu merken oder anonyme Analysen zu ermöglichen. Sie können diese im Browser löschen oder blockieren; einige Funktionen könnten dadurch eingeschränkt sein."
-      ]
-    },
-    {
-      "title": "6. Ihre Rechte",
-      "body": [
-        "Wenn Sie Daten einsehen, berichtigen oder löschen möchten, kontaktieren Sie uns unter der unten stehenden Adresse – wir antworten innerhalb angemessener Frist.",
-        "Wir erfüllen die Rechte, die Ihnen nach den geltenden Datenschutzgesetzen zustehen."
-      ]
-    },
-    {
-      "title": "7. Änderungen dieser Richtlinie",
-      "body": [
-        "Diese Richtlinie kann angepasst werden, wenn sich der Dienst oder rechtliche Anforderungen ändern. Wichtige Änderungen kündigen wir auf der Website zusammen mit dem neuen Datum an."
+        "Wir können diese Richtlinie aufgrund gesetzlicher Änderungen, Änderungen am Dienst oder Änderungen bei Drittanbieter-Diensten anpassen.",
+        "Bei wesentlichen Änderungen veröffentlichen wir einen Hinweis auf der Website und aktualisieren das Datum der letzten Überarbeitung."
       ]
     }
   ],
   "contact": {
-    "title": "Kontakt",
-    "description": "Bei Fragen zum Datenschutz oder zur Ausübung Ihrer Rechte schreiben Sie uns bitte an die folgende Adresse.",
-    "emailLabel": "E-Mail",
+    "title": "7. Kontakt",
+    "description": "Wenn Sie Fragen zu dieser Richtlinie haben oder Auskunft, Berichtigung oder Löschung beantragen möchten, kontaktieren Sie uns bitte:",
+    "emailLabel": "E-Mail-Adresse",
     "email": "guom0900@gmail.com",
-    "response": "In der Regel antworten wir innerhalb von drei Werktagen."
+    "response": "Wir antworten in der Regel innerhalb von 3 Werktagen."
   }
 }

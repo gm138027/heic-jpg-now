@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import { TranslationProvider } from "@/components/i18n/translation-provider";
 import { GlobalLayout } from "@/components/layout/global-layout";
 import { getDictionary, type PrivacyDictionary } from "@/lib/i18n/get-dictionary";
@@ -10,6 +11,56 @@ import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 type PrivacyScreenProps = {
   locale: Locale;
 };
+
+function renderTextWithAutoLinks(text: string, keyPrefix: string): ReactNode {
+  // Match only RFC3986 URL characters so surrounding localized text (e.g. full-width brackets) is excluded.
+  const urlPattern = /https?:\/\/[A-Za-z0-9\-._~:/?#[\]@!$&'()*+,;=%]+/g;
+  const matches = Array.from(text.matchAll(urlPattern));
+
+  if (matches.length === 0) {
+    return text;
+  }
+
+  const nodes: ReactNode[] = [];
+  let cursor = 0;
+
+  matches.forEach((match, index) => {
+    const rawUrl = match[0];
+    const start = match.index ?? 0;
+    const end = start + rawUrl.length;
+    // Trim common trailing punctuation (ASCII + full-width CJK marks) from auto-linked URLs.
+    const cleanUrl = rawUrl.replace(/[)\]}>）】》」』,，.;:!?！？。]+$/u, "");
+    const trailing = rawUrl.slice(cleanUrl.length);
+
+    if (start > cursor) {
+      nodes.push(text.slice(cursor, start));
+    }
+
+    nodes.push(
+      <a
+        key={`${keyPrefix}-link-${index}`}
+        href={cleanUrl}
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        className="underline decoration-emerald-300 underline-offset-2 break-all hover:text-emerald-700"
+      >
+        {cleanUrl}
+      </a>,
+    );
+
+    if (trailing) {
+      nodes.push(trailing);
+    }
+
+    cursor = end;
+  });
+
+  if (cursor < text.length) {
+    nodes.push(text.slice(cursor));
+  }
+
+  return <>{nodes}</>;
+}
 
 export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
   const messages = await getDictionary(locale);
@@ -110,13 +161,13 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
                 <h2 className="text-2xl font-semibold text-slate-900">{section.title}</h2>
                 {section.body?.map((paragraph: string, i: number) => (
                   <p key={`body-${i}`} className="mt-4 text-base leading-relaxed text-slate-700">
-                    {paragraph}
+                    {renderTextWithAutoLinks(paragraph, `body-${i}`)}
                   </p>
                 ))}
                 {Array.isArray(section.list) && section.list.length > 0 && (
                   <ul className="mt-4 list-disc space-y-2 pl-6 text-base text-slate-700">
                     {section.list.map((item: string, i: number) => (
-                      <li key={`list-${i}`}>{item}</li>
+                      <li key={`list-${i}`}>{renderTextWithAutoLinks(item, `list-${i}`)}</li>
                     ))}
                   </ul>
                 )}
@@ -124,7 +175,7 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
                   <div className="mt-4 rounded-lg bg-slate-50 p-4 text-sm text-slate-600">
                     {section.notes.map((note: string, i: number) => (
                       <p key={`note-${i}`} className={i > 0 ? "mt-2" : undefined}>
-                        {note}
+                        {renderTextWithAutoLinks(note, `note-${i}`)}
                       </p>
                     ))}
                   </div>

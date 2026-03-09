@@ -1,8 +1,8 @@
 {
   "hero": {
     "title": "Nutzungsbedingungen",
-    "description": "Lesen Sie die Nutzungsbedingungen von HEIC JPG NOW: zulässige Nutzung, Einschränkungen, Haftungsausschlüsse und Kontakt.",
-    "updated": "Zuletzt aktualisiert: 27. November 2025"
+    "description": "Diese Nutzungsbedingungen erklären die Regeln für HEIC JPG NOW. Wir formulieren sie klar, damit Sie den Dienst sicher und fair nutzen können.",
+    "updated": "Zuletzt aktualisiert: 9. März 2026"
   },
   "tocTitle": "Inhalt",
   "toc": [
@@ -19,21 +19,21 @@
     {
       "title": "1. Geltungsbereich",
       "body": [
-        "Diese Bedingungen gelten für alle Funktionen von heicjpgnow.com und verbundenen Domains. Durch die Nutzung erklären Sie sich mit dem gesamten Vertrag einverstanden."
+        "Diese Bedingungen gelten für alle Funktionen, die wir auf heicjpgnow.com und verbundenen Domains bereitstellen. Wenn Sie eine Funktion der Website nutzen, stimmen Sie diesen Bedingungen zu."
       ],
       "list": [
-        "Minderjährige versichern, dass ein Erziehungsberechtigter der Nutzung zugestimmt hat.",
-        "Steht eine Klausel im Widerspruch zu zwingendem Recht, hat dieses Vorrang; die übrigen Regelungen bleiben bestehen."
+        "Wenn Sie minderjährig sind, nutzen Sie den Dienst bitte nur mit Zustimmung eines Erziehungsberechtigten.",
+        "Falls eine Klausel zwingendem Recht widerspricht, gilt das zwingende Recht. Die übrigen Regelungen bleiben wirksam."
       ]
     },
     {
       "title": "2. Nutzungsvoraussetzungen",
       "body": [
-        "Sie sind für die hochgeladenen Dateien verantwortlich und garantieren, dass Sie über die erforderlichen Rechte verfügen."
+        "Sie sind für die hochgeladenen oder verarbeiteten Dateien verantwortlich und sichern zu, dass Sie über die erforderlichen Rechte oder Erlaubnisse verfügen."
       ],
       "list": [
-        "Die Nutzung ist kostenlos, sofern sie in einem angemessenen Rahmen bleibt und das System nicht überlastet.",
-        "Organisationen, die den Dienst in eigene Prozesse integrieren möchten, sollten uns vorher kontaktieren."
+        "Der Dienst ist für private und geschäftliche Nutzung kostenlos, solange die Nutzung angemessen bleibt und das System nicht überlastet.",
+        "Wenn ein Unternehmen oder eine Organisation das Tool in interne Abläufe integrieren möchte, kontaktieren Sie uns bitte vorab."
       ]
     },
     {
@@ -42,25 +42,25 @@
         "Folgende Handlungen sind unzulässig:"
       ],
       "list": [
-        "Reverse Engineering, Veränderung, Weitergabe oder Verkauf des Dienstes oder einzelner Programmteile.",
+        "Reverse Engineering, Veränderung, Vervielfältigung, Weitergabe oder Verkauf des Dienstes oder zugehöriger Programmteile.",
         "Automatisierte Skripte in einem Umfang ausführen, der die Infrastruktur übermäßig belastet.",
         "Dateien hochladen, welche Urheberrechte, Markenrechte, Persönlichkeitsrechte oder sonstige Rechte Dritter verletzen.",
-        "Den Dienst für rechtswidrige oder anstößige Zwecke verwenden."
+        "Den Dienst für rechtswidrige, schädliche oder missbräuchliche Zwecke verwenden."
       ]
     },
     {
       "title": "4. Inhalte und geistiges Eigentum",
       "body": [
-        "Rechte an Oberfläche, Logos, Code und Dokumentation liegen bei HEIC JPG NOW oder den jeweiligen Rechteinhabern. Sie behalten die Rechte an Ihren Dateien, räumen uns jedoch die für die Verarbeitung während Ihrer Session notwendige Lizenz ein."
+        "Urheberrechte, Markenrechte und sonstige Rechte am geistigen Eigentum an Logos, Design, Code und Dokumentation der Website liegen bei HEIC JPG NOW oder den jeweiligen Rechteinhabern. Sie behalten die Rechte an Ihren eigenen Dateien und erteilen uns nur die Berechtigung, die für die Bereitstellung des Dienstes erforderlich ist."
       ]
     },
     {
       "title": "5. Haftungsausschlüsse",
       "body": [
-        "Da die Konvertierung lokal erfolgt, hängen Ergebnisse von Gerät, Browser und Netzwerk ab. Wir übernehmen keine Haftung für:"
+        "Die Konvertierung erfolgt in Ihrem Browser. Daher können Ergebnisse je nach Gerät, Browser und Netzwerk variieren. Wir übernehmen keine Haftung für:"
       ],
       "list": [
-        "Genauigkeit, Vollständigkeit oder Eignung der konvertierten Dateien sowie Verlust hochgeladener Daten.",
+        "Genauigkeit, Vollständigkeit oder Eignung der Konvertierungsergebnisse sowie den Verlust hochgeladener Dateien.",
         "Schäden durch unbefugten Zugriff, Malware, höhere Gewalt oder Dienste Dritter.",
         "Streitigkeiten zwischen Nutzern oder zwischen Nutzer und Dritten."
       ],
@@ -71,21 +71,24 @@
     {
       "title": "6. Änderungen des Dienstes",
       "body": [
-        "Wir können Funktionen jederzeit aus Sicherheits-, Rechts- oder betrieblichen Gründen ändern, aussetzen oder einstellen. Größere Änderungen werden nach Möglichkeit vorab auf der Website angekündigt."
+        "Wir können Funktionen, einschließlich Integrationen mit Drittanbieter-Diensten, aus Sicherheitsgründen, zur Einhaltung gesetzlicher Vorgaben oder aus betrieblichen Gründen ändern, aussetzen oder einstellen.",
+        "Wesentliche Änderungen kündigen wir nach Möglichkeit vorab auf der Website an."
       ]
     },
     {
       "title": "7. Sperrung und Haftung",
       "body": [
-        "Bei Verstößen gegen diese Bedingungen dürfen wir den Zugriff ohne Vorankündigung sperren oder Schadensersatz verlangen. Für Schäden und Kosten, die durch Ihren Verstoß entstehen, haften Sie."
+        "Bei Verstößen gegen diese Bedingungen können wir den Zugriff ohne Vorankündigung sperren, die Nutzung blockieren oder Schadensersatz geltend machen. Für Schäden und Kosten, die durch Ihren Verstoß entstehen, sind Sie verantwortlich."
       ]
     },
     {
       "title": "8. Anwendbares Recht & Kontakt",
       "body": [
-        "Diese Bedingungen unterliegen dem Recht, das für den Betreiber des Dienstes maßgeblich ist. Fragen zu diesem Vertrag oder zur Datenverarbeitung richten Sie bitte an die folgende Adresse."
+        "Diese Bedingungen werden nach den für unseren Betrieb geltenden Gesetzen ausgelegt.",
+        "Wenn Sie Fragen zu diesen Bedingungen, zur Datenverarbeitung oder zu Drittanbieter-Diensten haben, kontaktieren Sie uns bitte über die folgenden Angaben."
       ],
       "list": [
+        "Wir können Drittanbieter-Dienste nutzen, um die Website zu betreiben und zu verbessern. Details zur Datenverarbeitung finden Sie zusätzlich in unserer Datenschutzerklärung.",
         "Kontakt-E-Mail: guom0900@gmail.com",
         "Antworten erfolgen in der Regel innerhalb von drei Werktagen."
       ]

@@ -1,90 +1,109 @@
 {
   "hero": {
     "title": "Politique de confidentialité",
-    "description": "Découvrez comment HEIC JPG NOW protège vos images et données personnelles, y compris l’analytique, la conservation et vos droits.",
-    "updated": "Dernière mise à jour : 27 novembre 2025"
+    "description": "Merci d'utiliser HEIC JPG NOW. Nous attachons une grande importance à votre vie privée et expliquons clairement quelles données nous traitons, pourquoi, et quels choix vous avez.",
+    "updated": "Dernière mise à jour : 9 mars 2026"
   },
   "tocTitle": "Sommaire",
   "toc": [
-    { "id": "privacy-section-1", "label": "1. Données traitées" },
-    { "id": "privacy-section-2", "label": "2. Finalité de l’utilisation des données" },
-    { "id": "privacy-section-3", "label": "3. Conservation et suppression" },
-    { "id": "privacy-section-4", "label": "4. Sécurité et contrôles d’accès" },
-    { "id": "privacy-section-5", "label": "5. Cookies et stockage local" },
-    { "id": "privacy-section-6", "label": "6. Droits des utilisateurs" },
-    { "id": "privacy-section-7", "label": "7. Modifications de la politique" }
+    {
+      "id": "privacy-section-1",
+      "label": "1. Données que nous ne collectons pas"
+    },
+    {
+      "id": "privacy-section-2",
+      "label": "2. Données que nous collectons"
+    },
+    {
+      "id": "privacy-section-3",
+      "label": "3. Utilisation des données"
+    },
+    {
+      "id": "privacy-section-4",
+      "label": "4. Services tiers utilisés"
+    },
+    {
+      "id": "privacy-section-5",
+      "label": "5. Vos droits"
+    },
+    {
+      "id": "privacy-section-6",
+      "label": "6. Mises à jour de la politique"
+    }
   ],
   "sections": [
     {
-      "title": "1. Données traitées",
+      "title": "1. Données que nous ne collectons pas",
       "body": [
-        "Le service ne collecte pas automatiquement de données permettant d’identifier une personne. Toutes les conversions HEIC vers JPG s’exécutent sur votre appareil et seules les informations ci-dessous sont traitées."
+        "La conversion HEIC vers JPG s'exécute dans votre navigateur. Vos fichiers image ne sont ni envoyés vers nos serveurs, ni stockés par nos soins."
       ],
       "list": [
-        "Les fichiers HEIC / HEIF / JPG restent uniquement dans la mémoire du navigateur et ne sont jamais transmis ni stockés sur nos serveurs.",
-        "Des événements analytiques agrégés et non identifiants, tels que le nombre de pages vues, l’usage des fonctionnalités ou les types d’erreurs.",
-        "Les informations que vous fournissez volontairement lors d’une demande d’assistance, limitées au strict nécessaire pour la traiter."
+        "Vous pouvez utiliser notre outil sans créer de compte ni fournir de données personnelles.",
+        "Nous ne stockons pas vos images sur nos serveurs, ni avant ni après conversion."
       ]
     },
     {
-      "title": "2. Finalité de l’utilisation des données",
+      "title": "2. Données que nous collectons",
       "body": [
-        "Les données ci-dessus sont utilisées uniquement aux fins suivantes."
+        "Pour assurer la stabilité du service et l'améliorer, nous pouvons collecter les informations suivantes, dans une mesure limitée."
       ],
       "list": [
-        "Garantir la fiabilité des fonctions de conversion et diagnostiquer les incidents à l’aide d’analyses agrégées.",
-        "Comprendre les tendances d’usage afin d’améliorer l’UX/UI et de planifier les capacités techniques.",
-        "Répondre aux obligations légales ou prévenir les abus lorsque cela est strictement nécessaire, avec les traces minimales requises."
+        "Données d'analyse (par exemple : pages vues, usage des fonctionnalités, informations appareil/navigateur).",
+        "Données de préférence, comme la langue d'affichage (nous pouvons utiliser des cookies, des technologies similaires et sessionStorage).",
+        "Informations que vous nous transmettez volontairement lorsque vous nous contactez (par exemple : adresse e-mail et contenu du message)."
       ]
     },
     {
-      "title": "3. Conservation et suppression",
+      "title": "3. Utilisation des données",
       "body": [
-        "Les données analytiques n’incluent aucun identifiant personnel et les durées de conservation sont réduites au minimum. Nous supprimons les fichiers et messages d’assistance dans les cas suivants."
+        "Les données collectées sont utilisées uniquement pour les finalités suivantes."
       ],
       "list": [
-        "Les fichiers sont effacés immédiatement lorsque vous videz la file, fermez l’onglet, rechargez la page ou terminez le flux.",
-        "Les métriques Analytics restent sous forme agrégée uniquement et ne permettent pas de reconstituer un comportement individuel.",
-        "Les e-mails de support sont supprimés ou anonymisés dans un délai maximal de 90 jours après leur résolution."
+        "Fournir le service, en garantir la stabilité et résoudre les incidents techniques.",
+        "Comprendre les usages afin d'améliorer les fonctionnalités et l'expérience utilisateur.",
+        "Prévenir les abus et maintenir la sécurité.",
+        "Répondre aux demandes d'assistance et respecter les obligations légales."
+      ]
+    },
+    {
+      "title": "4. Services tiers utilisés",
+      "body": [
+        "Pour l'exploitation et l'amélioration du service, nous utilisons les services tiers suivants."
+      ],
+      "list": [
+        "Google Analytics (analyse de trafic et amélioration du produit).",
+        "Google Search Console (performance de recherche et état de l'indexation).",
+        "Google AdSense : Google et ses partenaires peuvent utiliser des cookies ou technologies similaires pour afficher des annonces selon vos visites précédentes sur ce site et d'autres sites.",
+        "Vous pouvez gérer les annonces personnalisées via les paramètres Google Ads (https://adssettings.google.com/).",
+        "Pour en savoir plus sur l'utilisation des données par Google, consultez https://support.google.com/adsense/answer/1348695?hl=fr."
       ],
       "notes": [
-        "Nous ne conservons jamais les fichiers d’origine ni les conversions sur des serveurs.",
-        "Les journaux techniques sont gardés jusqu’à 90 jours à des fins d’audit, puis seules des statistiques synthétiques sont conservées."
+        "Les données collectées et traitées par des services tiers sont régies par les politiques propres à chaque fournisseur."
       ]
     },
     {
-      "title": "4. Sécurité et contrôles d’accès",
+      "title": "5. Vos droits",
       "body": [
-        "Les conversions s’effectuent localement, évitant ainsi que les fichiers chargés ne transitent sur des réseaux externes.",
-        "Les requêtes Analytics utilisent le chiffrement HTTPS et l’accès aux tableaux de bord est limité au plus petit nombre de personnes nécessaire."
+        "Nous n'exigeons pas la création d'un compte et nous ne stockons pas les fichiers image importés sur nos serveurs. Sauf lorsque vous nous contactez volontairement, nous ne collectons en principe pas d'informations permettant de vous identifier directement."
+      ],
+      "list": [
+        "Pour les informations que vous fournissez dans les e-mails d'assistance, vous pouvez demander l'accès, la rectification ou la suppression.",
+        "Vous pouvez supprimer ou désactiver les cookies dans les paramètres de votre navigateur. Pour les annonces personnalisées et l'utilisation des données par des services tiers comme Google, veuillez utiliser les pages officielles de configuration de chaque fournisseur."
       ]
     },
     {
-      "title": "5. Cookies et stockage local",
+      "title": "6. Mises à jour de la politique",
       "body": [
-        "Nous n’utilisons pas de cookies publicitaires ou de suivi comportemental.",
-        "Nous pouvons stocker des cookies propriétaires ou des données locales temporaires pour mémoriser vos préférences ou permettre des analyses anonymes. Vous pouvez les supprimer ou les bloquer via le navigateur, mais certaines fonctions pourraient en être affectées."
-      ]
-    },
-    {
-      "title": "6. Droits des utilisateurs",
-      "body": [
-        "Pour consulter, corriger ou supprimer vos informations, contactez-nous à l’adresse ci-dessous ; nous répondrons dans un délai raisonnable.",
-        "Nous respectons les droits accordés par les lois applicables sur la protection des données."
-      ]
-    },
-    {
-      "title": "7. Modifications de la politique",
-      "body": [
-        "Cette politique peut être mise à jour lorsque le service ou la réglementation évolue. Toute modification majeure sera annoncée sur le site avec la nouvelle date de révision."
+        "Nous pouvons réviser cette politique en cas d'évolution légale, de changement du service ou de changement de services tiers.",
+        "En cas de modification importante, nous publierons une notification sur le site et mettrons à jour la date de révision."
       ]
     }
   ],
   "contact": {
-    "title": "Contact",
-    "description": "Pour toute question relative à la confidentialité ou à l’exercice de vos droits, écrivez-nous à l’adresse ci-dessous.",
-    "emailLabel": "E-mail",
+    "title": "7. Contact",
+    "description": "Si vous avez des questions sur cette politique ou souhaitez demander l'accès, la rectification ou la suppression de vos données, contactez-nous :",
+    "emailLabel": "Adresse e-mail",
     "email": "guom0900@gmail.com",
-    "response": "Nous répondons généralement sous 3 jours ouvrables."
+    "response": "Nous répondons généralement sous 3 jours ouvrés."
   }
 }
