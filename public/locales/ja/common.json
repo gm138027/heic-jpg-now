@@ -15,11 +15,6 @@
       "home": "ホーム"
     }
   },
-  "hero": {
-    "badge": "高品質 HEIC → JPG",
-    "title": "HEIC写真を一瞬でJPGに変換",
-    "subtitle": "アップロードして待つだけ。ブラウザ内で完結し、ファイルは保存されません。"
-  },
   "upload": {
     "actions": {
       "add": "ファイルを追加",

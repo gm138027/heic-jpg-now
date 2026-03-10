@@ -15,11 +15,6 @@
       "home": "Inicio"
     }
   },
-  "hero": {
-    "badge": "HEIC → JPG gratis",
-    "title": "Convierte fotos HEIC a JPG en segundos",
-    "subtitle": "Sube tus fotos HEIC/HEIF y relájate. La conversión se realiza en tu navegador; nada se envía a nuestros servidores."
-  },
   "upload": {
     "actions": {
       "add": "Agregar archivos",

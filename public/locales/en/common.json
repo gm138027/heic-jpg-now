@@ -15,11 +15,6 @@
       "home": "Home"
     }
   },
-  "hero": {
-    "badge": "Free HEIC → JPG",
-    "title": "Convert HEIC photos to JPG in seconds",
-    "subtitle": "Upload your HEIC/HEIF photos and relax. Conversion stays inside your browser—nothing is sent to our servers."
-  },
   "upload": {
     "actions": {
       "add": "Add Files",
