@@ -37,7 +37,7 @@
     "queue": {
       "title": "Dateiwarteschlange {{completed}} / {{total}}",
       "clear": "Warteschlange leeren",
-      "empty": "Noch keine Dateien. Füge deine HEIC-Fotos hinzu, um zu starten.",
+      "empty": "Noch keine Dateien. Fügen Sie Ihre HEIC-Fotos hinzu, um zu starten.",
       "scrollDown": "Nach unten scrollen",
       "scrollUp": "Nach oben scrollen",
       "remove": "Entfernen",

@@ -35,7 +35,7 @@
       "subHint": "対応形式：HEIC / HEIF。推奨：1回あたり200件以内、1ファイル30MB以内、合計1GB以内。\n登録不要で、いつでも追加アップロード・一括変換できます。"
     },
     "queue": {
-      "title": "ファイルキュー {{total}}丨{{completed}}",
+      "title": "ファイルキュー {{completed}} / {{total}}",
       "clear": "キューをクリア",
       "empty": "まだファイルがありません。HEIC写真を追加してください。",
       "scrollDown": "下にスクロール",
