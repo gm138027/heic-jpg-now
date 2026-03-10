@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "description": "Thank you for using HEIC JPG NOW. If you have questions, suggestions, bug reports, or rights-related requests, please reach out to us here.",
+    "updated": "Last updated: March 9, 2026"
+  },
+  "tocTitle": "Contents",
+  "toc": [
+    {
+      "id": "contact-section-1",
+      "label": "1. How to Reach Us"
+    },
+    {
+      "id": "contact-section-2",
+      "label": "2. What You Can Contact Us About"
+    },
+    {
+      "id": "contact-section-3",
+      "label": "3. Response Time"
+    },
+    {
+      "id": "contact-section-4",
+      "label": "4. Before You Email Us"
+    },
+    {
+      "id": "contact-section-5",
+      "label": "5. How We Handle Personal Information"
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. How to Reach Us",
+      "body": [
+        "We provide support by email. Please write to guom0900@gmail.com. After reviewing your message, we will reply as soon as possible."
+      ]
+    },
+    {
+      "title": "2. What You Can Contact Us About",
+      "body": [
+        "Feel free to contact us about any of the following."
+      ],
+      "list": [
+        "Questions about how to use the tool",
+        "Bug reports, display issues, or conversion failures",
+        "Feature suggestions and product feedback",
+        "Business use or integration inquiries",
+        "Copyright, legal, and policy-related requests"
+      ]
+    },
+    {
+      "title": "3. Response Time",
+      "body": [
+        "We usually reply within 1 to 3 business days.",
+        "Response times may be longer on weekends, public holidays, or during high-volume periods."
+      ]
+    },
+    {
+      "title": "4. Before You Email Us",
+      "body": [
+        "To help us investigate faster, please include your environment details when possible (device, OS, browser) and a brief description of what happened."
+      ],
+      "list": [
+        "Please do not send sensitive information such as passwords, card numbers, or government-issued ID numbers.",
+        "If attachments contain personal information, please make sure they are necessary and limited to the minimum required."
+      ]
+    },
+    {
+      "title": "5. How We Handle Personal Information",
+      "body": [
+        "Email addresses and message content you send to us are used only to handle your request and provide follow-up support.",
+        "For more details, please review our Privacy Policy."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact Details",
+    "description": "Please contact us at the email address below.",
+    "emailLabel": "Email",
+    "email": "guom0900@gmail.com",
+    "response": "We usually reply within 1 to 3 business days."
+  },
+  "related": {
+    "title": "Related Pages",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

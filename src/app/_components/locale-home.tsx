@@ -28,6 +28,7 @@ export async function LocaleHome({ locale }: LocaleHomeProps) {
         }}
         footerTagline={footer.tagline}
         footerLegal={footer.legal}
+        footerContactLabel={footer.contact.label}
       >
         <SEOContent locale={locale} />
       </GlobalLayout>

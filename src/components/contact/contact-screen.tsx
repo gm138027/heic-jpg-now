@@ -1,28 +1,29 @@
 import Link from "next/link";
 import { TranslationProvider } from "@/components/i18n/translation-provider";
 import { GlobalLayout } from "@/components/layout/global-layout";
-import { getDictionary, type TermsDictionary } from "@/lib/i18n/get-dictionary";
-import { defaultLocale, type Locale } from "@/lib/i18n/locales";
-import { getAbsoluteUrl } from "@/lib/url";
-import { JsonLd } from "@/components/seo/json-ld";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
+import { JsonLd } from "@/components/seo/json-ld";
+import { getContactDictionary, type ContactDictionary } from "@/lib/i18n/get-contact-dictionary";
+import { getDictionary } from "@/lib/i18n/get-dictionary";
+import { defaultLocale, type Locale } from "@/lib/i18n/locales";
+import { getLocalePath } from "@/lib/i18n/paths";
+import { getAbsoluteUrl } from "@/lib/url";
 
-type TermsScreenProps = {
+type ContactScreenProps = {
   locale: Locale;
 };
 
-export async function TermsScreen({ locale }: TermsScreenProps) {
-  const messages = await getDictionary(locale);
+export async function ContactScreen({ locale }: ContactScreenProps) {
+  const [messages, contact] = await Promise.all([getDictionary(locale), getContactDictionary(locale)]);
   const site = messages.common.site;
   const footer = messages.common.footer;
-  const terms = messages.terms;
-  const sections: TermsDictionary["sections"] =
-    Array.isArray(terms.sections) ? terms.sections : [];
+  const sections: ContactDictionary["sections"] =
+    Array.isArray(contact.sections) ? contact.sections : [];
   const tocItems =
-    Array.isArray(terms.toc) && terms.toc.length > 0
-      ? terms.toc
+    Array.isArray(contact.toc) && contact.toc.length > 0
+      ? contact.toc
       : sections.map((section, index) => ({
-          id: `terms-section-${index + 1}`,
+          id: `contact-section-${index + 1}`,
           label: section.title,
         }));
   const localePrefix = locale === defaultLocale ? "" : `/${locale}`;
@@ -40,8 +41,8 @@ export async function TermsScreen({ locale }: TermsScreenProps) {
       {
         "@type": "ListItem",
         position: 2,
-        name: terms.hero.title,
-        item: getAbsoluteUrl(`${localePrefix}/terms`),
+        name: contact.hero.title,
+        item: getAbsoluteUrl(`${localePrefix}/contact`),
       },
     ],
   };
@@ -49,7 +50,7 @@ export async function TermsScreen({ locale }: TermsScreenProps) {
   const homeLabel = site.breadcrumb?.home ?? site.name ?? "Home";
   const breadcrumbItems = [
     { key: "home", label: homeLabel, href: "" },
-    { key: "terms", label: terms.hero.title },
+    { key: "contact", label: contact.hero.title },
   ];
 
   return (
@@ -72,15 +73,15 @@ export async function TermsScreen({ locale }: TermsScreenProps) {
         <article className="mx-auto max-w-4xl space-y-12 py-6">
           <Breadcrumbs locale={locale} items={breadcrumbItems} />
           <section className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-sm">
-            <p className="text-sm font-medium text-emerald-600">{terms.hero.updated}</p>
-            <h1 className="mt-3 text-3xl font-bold text-slate-900">{terms.hero.title}</h1>
-            <p className="mt-4 text-base leading-relaxed text-slate-700">{terms.hero.description}</p>
+            <p className="text-sm font-medium text-emerald-600">{contact.hero.updated}</p>
+            <h1 className="mt-3 text-3xl font-bold text-slate-900">{contact.hero.title}</h1>
+            <p className="mt-4 text-base leading-relaxed text-slate-700">{contact.hero.description}</p>
           </section>
 
-          {terms.tocTitle && tocItems.length > 0 && (
+          {contact.tocTitle && tocItems.length > 0 && (
             <nav className="rounded-2xl border border-slate-200 bg-white/70 p-6 shadow-sm">
               <p className="text-sm font-semibold uppercase tracking-wide text-emerald-600">
-                {terms.tocTitle}
+                {contact.tocTitle}
               </p>
               <ul className="mt-4 space-y-2 text-base text-slate-700">
                 {tocItems.map((item) => (
@@ -101,7 +102,7 @@ export async function TermsScreen({ locale }: TermsScreenProps) {
           )}
 
           {sections.map((section, index) => {
-            const sectionId = tocItems[index]?.id ?? `terms-section-${index + 1}`;
+            const sectionId = tocItems[index]?.id ?? `contact-section-${index + 1}`;
             return (
               <section
                 key={`${section.title}-${index}`}
@@ -121,18 +122,42 @@ export async function TermsScreen({ locale }: TermsScreenProps) {
                     ))}
                   </ul>
                 )}
-                {Array.isArray(section.notes) && section.notes.length > 0 && (
-                  <div className="mt-4 rounded-lg bg-slate-50 p-4 text-sm text-slate-600">
-                    {section.notes.map((note: string, i: number) => (
-                      <p key={`note-${i}`} className={i > 0 ? "mt-2" : undefined}>
-                        {note}
-                      </p>
-                    ))}
-                  </div>
-                )}
               </section>
             );
           })}
+
+          <section className="rounded-2xl border border-emerald-100 bg-emerald-50/70 p-6 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-900">{contact.contact.title}</h2>
+            <p className="mt-3 text-base leading-relaxed text-slate-700">
+              {contact.contact.description}
+            </p>
+            <div className="mt-4 rounded-xl bg-white px-4 py-3 text-sm text-slate-700 shadow-inner">
+              <p className="font-medium text-slate-900">{contact.contact.emailLabel}</p>
+              <a
+                href={`mailto:${contact.contact.email}`}
+                className="mt-1 inline-flex items-center gap-2 font-semibold text-emerald-600 underline-offset-4 hover:underline"
+              >
+                {contact.contact.email}
+              </a>
+              <p className="mt-2 text-xs text-slate-500">{contact.contact.response}</p>
+            </div>
+          </section>
+
+          <section className="rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
+            <h2 className="text-2xl font-semibold text-slate-900">{contact.related.title}</h2>
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-base text-slate-700">
+              <li>
+                <Link className="text-emerald-700 underline-offset-4 hover:underline" href={getLocalePath(locale, "privacy")}>
+                  {contact.related.privacy}
+                </Link>
+              </li>
+              <li>
+                <Link className="text-emerald-700 underline-offset-4 hover:underline" href={getLocalePath(locale, "terms")}>
+                  {contact.related.terms}
+                </Link>
+              </li>
+            </ul>
+          </section>
         </article>
         <JsonLd data={breadcrumbData} />
       </GlobalLayout>

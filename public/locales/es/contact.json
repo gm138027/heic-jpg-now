@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Contacto",
+    "description": "Gracias por usar HEIC JPG NOW. Si tiene preguntas, sugerencias, reportes de errores o solicitudes relacionadas con derechos, puede contactarnos aquí.",
+    "updated": "Última actualización: 9 de marzo de 2026"
+  },
+  "tocTitle": "Contenido",
+  "toc": [
+    {
+      "id": "contact-section-1",
+      "label": "1. Cómo contactarnos"
+    },
+    {
+      "id": "contact-section-2",
+      "label": "2. Sobre qué puede escribirnos"
+    },
+    {
+      "id": "contact-section-3",
+      "label": "3. Tiempo de respuesta"
+    },
+    {
+      "id": "contact-section-4",
+      "label": "4. Antes de enviar su correo"
+    },
+    {
+      "id": "contact-section-5",
+      "label": "5. Cómo tratamos la información personal"
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Cómo contactarnos",
+      "body": [
+        "Ofrecemos atención por correo electrónico. Escríbanos a guom0900@gmail.com. Revisaremos su mensaje y responderemos lo antes posible."
+      ]
+    },
+    {
+      "title": "2. Sobre qué puede escribirnos",
+      "body": [
+        "Puede contactarnos sobre cualquiera de los siguientes temas."
+      ],
+      "list": [
+        "Dudas sobre cómo usar la herramienta",
+        "Reportes de fallos, problemas de visualización o errores de conversión",
+        "Sugerencias de funciones y mejoras de producto",
+        "Consultas sobre uso comercial o integración",
+        "Solicitudes relacionadas con derechos de autor, asuntos legales y políticas"
+      ]
+    },
+    {
+      "title": "3. Tiempo de respuesta",
+      "body": [
+        "Normalmente respondemos en un plazo de 1 a 3 días hábiles.",
+        "Los fines de semana, festivos o periodos de alta demanda, la respuesta puede tardar más."
+      ]
+    },
+    {
+      "title": "4. Antes de enviar su correo",
+      "body": [
+        "Para ayudarnos a revisar su caso con más rapidez, incluya cuando sea posible los detalles de su entorno (dispositivo, sistema operativo y navegador) y una breve descripción de lo ocurrido."
+      ],
+      "list": [
+        "No envíe información sensible como contraseñas, números de tarjeta o números de identificación emitidos por el gobierno.",
+        "Si adjunta archivos con datos personales, asegúrese de que sean necesarios y limite el contenido al mínimo imprescindible."
+      ]
+    },
+    {
+      "title": "5. Cómo tratamos la información personal",
+      "body": [
+        "La dirección de correo y el contenido de su mensaje se usan únicamente para atender su solicitud y darle seguimiento.",
+        "Para más información, consulte nuestra Política de privacidad."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Datos de contacto",
+    "description": "Puede escribirnos al siguiente correo electrónico.",
+    "emailLabel": "Correo electrónico",
+    "email": "guom0900@gmail.com",
+    "response": "Normalmente respondemos en un plazo de 1 a 3 días hábiles."
+  },
+  "related": {
+    "title": "Páginas relacionadas",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio"
+  }
+}

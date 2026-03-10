@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Nous contacter",
+    "description": "Merci d'utiliser HEIC JPG NOW. Pour toute question, suggestion, signalement de bug ou demande liée aux droits, vous pouvez nous contacter ici.",
+    "updated": "Dernière mise à jour : 9 mars 2026"
+  },
+  "tocTitle": "Sommaire",
+  "toc": [
+    {
+      "id": "contact-section-1",
+      "label": "1. Comment nous contacter"
+    },
+    {
+      "id": "contact-section-2",
+      "label": "2. Sujets sur lesquels vous pouvez nous écrire"
+    },
+    {
+      "id": "contact-section-3",
+      "label": "3. Délai de réponse"
+    },
+    {
+      "id": "contact-section-4",
+      "label": "4. Avant de nous écrire"
+    },
+    {
+      "id": "contact-section-5",
+      "label": "5. Traitement des informations personnelles"
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Comment nous contacter",
+      "body": [
+        "Nous assurons l'assistance par e-mail. Vous pouvez nous écrire à guom0900@gmail.com. Après examen de votre message, nous vous répondrons dès que possible."
+      ]
+    },
+    {
+      "title": "2. Sujets sur lesquels vous pouvez nous écrire",
+      "body": [
+        "N'hésitez pas à nous contacter concernant les points suivants."
+      ],
+      "list": [
+        "Questions sur l'utilisation de l'outil",
+        "Signalement de bugs, problèmes d'affichage ou échecs de conversion",
+        "Suggestions de fonctionnalités et retours produit",
+        "Demandes liées à un usage professionnel ou à une intégration",
+        "Demandes liées aux droits d'auteur, aux aspects juridiques et aux politiques"
+      ]
+    },
+    {
+      "title": "3. Délai de réponse",
+      "body": [
+        "Nous répondons généralement sous 1 à 3 jours ouvrés.",
+        "Les délais peuvent être plus longs les week-ends, jours fériés ou en période de forte affluence."
+      ]
+    },
+    {
+      "title": "4. Avant de nous écrire",
+      "body": [
+        "Pour nous aider à traiter votre demande plus rapidement, merci d'indiquer si possible les détails de votre environnement (appareil, système d'exploitation et navigateur) ainsi qu'une brève description du problème."
+      ],
+      "list": [
+        "Merci de ne pas envoyer d'informations sensibles telles que des mots de passe, numéros de carte ou numéros de pièce d'identité officielle.",
+        "Si vos pièces jointes contiennent des données personnelles, vérifiez qu'elles sont nécessaires et limitez-les au strict minimum."
+      ]
+    },
+    {
+      "title": "5. Traitement des informations personnelles",
+      "body": [
+        "L'adresse e-mail et le contenu de votre message sont utilisés uniquement pour traiter votre demande et assurer le suivi.",
+        "Pour en savoir plus, veuillez consulter notre Politique de confidentialité."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Coordonnées de contact",
+    "description": "Vous pouvez nous joindre à l'adresse e-mail ci-dessous.",
+    "emailLabel": "E-mail",
+    "email": "guom0900@gmail.com",
+    "response": "Nous répondons généralement sous 1 à 3 jours ouvrés."
+  },
+  "related": {
+    "title": "Pages associées",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d’utilisation"
+  }
+}

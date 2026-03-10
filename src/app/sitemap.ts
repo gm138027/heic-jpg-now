@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { defaultLocale, locales } from "@/lib/i18n/locales";
 import { getAbsoluteUrl } from "@/lib/url";
 
-const BASE_PATHS = ["", "privacy", "terms"] as const;
+const BASE_PATHS = ["", "privacy", "terms", "contact"] as const;
 
 function toAbsoluteUrl(path: string) {
   if (!path) {

@@ -14,6 +14,7 @@ type GlobalLayoutProps = {
     privacy: string;
     terms: string;
   };
+  footerContactLabel: string;
 };
 
 export function GlobalLayout({
@@ -23,6 +24,7 @@ export function GlobalLayout({
   languageOptions,
   footerTagline,
   footerLegal,
+  footerContactLabel,
 }: GlobalLayoutProps) {
   return (
     <div 
@@ -77,6 +79,13 @@ export function GlobalLayout({
               className="text-gray-600 transition hover:text-emerald-600"
             >
               {footerLegal.terms}
+            </Link>
+            <span className="text-gray-300">|</span>
+            <Link
+              href={getLocalePath(locale, "contact")}
+              className="text-gray-600 transition hover:text-emerald-600"
+            >
+              {footerContactLabel}
             </Link>
           </div>
           

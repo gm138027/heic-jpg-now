@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Kontakt",
+    "description": "Vielen Dank, dass Sie HEIC JPG NOW nutzen. Bei Fragen, Vorschlägen, Fehlermeldungen oder rechtsbezogenen Anliegen können Sie uns hier kontaktieren.",
+    "updated": "Zuletzt aktualisiert: 9. März 2026"
+  },
+  "tocTitle": "Inhalt",
+  "toc": [
+    {
+      "id": "contact-section-1",
+      "label": "1. So erreichen Sie uns"
+    },
+    {
+      "id": "contact-section-2",
+      "label": "2. Wozu Sie uns kontaktieren können"
+    },
+    {
+      "id": "contact-section-3",
+      "label": "3. Antwortzeit"
+    },
+    {
+      "id": "contact-section-4",
+      "label": "4. Bevor Sie uns schreiben"
+    },
+    {
+      "id": "contact-section-5",
+      "label": "5. Umgang mit personenbezogenen Daten"
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. So erreichen Sie uns",
+      "body": [
+        "Wir bieten Support per E-Mail an. Schreiben Sie uns an guom0900@gmail.com. Nach Prüfung Ihrer Nachricht antworten wir so schnell wie möglich."
+      ]
+    },
+    {
+      "title": "2. Wozu Sie uns kontaktieren können",
+      "body": [
+        "Sie können uns unter anderem zu folgenden Themen schreiben."
+      ],
+      "list": [
+        "Fragen zur Nutzung des Tools",
+        "Meldungen zu Fehlern, Darstellungsproblemen oder fehlgeschlagenen Konvertierungen",
+        "Funktionswünsche und Produktfeedback",
+        "Anfragen zu geschäftlicher Nutzung oder Integration",
+        "Anfragen zu Urheberrecht, rechtlichen Themen und Richtlinien"
+      ]
+    },
+    {
+      "title": "3. Antwortzeit",
+      "body": [
+        "In der Regel antworten wir innerhalb von 1 bis 3 Werktagen.",
+        "An Wochenenden, Feiertagen oder bei hohem Anfrageaufkommen kann die Antwortzeit länger sein."
+      ]
+    },
+    {
+      "title": "4. Bevor Sie uns schreiben",
+      "body": [
+        "Damit wir Ihr Anliegen schneller prüfen können, nennen Sie nach Möglichkeit Details zu Ihrer Umgebung (Gerät, Betriebssystem, Browser) sowie eine kurze Fehlerbeschreibung."
+      ],
+      "list": [
+        "Bitte senden Sie keine sensiblen Informationen wie Passwörter, Kartennummern oder amtliche Ausweisnummern.",
+        "Wenn Anhänge personenbezogene Daten enthalten, stellen Sie bitte sicher, dass sie notwendig sind und auf das erforderliche Minimum begrenzt bleiben."
+      ]
+    },
+    {
+      "title": "5. Umgang mit personenbezogenen Daten",
+      "body": [
+        "Ihre E-Mail-Adresse und der Inhalt Ihrer Nachricht werden ausschließlich zur Bearbeitung Ihrer Anfrage und zur weiteren Kommunikation verwendet.",
+        "Weitere Informationen finden Sie in unserer Datenschutzerklärung."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Kontaktinformationen",
+    "description": "Sie erreichen uns über die folgende E-Mail-Adresse.",
+    "emailLabel": "E-Mail-Adresse",
+    "email": "guom0900@gmail.com",
+    "response": "In der Regel antworten wir innerhalb von 1 bis 3 Werktagen."
+  },
+  "related": {
+    "title": "Relevante Seiten",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  }
+}

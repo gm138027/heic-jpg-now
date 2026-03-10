@@ -118,6 +118,7 @@ export async function PrivacyScreen({ locale }: PrivacyScreenProps) {
         }}
         footerTagline={footer.tagline}
         footerLegal={footer.legal}
+        footerContactLabel={footer.contact.label}
       >
         <article className="mx-auto max-w-4xl space-y-12 py-6">
           <Breadcrumbs locale={locale} items={breadcrumbItems} />

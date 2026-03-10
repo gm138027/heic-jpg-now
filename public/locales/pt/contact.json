@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "Contacte-nos",
+    "description": "Obrigado por utilizar o HEIC JPG NOW. Se tiver perguntas, sugestões, relatórios de erro ou pedidos relacionados com direitos, pode contactar-nos aqui.",
+    "updated": "Última atualização: 9 de março de 2026"
+  },
+  "tocTitle": "Conteúdo",
+  "toc": [
+    {
+      "id": "contact-section-1",
+      "label": "1. Como nos contactar"
+    },
+    {
+      "id": "contact-section-2",
+      "label": "2. Sobre o que nos pode contactar"
+    },
+    {
+      "id": "contact-section-3",
+      "label": "3. Prazo de resposta"
+    },
+    {
+      "id": "contact-section-4",
+      "label": "4. Antes de nos escrever"
+    },
+    {
+      "id": "contact-section-5",
+      "label": "5. Tratamento de informações pessoais"
+    }
+  ],
+  "sections": [
+    {
+      "title": "1. Como nos contactar",
+      "body": [
+        "Prestamos suporte por e-mail. Pode escrever para guom0900@gmail.com. Após analisarmos a sua mensagem, responderemos assim que possível."
+      ]
+    },
+    {
+      "title": "2. Sobre o que nos pode contactar",
+      "body": [
+        "Pode contactar-nos sobre qualquer um dos seguintes temas."
+      ],
+      "list": [
+        "Dúvidas sobre a utilização da ferramenta",
+        "Relatórios de falhas, problemas de visualização ou erros de conversão",
+        "Sugestões de funcionalidades e feedback do produto",
+        "Pedidos relacionados com utilização comercial ou integração",
+        "Pedidos relacionados com direitos de autor, questões legais e políticas"
+      ]
+    },
+    {
+      "title": "3. Prazo de resposta",
+      "body": [
+        "Normalmente respondemos no prazo de 1 a 3 dias úteis.",
+        "A resposta pode demorar mais aos fins de semana, feriados ou em períodos de maior volume de pedidos."
+      ]
+    },
+    {
+      "title": "4. Antes de nos escrever",
+      "body": [
+        "Para nos ajudar a analisar o seu caso mais rapidamente, inclua sempre que possível os detalhes do seu ambiente (dispositivo, sistema operativo e navegador), bem como uma breve descrição do que aconteceu."
+      ],
+      "list": [
+        "Não envie informações sensíveis, como palavras-passe, números de cartão ou números de identificação emitidos por entidades governamentais.",
+        "Se os anexos incluírem dados pessoais, confirme que são necessários e limite-os ao mínimo indispensável."
+      ]
+    },
+    {
+      "title": "5. Tratamento de informações pessoais",
+      "body": [
+        "O endereço de e-mail e o conteúdo da sua mensagem são utilizados apenas para tratar o seu pedido e dar seguimento ao contacto.",
+        "Para mais informações, consulte a nossa Política de Privacidade."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Dados de contacto",
+    "description": "Pode contactar-nos através do e-mail abaixo.",
+    "emailLabel": "E-mail",
+    "email": "guom0900@gmail.com",
+    "response": "Normalmente respondemos no prazo de 1 a 3 dias úteis."
+  },
+  "related": {
+    "title": "Páginas relacionadas",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de serviço"
+  }
+}
