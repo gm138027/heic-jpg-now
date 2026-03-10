@@ -106,7 +106,7 @@
           },
           "step3": {
             "title": "Schritt 3: JPG-Dateien herunterladen",
-            "content": "Laden Sie jedes JPG einzeln herunter oder sammeln Sie alles als ZIP, sobald der Stapel fertig ist. Die ursprünglichen HEIC-Dateien bleiben auf Ihrem Gerät."
+            "content": "Nach der Konvertierung können Sie jedes JPG einzeln herunterladen oder alle Dateien gesammelt als ZIP herunterladen. Die Ergebnisse bleiben vorübergehend auf dieser Seite erhalten, sodass Sie erneut herunterladen oder die Liste manuell leeren können. Beim Schließen der Seite werden die temporären Daten gelöscht."
           }
         }
       },
@@ -119,7 +119,7 @@
           },
           "batch": {
             "title": "Stapelkonvertierung für große Foto-Sets",
-            "content": "Laden Sie Dutzende oder Hunderte HEIC-Dateien hoch und wandeln Sie sie in einem Durchgang um. Ideal für Urlaubsalben, Hochzeiten oder Kundenprojekte."
+            "content": "Konvertieren Sie mehrere Dateien in einem Durchgang und sparen Sie sich die Einzelverarbeitung. Ideal für Fotosammlungen aus Reisen oder Events. Für eine stabile Nutzung empfehlen wir bis zu 200 Dateien pro Batch, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
           },
           "browser": {
             "title": "Im Browser, ohne Software",
@@ -234,7 +234,7 @@
         },
         {
           "question": "Gibt es Nutzungs- oder Dateilimits?",
-          "answer": "Der Service ist komplett kostenlos und es gibt keine strikten Limits für Nutzung oder Dateianzahl. Das praktische Limit hängt vom Gerät ab; empfohlen sind bis zu 200 Fotos pro Batch, 30 MB pro Datei und 1 GB insgesamt, um Speicherengpässe zu vermeiden."
+          "answer": "Die Nutzungshäufigkeit ist nicht begrenzt. Es gibt keine harte Obergrenze für die Dateianzahl, die praktische Leistung hängt jedoch von Ihrem Gerät ab. Für stabile Ergebnisse empfehlen wir bis zu 200 Fotos pro Batch, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
         },
         {
           "question": "Verringert die HEIC-zu-JPG-Konvertierung die Qualität? Bleiben EXIF-Daten erhalten?",

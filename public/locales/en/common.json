@@ -106,7 +106,7 @@
           },
           "step3": {
             "title": "Step 3: Download JPG files",
-            "content": "Download each JPG individually or grab everything in a ZIP once the batch is done. The HEIC originals stay on your device."
+            "content": "After conversion, you can download each JPG individually or download everything as a ZIP. Results are kept temporarily on this page, so you can download again or clear the list manually. Temporary data is cleared when you close the page."
           }
         }
       },
@@ -119,7 +119,7 @@
           },
           "batch": {
             "title": "Batch convert large photo sets",
-            "content": "Upload dozens or hundreds of HEIC files and convert them in one run. Perfect for vacations, weddings, or client shoots."
+            "content": "Convert multiple files in one run so you don't need to process photos one by one. It's ideal for travel or event photo sets. For stable performance, we recommend up to 200 files per batch, up to 30MB per file, and up to 1GB total."
           },
           "browser": {
             "title": "Browser-based, no software",
@@ -234,7 +234,7 @@
         },
         {
           "question": "Are there limits on usage or number of files?",
-          "answer": "It's completely free, with no strict limits on usage or file count. The practical limit depends on your device; we recommend up to 200 photos per batch, under 30MB per file, and under 1GB total to avoid memory slowdowns."
+          "answer": "There is no limit on how many times you can use the tool. There is no hard cap on file count, but performance depends on your device. For stable results, we recommend up to 200 photos per batch, up to 30MB per file, and up to 1GB total."
         },
         {
           "question": "Will HEIC to JPG reduce image quality? Is EXIF preserved?",

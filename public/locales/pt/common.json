@@ -106,7 +106,7 @@
           },
           "step3": {
             "title": "Passo 3: Baixar os JPG",
-            "content": "Baixe cada JPG individualmente ou faça o download de tudo em ZIP quando o lote terminar. Os arquivos HEIC originais permanecem em seu dispositivo."
+            "content": "Depois da conversão, você pode baixar cada JPG separadamente ou baixar tudo em um arquivo ZIP. Os resultados ficam temporariamente nesta página, para que você possa baixar novamente ou limpar a lista manualmente. Os dados temporários são removidos ao fechar a página."
           }
         }
       },
@@ -119,7 +119,7 @@
           },
           "batch": {
             "title": "Conversão em lote",
-            "content": "Envie dezenas ou centenas de arquivos HEIC e converta tudo de uma vez. Ideal para viagens, casamentos ou trabalhos com clientes."
+            "content": "Converta vários arquivos de uma vez e evite o processo arquivo por arquivo. É ideal para organizar fotos de viagens ou eventos. Para manter a estabilidade, recomendamos até 200 arquivos por lote, até 30 MB por arquivo e até 1 GB no total."
           },
           "browser": {
             "title": "Funciona no navegador, sem software",
@@ -234,7 +234,7 @@
         },
         {
           "question": "Há limites de uso ou de quantidade de arquivos?",
-          "answer": "É totalmente grátis e não há limites rígidos de uso ou quantidade de arquivos. O limite prático depende do dispositivo; recomendamos até 200 fotos por lote, 30 MB por arquivo e 1 GB no total para evitar lentidão por memória."
+          "answer": "Não há limite para a quantidade de vezes que você pode usar a ferramenta. Não existe um limite rígido de arquivos, mas o desempenho depende do seu dispositivo. Para manter a estabilidade, recomendamos até 200 fotos por lote, até 30 MB por arquivo e até 1 GB no total."
         },
         {
           "question": "Converter HEIC para JPG reduz a qualidade? O EXIF é preservado?",

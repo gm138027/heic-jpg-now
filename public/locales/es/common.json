@@ -106,7 +106,7 @@
           },
           "step3": {
             "title": "Paso 3: Descargar archivos JPG",
-            "content": "Descarga cada JPG por separado o descarga todo en un archivo ZIP cuando termine el lote. Los archivos HEIC originales permanecen en tu dispositivo."
+            "content": "Cuando termine la conversión, puedes descargar cada JPG por separado o descargar todo en un archivo ZIP. Los resultados se conservan temporalmente en esta página para que puedas volver a descargar o limpiar la lista manualmente. Los datos temporales se eliminan al cerrar la página."
           }
         }
       },
@@ -119,7 +119,7 @@
           },
           "batch": {
             "title": "Convierte lotes grandes de fotos",
-            "content": "Sube docenas o cientos de archivos HEIC y conviértelos de una sola vez. Ideal para viajes, bodas o sesiones con clientes."
+            "content": "Convierte varios archivos de una sola vez y evita hacerlo uno por uno. Es ideal para organizar fotos de viajes o eventos. Para mantener un rendimiento estable, recomendamos hasta 200 archivos por lote, hasta 30 MB por archivo y hasta 1 GB en total."
           },
           "browser": {
             "title": "Funciona en el navegador, sin software",
@@ -234,7 +234,7 @@
         },
         {
           "question": "¿Hay límites de uso o número de archivos?",
-          "answer": "Es totalmente gratis y no hay límites estrictos de uso ni de cantidad de archivos. El límite práctico depende del dispositivo; recomendamos hasta 200 fotos por lote, 30 MB por archivo y 1 GB en total para evitar lentitud por memoria."
+          "answer": "No hay límite en la cantidad de veces que puedes usar la herramienta. No existe un límite rígido de archivos, pero el rendimiento depende de tu dispositivo. Para mantener una experiencia estable, recomendamos hasta 200 fotos por lote, hasta 30 MB por archivo y hasta 1 GB en total."
         },
         {
           "question": "¿Convertir HEIC a JPG reduce la calidad? ¿Se conserva el EXIF?",

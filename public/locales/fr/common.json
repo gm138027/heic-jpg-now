@@ -106,7 +106,7 @@
           },
           "step3": {
             "title": "Étape 3 : Télécharger les fichiers JPG",
-            "content": "Téléchargez chaque JPG individuellement ou récupérez l’ensemble dans un ZIP une fois le lot terminé. Les fichiers HEIC originaux restent sur votre appareil."
+            "content": "Une fois la conversion terminée, vous pouvez télécharger chaque JPG séparément ou tout récupérer dans un ZIP. Les résultats restent temporairement sur cette page, afin de pouvoir retélécharger les fichiers ou vider la liste manuellement. Les données temporaires sont supprimées lorsque vous fermez la page."
           }
         }
       },
@@ -119,7 +119,7 @@
           },
           "batch": {
             "title": "Conversion de lots d’images",
-            "content": "Importez des dizaines ou centaines de fichiers HEIC et convertissez-les en une seule opération. Parfait pour les voyages, mariages ou shootings clients."
+            "content": "Convertissez plusieurs fichiers en une seule fois pour éviter un traitement photo par photo. Pratique pour organiser des photos de voyage ou d’événement. Pour des performances stables, nous recommandons jusqu’à 200 fichiers par lot, 30 Mo maximum par fichier et 1 Go maximum au total."
           },
           "browser": {
             "title": "Basé sur le navigateur, sans logiciel",
@@ -234,7 +234,7 @@
         },
         {
           "question": "Y a-t-il des limites d’utilisation ou de nombre de fichiers ?",
-          "answer": "C’est entièrement gratuit et il n’y a pas de limites strictes d’utilisation ou de quantité de fichiers. La limite pratique dépend de l’appareil ; nous recommandons jusqu’à 200 photos par lot, 30 Mo par fichier et 1 Go au total pour éviter les ralentissements."
+          "answer": "Il n’y a pas de limite sur le nombre d’utilisations. Il n’existe pas de plafond strict pour le nombre de fichiers, mais les performances dépendent de votre appareil. Pour un usage stable, nous recommandons jusqu’à 200 photos par lot, 30 Mo maximum par fichier et 1 Go maximum au total."
         },
         {
           "question": "La conversion HEIC en JPG réduit-elle la qualité ? Les données EXIF sont-elles conservées ?",
