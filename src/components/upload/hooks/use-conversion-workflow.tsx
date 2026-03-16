@@ -24,6 +24,29 @@ function getMaxParallelConversions() {
   return 1;
 }
 
+function createUniqueZipFileName(fileName: string, usedNames: Set<string>) {
+  const normalizedName = fileName.toLowerCase();
+  if (!usedNames.has(normalizedName)) {
+    usedNames.add(normalizedName);
+    return fileName;
+  }
+
+  const dotIndex = fileName.lastIndexOf(".");
+  const baseName = dotIndex > 0 ? fileName.slice(0, dotIndex) : fileName;
+  const extension = dotIndex > 0 ? fileName.slice(dotIndex) : "";
+
+  let suffix = 2;
+  let candidate = `${baseName} (${suffix})${extension}`;
+
+  while (usedNames.has(candidate.toLowerCase())) {
+    suffix += 1;
+    candidate = `${baseName} (${suffix})${extension}`;
+  }
+
+  usedNames.add(candidate.toLowerCase());
+  return candidate;
+}
+
 type ConvertStage = "idle" | "progress" | "packaging" | "ready";
 
 type UseConversionWorkflowOptions = {
@@ -182,9 +205,11 @@ export function useConversionWorkflow({
     try {
       const { default: JSZip } = await import("jszip");
       const zip = new JSZip();
+      const usedZipNames = new Set<string>();
       queueRef.current.forEach((file) => {
         if (file.status === "done" && file.converted?.blob) {
-          zip.file(file.converted.fileName, file.converted.blob);
+          const zipFileName = createUniqueZipFileName(file.converted.fileName, usedZipNames);
+          zip.file(zipFileName, file.converted.blob);
         }
       });
 
