@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "HEIC JPG NOW",
-    "description": "Kostenloser HEIC zu JPG Konverter im Browser für iPhone-Fotos. Wandeln Sie Dateien direkt online ohne Anmeldung oder Download um.",
+    "description": "Kostenloses Online-Tool, um iPhone-Fotos und HEIC-Dateien gesammelt direkt im Browser in JPG / JPEG umzuwandeln. Ohne Installation und ohne Registrierung.",
     "language": {
       "label": "Sprache",
       "ja": "Japanisch",
@@ -79,165 +79,180 @@
     }
   },
   "seo": {
+    "meta": {
+      "title": "HEIC-zu-JPG-Konverter kostenlos | Stapelkonvertierung",
+      "description": "Kostenloses Online-Tool, um iPhone-Fotos und HEIC-Dateien stapelweise direkt im Browser in JPG / JPEG umzuwandeln. Ohne Installation und ohne Registrierung."
+    },
     "h1": {
-      "title": "Kostenloser HEIC zu JPG Konverter online",
-      "subtitle": "Konvertieren Sie iPhone-HEIC-Fotos direkt im Browser in JPG – ohne Download, ohne Konto und stapelfähig."
+      "title": "HEIC-zu-JPG-Konverter | Kostenloses Online-Tool für die Stapelkonvertierung",
+      "subtitle": "Konvertieren Sie HEIC-Dateien direkt im Browser stapelweise in JPG / JPEG. Praktisch, wenn Sie iPhone-Fotos organisieren oder mehrere HEIC-Dateien auf einmal verarbeiten möchten. Kostenlos, ohne Installation und ohne Registrierung."
     },
     "sections": {
       "intro": {
-        "title": "HEIC JPG NOW – HEIC online zu JPG konvertieren",
-        "content": "HEIC JPG NOW ist ein kostenloser Online-Konverter, der HEIC-Fotos vom iPhone, iPad, Windows-, Mac- oder Android-Gerät in universell kompatible JPG-Dateien umwandelt. Öffnen Sie die Seite in einem beliebigen Browser, ziehen Sie Ihre Dateien hinein und starten Sie sofort – ganz ohne Downloads oder Plug-ins.\n\nDer Stapelmodus verarbeitet ganze Reisen oder Shootings: verkleinern Sie Fotos für E-Mails, komprimieren Sie sie für soziale Netzwerke oder öffnen Sie HEIC-Bilder auf Windows 10/11, macOS oder älteren Programmen.\n\nJede Konvertierung läuft lokal im Browser, Ihre Dateien verlassen das Gerät nicht. Nutzen Sie das Tool so oft Sie möchten und beginnen Sie jetzt kostenlos mit HEIC zu JPG."
+        "title": "Was ist HEIC JPG NOW?",
+        "content": "HEIC JPG NOW ist ein Online-Konverter, mit dem sich HEIC-Dateien leichter in JPG / JPEG umwandeln lassen. Je nach Gerät, App oder Dienst können HEIC-Dateien schwieriger zu öffnen, zu teilen oder hochzuladen sein. Und wenn mehrere HEIC-Dateien umgewandelt werden müssen, kostet die Verarbeitung Datei für Datei oft unnötig Zeit. HEIC JPG NOW wurde dafür entwickelt, diese Reibung zu verringern und die Stapelkonvertierung einfacher zu machen."
       },
       "howTo": {
-        "title": "HEIC zu JPG umwandeln – so geht’s",
+        "title": "So können Sie HEIC stapelweise in JPG / JPEG umwandeln",
         "steps": {
           "step1": {
-            "title": "Schritt 1: HEIC-Dateien auswählen",
-            "content": "Klicken Sie auf „Dateien auswählen“ oder ziehen Sie HEIC/HEIF-Fotos in den Upload-Bereich. Mehrere Dateien auf einmal sind möglich."
+            "title": "Schritt 1: HEIC-Dateien hinzufügen",
+            "content": "Sie können „Dateien auswählen“ verwenden oder Dateien per Drag-and-drop hinzufügen. Wenn Sie stapelweise konvertieren möchten, können Sie mehrere HEIC-Dateien auf einmal hinzufügen oder über „Dateien hinzufügen“ weitere Dateien nachladen."
           },
           "step2": {
-            "title": "Schritt 2: Im Browser konvertieren",
-            "content": "Starten Sie die Umwandlung mit einem Klick auf Konvertieren. Alles passiert sofort im Browser – ohne Installation, ohne Wartezeit beim Hochladen."
+            "title": "Schritt 2: Auf „Konvertieren“ klicken",
+            "content": "Nachdem Sie Ihre Dateien ausgewählt haben, klicken Sie auf „Konvertieren“, um HEIC-Dateien in JPG / JPEG umzuwandeln. Während der Umwandlung zeigt ein Fortschrittsbalken an, wie weit der Vorgang bereits ist."
           },
           "step3": {
-            "title": "Schritt 3: JPG-Dateien herunterladen",
-            "content": "Nach der Konvertierung können Sie jedes JPG einzeln herunterladen oder alle Dateien gesammelt als ZIP herunterladen. Die Ergebnisse bleiben vorübergehend auf dieser Seite erhalten, sodass Sie erneut herunterladen oder die Liste manuell leeren können. Beim Schließen der Seite werden die temporären Daten gelöscht."
+            "title": "Schritt 3: Konvertierte Dateien herunterladen",
+            "content": "Nach Abschluss der Umwandlung können Sie die Dateien einzeln mit „Herunterladen“ speichern oder alles auf einmal über „Alles herunterladen“ beziehen. Wenn Sie weitere Dateien umwandeln möchten, nutzen Sie „Mehr konvertieren“."
           }
         }
       },
       "features": {
-        "title": "Warum einen kostenlosen HEIC zu JPG Konverter wählen",
+        "title": "Die wichtigsten Funktionen dieses HEIC-zu-JPG-Konverters",
         "list": {
-          "free": {
-            "title": "Komplett kostenlos, jederzeit nutzbar",
-            "content": "Konvertieren Sie HEIC/HEIF-Bilder kostenlos und ohne versteckte Kosten. Ein Konto ist nicht erforderlich. Für eine stabile Nutzung empfehlen wir bis zu 200 Dateien pro Batch, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
-          },
           "batch": {
-            "title": "Stapelkonvertierung für große Foto-Sets",
-            "content": "Konvertieren Sie mehrere Dateien in einem Durchgang und sparen Sie sich die Einzelverarbeitung. Ideal für Fotosammlungen aus Reisen oder Events. Für eine stabile Nutzung empfehlen wir bis zu 200 Dateien pro Batch, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
+            "title": "Mehrere HEIC-Dateien stapelweise umwandeln",
+            "content": "Statt Dateien einzeln zu verarbeiten, können Sie mehrere HEIC-Dateien in einem einzigen Durchgang in JPG / JPEG umwandeln."
+          },
+          "free": {
+            "title": "Kostenlos nutzbar",
+            "content": "Sie können die Funktionen zur HEIC-zu-JPG- / JPEG-Umwandlung sofort kostenlos nutzen."
           },
           "browser": {
-            "title": "Im Browser, ohne Software",
-            "content": "Alles läuft in Chrome, Safari, Edge oder Firefox. Kein Installieren oder Aktualisieren von Desktop-Programmen nötig."
+            "title": "Keine Installation erforderlich",
+            "content": "Nutzen Sie das Tool direkt im Browser, ohne zusätzliche Software oder Plug-ins zu installieren."
           },
           "devices": {
-            "title": "Funktioniert auf jedem Gerät",
-            "content": "iPhone, iPad, Android, Windows-PCs und Macs funktionieren sofort. Starten Sie die Konvertierung von jedem Gerät und laden Sie die JPGs herunter, wo immer Sie sind."
+            "title": "Keine Registrierung erforderlich",
+            "content": "Fügen Sie Ihre HEIC-Dateien hinzu und starten Sie die Umwandlung, ohne ein Konto anzulegen oder sich anzumelden."
           },
           "privacy": {
-            "title": "Datenschutz an erster Stelle",
-            "content": "Dateien verlassen den Browser nicht und werden nicht auf unsere Server hochgeladen. Nach dem Schließen der Seite bleibt nichts gespeichert."
+            "title": "Umwandlung direkt im Browser",
+            "content": "Die Umwandlung läuft direkt im Browser, sodass Bilder verarbeitet werden können, ohne sie an einen Server zu senden."
+          }
+        }
+      },
+      "whyChoose": {
+        "title": "Warum diesen HEIC-zu-JPG-Konverter wählen?",
+        "list": {
+          "stable": {
+            "title": "Stapelverarbeitung bricht unterwegs seltener ab",
+            "content": "Auch wenn mehrere Dateien auf einmal verarbeitet werden, bleibt der Ablauf eher stabil und lässt sich leichter bis zum Ende fortsetzen."
           },
-          "quality": {
-            "title": "Schnelle Ergebnisse in hoher Qualität",
-            "content": "Schnelle, hochwertige Konvertierung mit minimalem Qualitätsverlust. EXIF-Daten (Aufnahmedatum, Standort usw.) bleiben nach Möglichkeit erhalten, eine vollständige Übernahme kann im Browser jedoch nicht garantiert werden."
+          "continueAfterFailure": {
+            "title": "Eine fehlgeschlagene Datei bedeutet nicht, dass alles neu gestartet werden muss",
+            "content": "Wenn eine Datei nicht umgewandelt werden kann, muss der gesamte Stapel in der Regel nicht von vorn begonnen werden."
+          },
+          "zipNames": {
+            "title": "Gleichnamige Dateien lassen sich nach dem Download leichter unterscheiden",
+            "content": "Auch wenn mehrere Dateien denselben Namen tragen, bleiben sie im ZIP unterscheidbar, was das spätere Sortieren erleichtert."
+          },
+          "lessManualWork": {
+            "title": "Von der Umwandlung bis zum Download bleibt der Ablauf leichter in einem Zug",
+            "content": "Weil der Ablauf seltener unterbrochen wird, seltener komplett neu gestartet werden muss und die Dateien nach dem Download besser unterscheidbar bleiben, lässt sich der Weg von der Umwandlung bis zum Download leichter in einem Zug abschließen."
           }
         }
       },
       "useCases": {
-        "title": "Wie ein HEIC zu JPG Konverter hilft",
+        "title": "Typische Situationen, in denen eine Umwandlung von HEIC in JPG sinnvoll ist",
         "list": {
           "devices": {
-            "title": "iPhone-Fotos überall anzeigen",
-            "content": "Konvertieren Sie HEIC-Bilder, damit Freunde, Kunden oder Kollegen auf Windows oder Android sie ohne Zusatzsoftware öffnen können."
+            "title": "Wenn Sie mehrere HEIC-Dateien auf einmal organisieren möchten",
+            "content": "Praktisch, wenn Sie mehrere HEIC-Dateien in einem Schritt in JPG umwandeln möchten, zum Beispiel für Reisefotos, Arbeitsmaterialien oder iPhone-Fotos."
           },
           "social": {
-            "title": "Per E-Mail oder Social Media teilen",
-            "content": "JPG-Dateien lassen sich problemlos zu Instagram, Facebook, Twitter oder Messenger-Apps hochladen und sind ideal für E-Mail-Anhänge."
+            "title": "Wenn sich HEIC-Dateien unter Windows leichter öffnen lassen sollen",
+            "content": "Wenn HEIC-Dateien unter Windows weniger praktisch sind, kann die Umwandlung in JPG das Öffnen und Teilen erleichtern."
           },
           "compatibility": {
-            "title": "Kompatibilitätsprobleme lösen",
-            "content": "Ältere Rechner, Bildbearbeiter und CMS können HEIC oft nicht lesen. Eine Umwandlung in JPG beseitigt diese Einschränkungen sofort."
+            "title": "Wenn Sie iPhone-Fotos teilen möchten",
+            "content": "Wenn iPhone-Fotos im HEIC-Format unverändert weitergegeben werden, kann das Öffnen auf der anderen Seite schwieriger sein. Als JPG lassen sie sich leichter teilen."
           },
           "web": {
-            "title": "HEIC-Bilder auf Webseiten verwenden",
-            "content": "Müssen Sie ein Bild zu WordPress, Wix oder Shopify hochladen? Wandeln Sie es zunächst in JPG um, damit jeder Browser es korrekt darstellt. Das erleichtert außerdem den täglichen Betrieb Ihrer Website."
+            "title": "Wenn Bilder auf eine Website hochgeladen werden sollen",
+            "content": "Wenn ein Formular, ein CMS oder eine Website keine HEIC-Dateien akzeptiert, kann eine vorherige Umwandlung in JPG das Hochladen erleichtern."
           },
           "windows": {
-            "title": "HEIC unter Windows 10/11 öffnen",
-            "content": "Wandeln Sie Dateien vor dem Import in die Windows-Fotos-App, Office-Dokumente oder Desktop-Programme in JPG um."
-          },
-          "iphoneBatch": {
-            "title": "iPhone-Alben im Stapel teilen",
-            "content": "Konvertieren Sie komplette Aufnahmerollen in JPG, bevor Sie sie an Familie, Kunden oder die Cloud schicken, damit alle Geräte die Dateien öffnen können."
+            "title": "Wenn Dateien an Android oder andere Geräte gesendet werden sollen",
+            "content": "Wenn Dateien ohne Rücksicht auf Unterschiede zwischen Geräten geteilt werden sollen, kann die Umwandlung in JPG die weitere Nutzung erleichtern."
           }
         }
       },
-      "about": {
-        "title": "Was ist HEIC und warum zu JPG konvertieren?",
-        "heicFormat": {
-          "title": "Das HEIC-Format verstehen",
-          "content": "HEIC (High Efficiency Image Container) ist seit iOS 11 das Standardfotoformat von Apple. Es komprimiert besser als JPEG und behält dabei Qualität und Metadaten."
-        },
-        "prosAndCons": {
-          "title": "Vorteile und Nachteile von HEIC",
-          "pros": {
-            "title": "Vorteile",
-            "items": [
-              "Kleinere Dateien bei gleicher Qualität wie JPEG",
-              "Bessere Detailwiedergabe",
-              "Unterstützt Transparenz ähnlich wie PNG",
-              "Bis zu 16-Bit Farbtiefe für weichere Verläufe"
-            ]
+      "bulkTips": {
+        "title": "Tipps für die stapelweise Umwandlung großer HEIC-Mengen",
+        "intro": "Wenn Sie große Mengen an HEIC-Dateien stapelweise umwandeln, kann es helfen, den Umfang an Gerät und Dateigröße anzupassen, damit der Ablauf stabiler bleibt.",
+        "list": {
+          "desktop": {
+            "title": "Für größere Mengen ist ein Computer meist besser geeignet",
+            "content": "Im Vergleich zu einem Smartphone ist ein Computer oft besser dafür geeignet, größere HEIC-Stapel flüssiger zu verarbeiten."
           },
-          "cons": {
-            "title": "Nachteile",
-            "items": [
-              "Begrenzte Unterstützung außerhalb des Apple-Ökosystems",
-              "Ältere Windows- und Android-Geräte öffnen HEIC nicht standardmäßig",
-              "Viele CMS und soziale Netzwerke akzeptieren keine .heic-Uploads",
-              "Für Drucken, Bearbeitung oder Teilen ist oft eine Konvertierung nötig"
-            ]
+          "time": {
+            "title": "Mehr Dateien bedeuten oft mehr Zeit für Umwandlung und Download",
+            "content": "Mit steigender Dateianzahl können sowohl die Umwandlung als auch der gebündelte ZIP-Download mehr Zeit in Anspruch nehmen."
+          },
+          "split": {
+            "title": "Arbeiten Sie in für Ihr Gerät gut handhabbaren Stapeln",
+            "content": "Es gibt keine feste Obergrenze für die Dateianzahl. Wenn Sie jedoch viele oder größere Dateien verarbeiten, kann es stabiler sein, sie in für Ihr Gerät passende Stapel aufzuteilen."
+          },
+          "exif": {
+            "title": "Wenn EXIF vollständig erhalten bleiben muss, kann ein spezialisiertes lokales Tool besser passen",
+            "content": "Dieses Tool verarbeitet EXIF, soweit es möglich ist. Wenn eine vollständige Erhaltung unbedingt nötig ist, ist ein spezialisiertes lokales Tool meist die bessere Wahl."
           }
-        },
-        "jpgBenefits": {
-          "title": "Vorteile von JPG",
-          "items": [
-            "Universelle Kompatibilität auf Geräten, Apps und Browsern",
-            "Perfekt für E-Mails, soziale Netzwerke und Online-Galerien",
-            "Keine Plug-ins auf älteren Betriebssystemen nötig",
-            "Funktioniert mit allen gängigen Website-Baukästen und CMS",
-            "Optimierte Dateien beschleunigen Uploads",
-            "Sicherer im geschäftlichen Austausch mit Kunden und Partnern",
-            "Leicht langfristig zu archivieren, da JPG ein offener Standard ist"
-          ]
         }
       }
     },
     "faq": {
-      "title": "FAQ: HEIC zu JPG",
+      "title": "Häufige Fragen zur Umwandlung von HEIC in JPG",
       "items": [
         {
-          "question": "Wie funktioniert eine HEIC-JPG-Konvertierung?",
-          "answer": "Ziehen Sie die Dateien in den Konvertierungsbereich der Startseite und klicken Sie auf „Konvertieren“. Die Umwandlung läuft online im Browser ohne Installation. Danach können Sie alles als ZIP herunterladen oder die Dateien einzeln speichern. Ihre Fotos werden nicht an einen Server gesendet."
+          "question": "Wie kann ich HEIC in JPG / JPEG umwandeln?",
+          "answer": "Fügen Sie Ihre HEIC-Dateien hinzu, starten Sie die Umwandlung und laden Sie anschließend die JPG- / JPEG-Dateien herunter."
         },
         {
-          "question": "Kann ich HEIC auf dem iPhone stapelweise konvertieren?",
-          "answer": "Ja. Sie können mehrere Dateien auf einmal (Stapel/Batch) konvertieren. Es funktioniert in Browsern auf iOS/Android-Smartphones und -Tablets sowie auf Mac/Windows. Für eine stabile Nutzung empfehlen wir bis zu 200 Fotos pro Batch; bei vielen Fotos auf dem iPhone teilen Sie die Umwandlung am besten in mehrere Stapel."
+          "question": "Kann man HEIC-Dateien stapelweise in JPG umwandeln?",
+          "answer": "Ja. Sie können mehrere HEIC-Dateien hinzufügen und sie in einem einzigen Durchgang in JPG / JPEG umwandeln."
         },
         {
-          "question": "Unterstützt ihr HEIF? Was ist der Unterschied zwischen JPG und JPEG?",
-          "answer": "Ja, HEIF/HEIC werden unterstützt. JPG und JPEG sind dasselbe Format: JPEG ist der offizielle Name, JPG die gängige Dateiendung. Sie können es auch für HEIC-zu-JPEG-Konvertierungen nutzen."
+          "question": "Kann man HEIC in JPEG umwandeln?",
+          "answer": "Ja. HEIC-Dateien lassen sich in ein besser nutzbares JPG- / JPEG-Format umwandeln. JPG und JPEG bezeichnen dasselbe Bildformat."
         },
         {
-          "question": "Wie konvertiere ich HEIC in JPEG auf dem iPhone?",
-          "answer": "Öffnen Sie das Tool im iPhone-Browser, wählen Sie die Fotos aus und folgen Sie den Schritten. Keine App-Installation, keine Registrierung."
+          "question": "Wie kann ich HEIC unter Windows 10/11 in JPEG umwandeln?",
+          "answer": "Fügen Sie Ihre HEIC-Dateien hinzu und wandeln Sie sie in JPG / JPEG um. Wenn HEIC-Dateien unter Windows weniger praktisch sind, kann die Umwandlung das Öffnen erleichtern."
         },
         {
-          "question": "Ist es sicher, HEIC online in JPG zu konvertieren?",
-          "answer": "Ja. Die Konvertierung passiert im Browser und die Dateien werden nicht an einen Server gesendet."
+          "question": "Lassen sich auch iPhone-Fotos umwandeln?",
+          "answer": "Ja. Auch HEIC-Fotos, die mit einem iPhone aufgenommen wurden, lassen sich direkt im Browser umwandeln."
         },
         {
-          "question": "Gibt es Nutzungs- oder Dateilimits?",
-          "answer": "Die Nutzungshäufigkeit ist nicht begrenzt. Es gibt keine harte Obergrenze für die Dateianzahl, die praktische Leistung hängt jedoch von Ihrem Gerät ab. Für stabile Ergebnisse empfehlen wir bis zu 200 Fotos pro Batch, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
+          "question": "Ist das kostenlos? Muss ich etwas installieren oder ein Konto anlegen?",
+          "answer": "Ja, das Tool ist kostenlos. Es ist weder eine Installation noch eine Registrierung erforderlich, und Sie können direkt im Browser starten."
         },
         {
-          "question": "Verringert die HEIC-zu-JPG-Konvertierung die Qualität? Bleiben EXIF-Daten erhalten?",
-          "answer": "Qualitätsverluste sind in der Regel minimal und kaum sichtbar. EXIF wird nach Möglichkeit erhalten, aber eine Browser-Konvertierung kann keine 100%ige Garantie geben."
+          "question": "Gibt es eine Begrenzung für die Anzahl der Dateien?",
+          "answer": "Es gibt keine feste Begrenzung für die Dateianzahl. Wie viele Dateien Ihr Gerät bequem verarbeiten kann, hängt jedoch von der Leistung des Geräts und von der Dateigröße ab. Für eine stabilere Nutzung empfehlen wir bis zu 200 Dateien pro Stapel, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
         },
         {
-          "question": "Was ist der einfachste Weg für eine HEIC-JPG-Konvertierung unter Windows 10/11?",
-          "answer": "Öffnen Sie HEIC JPG NOW (heicjpgnow.com), ziehen Sie die Dateien hinein und klicken Sie auf „Konvertieren“. Keine Installation, keine Registrierung, keine versteckten Kosten, und der Download ist sofort verfügbar."
+          "question": "Was passiert, wenn eine Datei fehlschlägt?",
+          "answer": "Wenn eine Datei nicht umgewandelt werden kann, kann der Rest des Stapels in der Regel weiterverarbeitet werden, ohne dass alles neu gestartet werden muss."
+        },
+        {
+          "question": "Warum lassen sich manche HEIC-Dateien leichter umwandeln als andere?",
+          "answer": "Auch wenn alle Dateien die Endung HEIC tragen, kann sich ihre innere Struktur je nach Herkunft und Speicherweise unterscheiden. Deshalb lassen sich manche Dateien leichter umwandeln als andere. Dieses Tool verarbeitet Dateien im Rahmen dessen, was es unterstützen kann, doch manche Dateien können trotzdem fehlschlagen. Selbst dann wird der restliche Stapel seltener unterbrochen."
+        },
+        {
+          "question": "Werden Dateien mit demselben Namen überschrieben?",
+          "answer": "Nein. Auch bei einem Stapel-Download bleiben Dateien mit demselben Namen unterscheidbar."
+        },
+        {
+          "question": "Bleiben EXIF-Daten erhalten?",
+          "answer": "Dieses Tool verarbeitet EXIF, soweit es möglich ist, garantiert aber keine vollständige Erhaltung. Wenn EXIF vollständig erhalten bleiben muss, kann ein spezialisiertes lokales Tool besser passen."
+        },
+        {
+          "question": "Kann man HEIF in JPEG umwandeln?",
+          "answer": "Ja. HEIF- / HEIC-Dateien werden unterstützt und lassen sich in ein besser nutzbares JPG- / JPEG-Format umwandeln."
         }
       ]
     }

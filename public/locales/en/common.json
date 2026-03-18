@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "HEIC JPG NOW",
-    "description": "Free online HEIC to JPG converter for iPhone photos. Convert directly in your browser with no sign up or download.",
+    "description": "Free online tool to batch convert iPhone photos and HEIC files to JPG / JPEG directly in your browser. No sign-up or installation required.",
     "language": {
       "label": "Language",
       "ja": "Japanese",
@@ -79,165 +79,180 @@
     }
   },
   "seo": {
+    "meta": {
+      "title": "HEIC to JPG Converter | Free Online Tool for Batch Conversion",
+      "description": "Free online tool for batch converting iPhone photos and multiple HEIC files to JPG / JPEG in your browser. No installation or sign-up required."
+    },
     "h1": {
-      "title": "Free Online HEIC to JPG Converter",
-      "subtitle": "Convert iPhone HEIC photos to JPG right in your browser—no downloads, no account, batch ready."
+      "title": "HEIC to JPG Converter | Free Online Tool for Batch Conversion",
+      "subtitle": "Batch convert HEIC files to JPG / JPEG right in your browser. Useful for organizing iPhone photos or handling multiple HEIC files at once. Free to use, with no installation or sign-up required."
     },
     "sections": {
       "intro": {
-        "title": "HEIC JPG NOW - Free HEIC to JPG Converter",
-        "content": "HEIC JPG NOW is a free online converter that turns HEIC photos from iPhone, iPad, Windows, Mac, or Android into universally compatible JPG files. Open the site in any browser, drag your photos, and start converting instantly—no downloads or plug-ins.\n\nBatch mode handles entire trips or events at once, making it easy to resize photos for email, compress for social media, or open HEIC images on Windows 10/11, macOS, or older apps.\n\nEvery conversion runs locally inside your browser, so your files never leave your device. Use it as often as you like and start converting HEIC to JPG for free right now."
+        "title": "What Is HEIC JPG NOW?",
+        "content": "HEIC JPG NOW is an online HEIC to JPG converter built to make HEIC files easier to work with. Depending on the device, app, or service you use, HEIC files can be harder to open, share, or upload. When you need to convert multiple HEIC files, doing them one by one can also slow the whole task down. HEIC JPG NOW is designed to reduce that friction and make batch conversion easier to manage."
       },
       "howTo": {
-        "title": "How to convert HEIC to JPG online",
+        "title": "How to Batch Convert HEIC to JPG / JPEG",
         "steps": {
           "step1": {
-            "title": "Step 1: Upload HEIC files",
-            "content": "Click ‘Choose Files’ or drag HEIC/HEIF photos into the drop zone. You can add multiple files at once."
+            "title": "Step 1: Add your HEIC files",
+            "content": "Use \"Choose Files\" or drag and drop to add HEIC files. If you want to batch convert, you can add multiple files at once or keep adding more with \"Add Files.\""
           },
           "step2": {
-            "title": "Step 2: Convert inside the browser",
-            "content": "Hit Convert to start processing. Conversion happens immediately in the browser, so there’s nothing to install and no waiting for uploads."
+            "title": "Step 2: Click Convert",
+            "content": "After selecting your files, click \"Convert\" to turn HEIC files into JPG / JPEG. A progress bar helps you see how the conversion is moving along."
           },
           "step3": {
-            "title": "Step 3: Download JPG files",
-            "content": "After conversion, you can download each JPG individually or download everything as a ZIP. Results are kept temporarily on this page, so you can download again or clear the list manually. Temporary data is cleared when you close the page."
+            "title": "Step 3: Download the converted files",
+            "content": "Once conversion is complete, you can download files one by one with \"Download\" or get everything at once with \"Download All.\" If you want to continue with another batch, click \"Convert More.\""
           }
         }
       },
       "features": {
-        "title": "Why choose a free HEIC to JPG converter",
+        "title": "Key Features of This HEIC to JPG Converter",
         "list": {
           "free": {
-            "title": "Completely free, available anytime",
-            "content": "Convert HEIC/HEIF images for free with no hidden charges. No account is required. For stable performance, we recommend up to 200 files per batch, up to 30MB per file, and up to 1GB total."
+            "title": "Free to use",
+            "content": "Start using the HEIC to JPG / JPEG conversion features for free right away."
           },
           "batch": {
-            "title": "Batch convert large photo sets",
-            "content": "Convert multiple files in one run so you don't need to process photos one by one. It's ideal for travel or event photo sets. For stable performance, we recommend up to 200 files per batch, up to 30MB per file, and up to 1GB total."
+            "title": "Batch convert multiple HEIC files",
+            "content": "Convert multiple HEIC files to JPG / JPEG in one go instead of handling them one by one."
           },
           "browser": {
-            "title": "Browser-based, no software",
-            "content": "Everything runs in Chrome, Safari, Edge, or Firefox. You never have to install or update a desktop app."
+            "title": "No installation required",
+            "content": "Use it directly in your browser without installing software or plug-ins."
           },
           "devices": {
-            "title": "Works on every device",
-            "content": "iPhone, iPad, Android, Windows PCs, and Macs all work out of the box. Start a conversion from any device and download the JPGs wherever you are."
+            "title": "No sign-up required",
+            "content": "Add your HEIC files and start converting without creating an account or logging in."
           },
           "privacy": {
-            "title": "Privacy-first by design",
-            "content": "Files never leave your browser and are not uploaded to our servers. Nothing is stored once you close the page."
+            "title": "Convert in your browser",
+            "content": "The conversion runs in your browser, so you can process images without sending them to a server."
+          }
+        }
+      },
+      "whyChoose": {
+        "title": "Why Choose This HEIC to JPG Converter?",
+        "list": {
+          "stable": {
+            "title": "Less likely to stop in the middle of a batch",
+            "content": "Even when you process multiple files at once, the batch is less likely to stall and easier to keep moving."
           },
-          "quality": {
-            "title": "Fast, high-quality output",
-            "content": "Fast, high-quality conversion with minimal visible loss. EXIF data (date, location, etc.) is preserved when possible, but browser-based conversion cannot guarantee complete retention."
+          "continueAfterFailure": {
+            "title": "A failed file is less likely to force a full restart",
+            "content": "If one file cannot be converted, you are less likely to have to start the whole batch over from the beginning."
+          },
+          "zipNames": {
+            "title": "Easier to tell files apart after a batch download",
+            "content": "Even when files share the same name, they stay distinguishable in the ZIP, which makes the results easier to sort after download."
+          },
+          "lessManualWork": {
+            "title": "Easier to keep the whole batch moving through to download",
+            "content": "With fewer interruptions, fewer full restarts, and clearer file names after download, it is easier to move from conversion through download in one flow."
           }
         }
       },
       "useCases": {
-        "title": "How a HEIC to JPG converter helps",
+        "title": "Common Situations Where You May Need to Convert HEIC to JPG",
         "list": {
           "devices": {
-            "title": "View iPhone photos anywhere",
-            "content": "Convert HEIC photos so friends, clients, or coworkers on Windows or Android can open them without special software."
+            "title": "When you want to organize multiple HEIC files at once",
+            "content": "Useful when you want to turn multiple HEIC files into JPG at once, such as for travel photos, work assets, or organizing iPhone pictures."
           },
           "social": {
-            "title": "Share on email or social media",
-            "content": "JPG files upload flawlessly to Instagram, Facebook, Twitter, and messaging apps. They’re also the safest choice for email attachments."
+            "title": "When you need HEIC files to open more easily on Windows",
+            "content": "If HEIC files are harder to use on Windows, converting them to JPG can make viewing and sharing easier."
           },
           "compatibility": {
-            "title": "Fix compatibility issues",
-            "content": "Older computers, photo editors, and CMS platforms often can’t read HEIC. Converting to JPG solves those problems instantly."
+            "title": "When you want to share iPhone photos",
+            "content": "If you send iPhone HEIC photos as they are, the other person may have trouble opening them. Converting them to JPG makes sharing easier."
           },
           "web": {
-            "title": "Use HEIC images on websites",
-            "content": "Need to upload an image to WordPress, Wix, or Shopify? Convert it to JPG first so every browser renders it correctly. It also makes day-to-day site management easier."
+            "title": "When you need to upload images to a website",
+            "content": "If a form, CMS, or website does not accept HEIC files, converting them to JPG first can make uploading easier."
           },
           "windows": {
-            "title": "Open HEIC on Windows 10/11",
-            "content": "Turn HEIC files into JPG before importing into the Windows Photos app, Office documents, or desktop software."
-          },
-          "iphoneBatch": {
-            "title": "Batch share iPhone photo sets",
-            "content": "Convert entire camera rolls to JPG before sending to family, clients, or cloud storage so everyone can open the files without issues."
+            "title": "When you want to send files to Android or other devices",
+            "content": "If you want to share files without worrying about device differences, converting them to JPG can make them easier to handle."
           }
         }
       },
-      "about": {
-        "title": "What is HEIC and why convert it to JPG?",
-        "heicFormat": {
-          "title": "Understanding the HEIC format",
-          "content": "HEIC (High Efficiency Image Container) is Apple’s default photo format starting with iOS 11. It compresses images better than JPEG while preserving quality and metadata."
-        },
-        "prosAndCons": {
-          "title": "HEIC advantages and drawbacks",
-          "pros": {
-            "title": "Advantages",
-            "items": [
-              "Smaller file sizes than JPEG with equivalent quality",
-              "Better preservation of fine detail",
-              "Supports transparency similar to PNG",
-              "Up to 16-bit color depth for richer gradients"
-            ]
+      "bulkTips": {
+        "title": "Tips for Batch Converting Large Numbers of HEIC Files",
+        "intro": "When you batch convert a large number of HEIC files, matching the workload to your device and file sizes can help the process stay more stable.",
+        "list": {
+          "desktop": {
+            "title": "A computer is usually better for larger batches",
+            "content": "Compared with a phone, a computer is often better suited to moving through larger HEIC batches more smoothly."
           },
-          "cons": {
-            "title": "Drawbacks",
-            "items": [
-              "Limited support outside Apple’s ecosystem",
-              "Older Windows and Android devices can’t open HEIC by default",
-              "Many CMS tools and social platforms don’t accept .heic uploads",
-              "Needs conversion for printing, editing, or sharing in most workflows"
-            ]
+          "time": {
+            "title": "More files can mean longer conversion and download times",
+            "content": "As the number of files grows, conversion and ZIP downloads can take more time."
+          },
+          "split": {
+            "title": "Process files in manageable batch sizes for your device",
+            "content": "There is no fixed file-count limit, but if you are working with many files or larger file sizes, splitting them into manageable batches for your device can help the process stay more stable."
+          },
+          "exif": {
+            "title": "If you need complete EXIF retention, a dedicated local tool may be a better fit",
+            "content": "This tool handles EXIF where possible, but if complete retention is essential, a dedicated local tool may be the better option."
           }
-        },
-        "jpgBenefits": {
-          "title": "Why export to JPG",
-          "items": [
-            "Universal compatibility across devices, apps, and browsers",
-            "Ideal for emailing, social media, and online galleries",
-            "No plug-ins needed on older operating systems",
-            "Works with every major website builder and CMS",
-            "Smaller, optimized files improve upload speeds",
-            "Safer for business sharing with clients and partners",
-            "Long-term archival is easier because JPG is an open standard"
-          ]
         }
       }
     },
     "faq": {
-      "title": "HEIC to JPG FAQs",
+      "title": "Frequently Asked Questions About HEIC to JPG Conversion",
       "items": [
         {
-          "question": "How do I do a HEIC to JPG conversion?",
-          "answer": "Just drag files into the conversion area on the homepage and click Convert. It's a browser-based, no-install conversion. When it's done, you can download a ZIP in one click or save files one by one. Your photos are never sent to a server."
+          "question": "How do I convert HEIC to JPG / JPEG?",
+          "answer": "Add your HEIC files and run the conversion, then download the JPG / JPEG files."
         },
         {
-          "question": "Can I batch convert HEIC files on iPhone?",
-          "answer": "Yes. You can convert multiple files at once (batch). It works in browsers on iOS/Android phones and tablets, as well as Mac/Windows. For smoother performance, we recommend keeping each batch under 200 photos; if you have a lot of photos on iPhone, split them into smaller batches."
+          "question": "Can I batch convert HEIC to JPG?",
+          "answer": "Yes. You can add multiple HEIC files and convert them to JPG / JPEG in one batch."
         },
         {
-          "question": "Do you support HEIF? What's the difference between JPG and JPEG?",
-          "answer": "Yes, HEIF/HEIC are supported. JPG and JPEG are the same format: JPEG is the official name, while JPG is the common file extension. You can also use it for HEIC to JPEG conversions."
+          "question": "Can I convert HEIC to JPEG?",
+          "answer": "Yes. HEIC files can be converted into a more widely usable JPG / JPEG format. JPG and JPEG are the same image format."
         },
         {
-          "question": "How do I convert HEIC to JPEG on iPhone?",
-          "answer": "Open the tool in your iPhone browser, select your photos, and follow the steps. No app install and no sign-up required."
+          "question": "How do I convert HEIC to JPEG on Windows 10/11?",
+          "answer": "Add your HEIC files and convert them to JPG / JPEG. If HEIC files are harder to use on Windows, converting them first can make them easier to open."
         },
         {
-          "question": "Is it safe to convert HEIC to JPG online?",
-          "answer": "Yes. Conversion happens in your browser, and files are never sent to a server."
+          "question": "Can I convert iPhone photos too?",
+          "answer": "Yes. HEIC photos taken on iPhone can also be converted directly in your browser."
         },
         {
-          "question": "Are there limits on usage or number of files?",
-          "answer": "There is no limit on how many times you can use the tool. There is no hard cap on file count, but performance depends on your device. For stable results, we recommend up to 200 photos per batch, up to 30MB per file, and up to 1GB total."
+          "question": "Is it free? Do I need to install anything or sign up?",
+          "answer": "It is free to use. No installation or sign-up is required, and you can start in your browser right away."
         },
         {
-          "question": "Will HEIC to JPG reduce image quality? Is EXIF preserved?",
-          "answer": "Quality loss is usually minimal and hard to notice. We preserve EXIF when possible, but browser-based conversion can't guarantee 100% retention."
+          "question": "Is there a limit on the number of files?",
+          "answer": "There is no fixed file-count limit. However, how many files your device can handle comfortably depends on device performance and file size. For more stable use, we recommend up to 200 files per batch, up to 30MB per file, and up to 1GB total."
         },
         {
-          "question": "What's the easiest way to do a HEIC JPG conversion on Windows 10/11?",
-          "answer": "Open HEIC JPG NOW (heicjpgnow.com), drag in your files, and click Convert. No installs, no sign-ups, no hidden fees, and you can download right away."
+          "question": "What happens if one file fails?",
+          "answer": "If one file cannot be converted, the rest of the files can usually keep processing without forcing you to restart the whole batch."
+        },
+        {
+          "question": "Why do some HEIC files convert more easily than others?",
+          "answer": "Even when files all use the HEIC extension, their internal structure can vary depending on where they came from and how they were saved. As a result, some files are easier to convert than others. This tool processes files within the range it can support, but some files may still fail. Even in those cases, the rest of the batch is less likely to be interrupted."
+        },
+        {
+          "question": "Will files with the same name overwrite each other?",
+          "answer": "No. Even in a batch download, files with the same name are kept distinguishable."
+        },
+        {
+          "question": "Is EXIF preserved?",
+          "answer": "This tool handles EXIF where possible, but complete retention is not guaranteed. If full EXIF retention is essential, a dedicated local tool may be a better fit."
+        },
+        {
+          "question": "Can I convert HEIF to JPEG?",
+          "answer": "Yes. HEIF / HEIC files are supported and can be converted into a more widely usable JPG / JPEG format."
         }
       ]
     }

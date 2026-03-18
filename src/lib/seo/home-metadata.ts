@@ -20,9 +20,13 @@ function buildTitle(baseTitle: string, siteName: string) {
 
 export function buildHomeMetadata(locale: Locale, dictionary: AppDictionary): Metadata {
   const siteName = dictionary.common.site?.name || "HEIC JPG Now";
-  const title = buildTitle(dictionary.common.seo?.h1?.title || siteName, siteName);
+  const meta = dictionary.common.seo?.meta;
+  const title = buildTitle(meta?.title || dictionary.common.seo?.h1?.title || siteName, siteName);
   const description =
-    dictionary.common.seo?.h1?.subtitle || dictionary.common.site?.description || "";
+    meta?.description ||
+    dictionary.common.seo?.h1?.subtitle ||
+    dictionary.common.site?.description ||
+    "";
   const path = locale === defaultLocale ? "" : `/${locale}`;
   const pageUrl = getAbsoluteUrl(path);
 
