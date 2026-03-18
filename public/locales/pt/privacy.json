@@ -1,30 +1,30 @@
 {
   "hero": {
     "title": "Política de Privacidade",
-    "description": "Obrigado por utilizar o HEIC JPG NOW. Valorizamos a sua privacidade e explicamos de forma clara que dados tratamos, por que motivo os usamos e que opções tem.",
+    "description": "Obrigado por usar o HEIC JPG NOW. Valorizamos sua privacidade e explicamos de forma clara quais dados tratamos, por que os usamos e quais opções você tem.",
     "updated": "Última atualização: 9 de março de 2026"
   },
   "tocTitle": "Conteúdo",
   "toc": [
     {
       "id": "privacy-section-1",
-      "label": "1. Informações que não recolhemos"
+      "label": "1. Informações que não coletamos"
     },
     {
       "id": "privacy-section-2",
-      "label": "2. Informações que recolhemos"
+      "label": "2. Informações que coletamos"
     },
     {
       "id": "privacy-section-3",
-      "label": "3. Como utilizamos as informações"
+      "label": "3. Como usamos suas informações"
     },
     {
       "id": "privacy-section-4",
-      "label": "4. Serviços de terceiros que utilizamos"
+      "label": "4. Serviços de terceiros que usamos"
     },
     {
       "id": "privacy-section-5",
-      "label": "5. Os seus direitos"
+      "label": "5. Seus direitos"
     },
     {
       "id": "privacy-section-6",
@@ -33,75 +33,75 @@
   ],
   "sections": [
     {
-      "title": "1. Informações que não recolhemos",
+      "title": "1. Informações que não coletamos",
       "body": [
-        "A conversão de HEIC para JPG é executada no seu navegador. Os seus ficheiros de imagem não são enviados para os nossos servidores nem por nós armazenados."
+        "A conversão de HEIC para JPG é executada no seu navegador. Seus arquivos de imagem não são enviados aos nossos servidores nem armazenados por nós."
       ],
       "list": [
-        "Pode usar a nossa ferramenta sem criar conta e sem enviar dados pessoais.",
-        "Não armazenamos os seus ficheiros de imagem nos nossos servidores, nem antes nem depois da conversão."
+        "Você pode usar nossa ferramenta sem criar conta e sem enviar dados pessoais.",
+        "Não armazenamos seus arquivos de imagem em nossos servidores, nem antes nem depois da conversão."
       ]
     },
     {
-      "title": "2. Informações que recolhemos",
+      "title": "2. Informações que coletamos",
       "body": [
-        "Para manter o serviço estável e continuar a melhorá-lo, podemos recolher as seguintes informações, de forma limitada."
+        "Para manter o serviço estável e continuar melhorando-o, podemos coletar as seguintes informações de forma limitada."
       ],
       "list": [
-        "Informações de análise (por exemplo, páginas vistas, utilização de funcionalidades e dados do dispositivo/navegador).",
-        "Dados de preferência, como o idioma apresentado (podemos utilizar cookies, tecnologias semelhantes e sessionStorage).",
-        "Informações que nos envia voluntariamente quando entra em contacto connosco (como endereço de e-mail e conteúdo da mensagem)."
+        "Informações de análise (por exemplo, páginas visitadas, uso de funcionalidades e dados do dispositivo/navegador).",
+        "Dados de preferência, como o idioma exibido (podemos usar cookies, tecnologias semelhantes e sessionStorage).",
+        "Informações que você nos envia voluntariamente ao entrar em contato conosco (como endereço de e-mail e conteúdo da mensagem)."
       ]
     },
     {
-      "title": "3. Como utilizamos as informações",
+      "title": "3. Como usamos suas informações",
       "body": [
-        "As informações recolhidas são utilizadas apenas para as finalidades abaixo."
+        "As informações coletadas são usadas apenas para as finalidades abaixo."
       ],
       "list": [
         "Prestar o serviço, manter a estabilidade e resolver problemas técnicos.",
-        "Compreender padrões de utilização para melhorar funcionalidades e usabilidade.",
+        "Compreender padrões de uso para melhorar funcionalidades e usabilidade.",
         "Prevenir abusos e manter a segurança.",
         "Responder a pedidos de suporte e cumprir obrigações legais."
       ]
     },
     {
-      "title": "4. Serviços de terceiros que utilizamos",
+      "title": "4. Serviços de terceiros que usamos",
       "body": [
-        "Para operação e melhoria do serviço, utilizamos os seguintes serviços de terceiros."
+        "Para operar e melhorar o serviço, usamos os seguintes serviços de terceiros."
       ],
       "list": [
         "Google Analytics (para análise de tráfego e melhoria do produto).",
         "Google Search Console (para desempenho em pesquisa e estado de indexação).",
-        "Google AdSense: a Google e os seus parceiros podem utilizar cookies ou tecnologias semelhantes para apresentar anúncios com base em visitas anteriores a este e a outros sites.",
-        "Pode gerir anúncios personalizados nas Definições de anúncios da Google (https://adssettings.google.com/).",
-        "Para mais informações sobre a utilização de dados pela Google, consulte https://support.google.com/adsense/answer/1348695?hl=pt."
+        "Google AdSense: a Google e seus parceiros podem usar cookies ou tecnologias semelhantes para exibir anúncios com base em visitas anteriores a este e a outros sites.",
+        "Você pode gerenciar anúncios personalizados nas Configurações de anúncios da Google (https://adssettings.google.com/).",
+        "Para mais informações sobre o uso de dados pela Google, consulte https://support.google.com/adsense/answer/1348695?hl=pt."
       ],
       "notes": [
-        "As informações recolhidas e tratadas por serviços de terceiros são regidas pelas políticas de cada fornecedor."
+        "As informações coletadas e tratadas por serviços de terceiros seguem as políticas de cada fornecedor."
       ]
     },
     {
-      "title": "5. Os seus direitos",
+      "title": "5. Seus direitos",
       "body": [
-        "Não exigimos criação de conta e não armazenamos ficheiros de imagem carregados nos nossos servidores. Exceto quando nos contacta voluntariamente, em regra não obtemos informações que o identifiquem diretamente."
+        "Não exigimos criação de conta e não armazenamos arquivos de imagem em nossos servidores. Exceto quando você entra em contato conosco voluntariamente, em regra não obtemos informações que identifiquem você diretamente."
       ],
       "list": [
-        "Relativamente às informações que nos fornece por e-mail de suporte, pode solicitar acesso, retificação ou eliminação.",
-        "Pode eliminar ou desativar cookies nas definições do seu navegador. Para anúncios personalizados e utilização de dados por serviços de terceiros, como a Google, utilize as páginas oficiais de configuração de cada fornecedor."
+        "Em relação às informações que você nos fornece por e-mail de suporte, você pode solicitar acesso, correção ou exclusão.",
+        "Você pode excluir ou desativar cookies nas configurações do seu navegador. Para anúncios personalizados e uso de dados por serviços de terceiros, como a Google, use as páginas oficiais de configuração de cada fornecedor."
       ]
     },
     {
       "title": "6. Atualizações desta política",
       "body": [
-        "Podemos atualizar esta política devido a alterações legais, alterações do serviço ou alterações em serviços de terceiros.",
-        "Se houver uma alteração relevante, publicaremos um aviso no site e atualizaremos a data da revisão."
+        "Podemos atualizar esta política devido a mudanças legais, mudanças no serviço ou mudanças em serviços de terceiros.",
+        "Se houver uma alteração relevante, publicaremos um aviso no site e atualizaremos a data de revisão."
       ]
     }
   ],
   "contact": {
-    "title": "7. Contacto",
-    "description": "Se tiver dúvidas sobre esta política ou quiser solicitar acesso, retificação ou eliminação, contacte-nos:",
+    "title": "7. Contato",
+    "description": "Se você tiver dúvidas sobre esta política ou quiser solicitar acesso, correção ou exclusão, entre em contato conosco:",
     "emailLabel": "E-mail",
     "email": "guom0900@gmail.com",
     "response": "Normalmente respondemos no prazo de 3 dias úteis."

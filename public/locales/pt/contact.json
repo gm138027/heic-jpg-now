@@ -1,18 +1,18 @@
 {
   "hero": {
-    "title": "Contacte-nos",
-    "description": "Obrigado por utilizar o HEIC JPG NOW. Se tiver perguntas, sugestões, relatórios de erro ou pedidos relacionados com direitos, pode contactar-nos aqui.",
+    "title": "Entre em contato",
+    "description": "Obrigado por usar o HEIC JPG NOW. Se você tiver perguntas, sugestões, relatos de erro ou solicitações relacionadas a direitos, pode entrar em contato conosco aqui.",
     "updated": "Última atualização: 9 de março de 2026"
   },
   "tocTitle": "Conteúdo",
   "toc": [
     {
       "id": "contact-section-1",
-      "label": "1. Como nos contactar"
+      "label": "1. Como entrar em contato"
     },
     {
       "id": "contact-section-2",
-      "label": "2. Sobre o que nos pode contactar"
+      "label": "2. Sobre o que você pode entrar em contato"
     },
     {
       "id": "contact-section-3",
@@ -29,22 +29,22 @@
   ],
   "sections": [
     {
-      "title": "1. Como nos contactar",
+      "title": "1. Como entrar em contato",
       "body": [
-        "Prestamos suporte por e-mail. Pode escrever para guom0900@gmail.com. Após analisarmos a sua mensagem, responderemos assim que possível."
+        "Prestamos suporte por e-mail. Você pode escrever para guom0900@gmail.com. Depois de analisarmos sua mensagem, responderemos assim que possível."
       ]
     },
     {
-      "title": "2. Sobre o que nos pode contactar",
+      "title": "2. Sobre o que você pode entrar em contato",
       "body": [
-        "Pode contactar-nos sobre qualquer um dos seguintes temas."
+        "Você pode entrar em contato conosco sobre qualquer um dos seguintes temas."
       ],
       "list": [
-        "Dúvidas sobre a utilização da ferramenta",
-        "Relatórios de falhas, problemas de visualização ou erros de conversão",
+        "Dúvidas sobre o uso da ferramenta",
+        "Relatos de falhas, problemas de visualização ou erros de conversão",
         "Sugestões de funcionalidades e feedback do produto",
-        "Pedidos relacionados com utilização comercial ou integração",
-        "Pedidos relacionados com direitos de autor, questões legais e políticas"
+        "Solicitações relacionadas a uso comercial ou integração",
+        "Solicitações relacionadas a direitos autorais, questões legais e políticas"
       ]
     },
     {
@@ -57,24 +57,24 @@
     {
       "title": "4. Antes de nos escrever",
       "body": [
-        "Para nos ajudar a analisar o seu caso mais rapidamente, inclua sempre que possível os detalhes do seu ambiente (dispositivo, sistema operativo e navegador), bem como uma breve descrição do que aconteceu."
+        "Para nos ajudar a analisar seu caso mais rapidamente, inclua sempre que possível os detalhes do seu ambiente (dispositivo, sistema operacional e navegador), bem como uma breve descrição do que aconteceu."
       ],
       "list": [
-        "Não envie informações sensíveis, como palavras-passe, números de cartão ou números de identificação emitidos por entidades governamentais.",
-        "Se os anexos incluírem dados pessoais, confirme que são necessários e limite-os ao mínimo indispensável."
+        "Não envie informações sensíveis, como senhas, números de cartão ou números de identificação emitidos por órgãos governamentais.",
+        "Se os anexos incluírem dados pessoais, confirme que eles são necessários e limite-os ao mínimo indispensável."
       ]
     },
     {
       "title": "5. Tratamento de informações pessoais",
       "body": [
-        "O endereço de e-mail e o conteúdo da sua mensagem são utilizados apenas para tratar o seu pedido e dar seguimento ao contacto.",
-        "Para mais informações, consulte a nossa Política de Privacidade."
+        "O endereço de e-mail e o conteúdo da sua mensagem são usados apenas para tratar sua solicitação e dar seguimento ao contato.",
+        "Para mais informações, consulte nossa Política de Privacidade."
       ]
     }
   ],
   "contact": {
-    "title": "Dados de contacto",
-    "description": "Pode contactar-nos através do e-mail abaixo.",
+    "title": "Dados de contato",
+    "description": "Você pode entrar em contato conosco pelo e-mail abaixo.",
     "emailLabel": "E-mail",
     "email": "guom0900@gmail.com",
     "response": "Normalmente respondemos no prazo de 1 a 3 dias úteis."

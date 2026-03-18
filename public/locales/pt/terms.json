@@ -1,39 +1,39 @@
 {
   "hero": {
     "title": "Termos de serviço",
-    "description": "Estes Termos explicam as regras de utilização do HEIC JPG NOW. Escrevemo-los de forma clara para que possa usar o serviço com segurança e de forma justa.",
+    "description": "Estes Termos explicam as regras de uso do HEIC JPG NOW. Nós os escrevemos de forma clara para que você possa usar o serviço com segurança e de forma justa.",
     "updated": "Última atualização: 9 de março de 2026"
   },
   "tocTitle": "Conteúdo",
   "toc": [
     { "id": "terms-section-1", "label": "1. Âmbito" },
-    { "id": "terms-section-2", "label": "2. Condições de utilização" },
+    { "id": "terms-section-2", "label": "2. Condições de uso" },
     { "id": "terms-section-3", "label": "3. Condutas proibidas" },
     { "id": "terms-section-4", "label": "4. Conteúdo e propriedade intelectual" },
     { "id": "terms-section-5", "label": "5. Limitações de responsabilidade" },
     { "id": "terms-section-6", "label": "6. Alterações do serviço" },
     { "id": "terms-section-7", "label": "7. Suspensão e responsabilidade" },
-    { "id": "terms-section-8", "label": "8. Lei aplicável e contacto" }
+    { "id": "terms-section-8", "label": "8. Lei aplicável e contato" }
   ],
   "sections": [
     {
       "title": "1. Âmbito",
       "body": [
-        "Estes Termos aplicam-se a todas as funcionalidades que disponibilizamos em heicjpgnow.com e domínios relacionados. Ao utilizar qualquer funcionalidade do site, aceita estes Termos."
+        "Estes Termos se aplicam a todas as funcionalidades que disponibilizamos em heicjpgnow.com e em domínios relacionados. Ao usar qualquer funcionalidade do site, você aceita estes Termos."
       ],
       "list": [
-        "Se for menor de idade, utilize o serviço com o consentimento do seu representante legal.",
-        "Se alguma cláusula contrariar uma norma imperativa, essa norma prevalece e as restantes cláusulas mantêm-se em vigor."
+        "Se você for menor de idade, use o serviço com o consentimento do seu representante legal.",
+        "Se alguma cláusula contrariar uma norma imperativa, essa norma prevalece e as demais cláusulas permanecem em vigor."
       ]
     },
     {
-      "title": "2. Condições de utilização",
+      "title": "2. Condições de uso",
       "body": [
-        "É responsável pelos ficheiros que carrega ou processa e declara que possui os direitos ou autorizações necessários para os utilizar no serviço."
+        "Você é responsável pelos arquivos que envia ou processa e declara que possui os direitos ou autorizações necessários para usá-los no serviço."
       ],
       "list": [
-        "O serviço é gratuito para utilização pessoal e comercial, desde que o uso seja razoável e não provoque sobrecarga.",
-        "Se uma empresa ou organização pretender integrar a ferramenta em processos internos, pedimos que nos contacte previamente."
+        "O serviço é gratuito para uso pessoal e comercial, desde que o uso seja razoável e não provoque sobrecarga.",
+        "Se uma empresa ou organização quiser integrar a ferramenta a processos internos, pedimos que entre em contato conosco antes."
       ]
     },
     {
@@ -42,27 +42,27 @@
         "Não é permitido:"
       ],
       "list": [
-        "Realizar engenharia inversa, modificar, copiar, redistribuir ou revender o serviço ou o respetivo código.",
+        "Realizar engenharia reversa, modificar, copiar, redistribuir ou revender o serviço ou o respectivo código.",
         "Execução massiva de scripts automatizados que gerem carga excessiva.",
         "Envio de arquivos que infrinjam direitos autorais, marcas, privacidade ou outros direitos de terceiros.",
-        "Utilizar o serviço para fins ilegais, prejudiciais ou abusivos."
+        "Usar o serviço para fins ilegais, prejudiciais ou abusivos."
       ]
     },
     {
       "title": "4. Conteúdo e propriedade intelectual",
       "body": [
-        "Os direitos de autor, marcas e demais direitos de propriedade intelectual relativos a logótipos, design, código e documentação do site pertencem ao HEIC JPG NOW ou aos respetivos titulares. Mantém os direitos sobre os seus ficheiros e concede-nos apenas a autorização necessária para os processar no âmbito da prestação do serviço."
+        "Os direitos autorais, marcas e demais direitos de propriedade intelectual relativos a logotipos, design, código e documentação do site pertencem ao HEIC JPG NOW ou aos respectivos titulares. Você mantém os direitos sobre seus arquivos e nos concede apenas a autorização necessária para processá-los no âmbito da prestação do serviço."
       ]
     },
     {
       "title": "5. Limitações de responsabilidade",
       "body": [
-        "A conversão é executada no seu navegador, pelo que os resultados podem variar consoante o dispositivo, o navegador e a rede. Não nos responsabilizamos por:"
+        "A conversão é executada no seu navegador, por isso os resultados podem variar dependendo do dispositivo, do navegador e da rede. Não nos responsabilizamos por:"
       ],
       "list": [
-        "Precisão, integridade ou adequação dos resultados de conversão, nem pela perda de ficheiros carregados.",
+        "Precisão, integridade ou adequação dos resultados de conversão, nem pela perda de arquivos enviados.",
         "Danos decorrentes de acesso não autorizado, malware, força maior ou serviços de terceiros.",
-        "Conflitos entre utilizadores, ou entre um utilizador e terceiros."
+        "Conflitos entre usuários ou entre um usuário e terceiros."
       ],
       "notes": [
         "Esta limitação não se aplica quando houver dolo ou negligência grave da nossa parte."
@@ -72,23 +72,23 @@
       "title": "6. Alterações do serviço",
       "body": [
         "Podemos alterar, suspender ou terminar funcionalidades, incluindo integrações com serviços de terceiros, por motivos de segurança, conformidade legal ou necessidades operacionais.",
-        "Quando as alterações forem relevantes, publicaremos aviso prévio no site sempre que seja razoavelmente possível."
+        "Quando as alterações forem relevantes, publicaremos aviso prévio no site sempre que isso for razoavelmente possível."
       ]
     },
     {
       "title": "7. Suspensão e responsabilidade",
       "body": [
-        "Se violar estes Termos, podemos suspender o acesso, bloquear a utilização ou exigir indemnização sem aviso prévio. Será responsável pelas perdas e custos resultantes dessa violação."
+        "Se você violar estes Termos, podemos suspender o acesso, bloquear o uso ou exigir indenização sem aviso prévio. Você será responsável pelas perdas e custos resultantes dessa violação."
       ]
     },
     {
-      "title": "8. Lei aplicável e contacto",
+      "title": "8. Lei aplicável e contato",
       "body": [
         "Estes Termos são interpretados de acordo com as leis aplicáveis à nossa operação.",
-        "Se tiver dúvidas sobre estes Termos, o tratamento de dados ou serviços de terceiros, contacte-nos pelos dados abaixo."
+        "Se você tiver dúvidas sobre estes Termos, sobre o tratamento de dados ou sobre serviços de terceiros, entre em contato conosco pelos dados abaixo."
       ],
       "list": [
-        "Podemos utilizar serviços de terceiros para operar e melhorar o site. Para detalhes sobre o tratamento de dados, consulte também a nossa Política de Privacidade.",
+        "Podemos usar serviços de terceiros para operar e melhorar o site. Para detalhes sobre o tratamento de dados, consulte também nossa Política de Privacidade.",
         "Endereço de e-mail: guom0900@gmail.com",
         "Normalmente respondemos no prazo de 3 dias úteis."
       ]

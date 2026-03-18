@@ -8,5 +8,5 @@ export const OG_LOCALE_MAP: Record<Locale, string> = {
   es: "es_ES",
   fr: "fr_FR",
   de: "de_DE",
-  pt: "pt_PT",
+  pt: "pt_BR",
 };
