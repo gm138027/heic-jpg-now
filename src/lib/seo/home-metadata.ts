@@ -7,21 +7,10 @@ import { buildLanguageAlternates } from "./alternates";
 
 const OG_IMAGE = getAbsoluteUrl("/logo/android-chrome-512x512.png");
 
-function buildTitle(baseTitle: string, siteName: string) {
-  const title = baseTitle.trim();
-  if (!title) {
-    return siteName;
-  }
-  if (title.toLowerCase().includes(siteName.toLowerCase())) {
-    return title;
-  }
-  return `${title} | ${siteName}`;
-}
-
 export function buildHomeMetadata(locale: Locale, dictionary: AppDictionary): Metadata {
   const siteName = dictionary.common.site?.name || "HEIC JPG Now";
   const meta = dictionary.common.seo?.meta;
-  const title = buildTitle(meta?.title || dictionary.common.seo?.h1?.title || siteName, siteName);
+  const title = (meta?.title || dictionary.common.seo?.h1?.title || siteName).trim() || siteName;
   const description =
     meta?.description ||
     dictionary.common.seo?.h1?.subtitle ||
