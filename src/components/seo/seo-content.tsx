@@ -1,4 +1,4 @@
-﻿import { defaultLocale, type Locale } from "@/lib/i18n/locales";
+import { defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { UploadTool } from "@/components/upload/upload-tool";
 import { HowToSteps } from "./how-to-steps";
@@ -189,7 +189,7 @@ export async function SEOContent({ locale }: SEOContentProps) {
           contactPoint: [
             {
               "@type": "ContactPoint",
-              email: "guom0900@gmail.com",
+              email: "heicjpgnow@proton.me",
               contactType: "customer support",
             },
           ],
