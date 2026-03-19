@@ -163,16 +163,16 @@
             "content": "Praktisch, wenn Sie mehrere HEIC-Dateien in einem Schritt in JPG umwandeln möchten, zum Beispiel für Reisefotos, Arbeitsmaterialien oder iPhone-Fotos."
           },
           "social": {
-            "title": "Wenn sich HEIC-Dateien unter Windows leichter öffnen lassen sollen",
-            "content": "Wenn HEIC-Dateien unter Windows weniger praktisch sind, kann die Umwandlung in JPG das Öffnen und Teilen erleichtern."
+            "title": "Wenn Sie HEIC-Dateien unter Windows leichter öffnen möchten",
+            "content": "Wenn Sie HEIC-Dateien unter Windows öffnen möchten, kann die vorherige Umwandlung in JPG das Öffnen erleichtern. Wenn es viele Dateien sind, lassen sie sich außerdem leichter handhaben, wenn sie vorher in dasselbe Format umgewandelt werden."
           },
           "compatibility": {
             "title": "Wenn Sie iPhone-Fotos teilen möchten",
-            "content": "Wenn iPhone-Fotos im HEIC-Format unverändert weitergegeben werden, kann das Öffnen auf der anderen Seite schwieriger sein. Als JPG lassen sie sich leichter teilen."
+            "content": "Wenn Sie mit dem iPhone aufgenommene HEIC-Fotos unverändert verschicken, kann es je nach Gerät der anderen Person sein, dass sie sich nicht öffnen lassen. Wenn sie vorher in JPG umgewandelt werden, lassen sich auch mehrere Fotos leichter teilen."
           },
           "web": {
             "title": "Wenn Bilder auf eine Website hochgeladen werden sollen",
-            "content": "Wenn ein Formular, ein CMS oder eine Website keine HEIC-Dateien akzeptiert, kann eine vorherige Umwandlung in JPG das Hochladen erleichtern."
+            "content": "Manche Formulare, CMS oder Websites akzeptieren HEIC-Dateien nicht direkt. Wenn sie vorher in JPG umgewandelt werden, lassen sie sich leichter für den Upload vorbereiten."
           },
           "windows": {
             "title": "Wenn Dateien an Android oder andere Geräte gesendet werden sollen",

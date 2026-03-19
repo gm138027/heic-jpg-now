@@ -164,15 +164,15 @@
           },
           "social": {
             "title": "When you need HEIC files to open more easily on Windows",
-            "content": "If HEIC files are harder to use on Windows, converting them to JPG can make viewing and sharing easier."
+            "content": "If you need to open HEIC files on Windows, converting them to JPG first can make them easier to open. If you have a lot of files, getting them into the same format first also makes them easier to manage."
           },
           "compatibility": {
             "title": "When you want to share iPhone photos",
-            "content": "If you send iPhone HEIC photos as they are, the other person may have trouble opening them. Converting them to JPG makes sharing easier."
+            "content": "If you send HEIC photos taken on an iPhone as they are, the other person may not be able to open them depending on the device they use. Converting them to JPG first makes it easier to share multiple photos."
           },
           "web": {
             "title": "When you need to upload images to a website",
-            "content": "If a form, CMS, or website does not accept HEIC files, converting them to JPG first can make uploading easier."
+            "content": "Forms, CMS platforms, and some websites may not accept HEIC files directly. Converting them to JPG first can make it easier to prepare them for upload."
           },
           "windows": {
             "title": "When you want to send files to Android or other devices",
