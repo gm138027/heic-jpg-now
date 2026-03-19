@@ -138,20 +138,20 @@
         "title": "Warum diesen HEIC-zu-JPG-Konverter wählen?",
         "list": {
           "stable": {
-            "title": "Stapelverarbeitung bricht unterwegs seltener ab",
-            "content": "Auch wenn mehrere Dateien auf einmal verarbeitet werden, bleibt der Ablauf eher stabil und lässt sich leichter bis zum Ende fortsetzen."
+            "title": "Sie können starten, ohne die Dateien zuerst in kleinere Stapel aufzuteilen",
+            "content": "Auch wenn Sie mehrere HEIC-Dateien auf einmal hinzufügen, können Sie in der Regel weitermachen, ohne sie zuerst in kleinere Stapel aufzuteilen."
           },
           "continueAfterFailure": {
-            "title": "Eine fehlgeschlagene Datei bedeutet nicht, dass alles neu gestartet werden muss",
-            "content": "Wenn eine Datei nicht umgewandelt werden kann, muss der gesamte Stapel in der Regel nicht von vorn begonnen werden."
+            "title": "Eine fehlgeschlagene Datei stoppt den Rest des Stapels seltener",
+            "content": "Wenn eine Datei nicht konvertiert werden kann, können die übrigen Dateien in der Regel weiterverarbeitet werden."
           },
           "zipNames": {
-            "title": "Gleichnamige Dateien lassen sich nach dem Download leichter unterscheiden",
-            "content": "Auch wenn mehrere Dateien denselben Namen tragen, bleiben sie im ZIP unterscheidbar, was das spätere Sortieren erleichtert."
+            "title": "Gleichnamige Dateien gehen beim Download seltener verloren",
+            "content": "Wenn Sie alles zusammen herunterladen, werden gleichnamige Dateien getrennt gespeichert. Das hilft, damit durch Überschreiben keine Ergebnisse verloren gehen."
           },
           "lessManualWork": {
-            "title": "Von der Umwandlung bis zum Download bleibt der Ablauf leichter in einem Zug",
-            "content": "Weil der Ablauf seltener unterbrochen wird, seltener komplett neu gestartet werden muss und die Dateien nach dem Download besser unterscheidbar bleiben, lässt sich der Weg von der Umwandlung bis zum Download leichter in einem Zug abschließen."
+            "title": "Dadurch lässt sich die Stapelverarbeitung leichter bis zum Ende fortsetzen",
+            "content": "Zusammen genommen machen diese Punkte es leichter, den Ablauf stabil zu halten und Konvertierung und Download ohne unnötige Unterbrechungen abzuschließen."
           }
         }
       },

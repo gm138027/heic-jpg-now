@@ -138,20 +138,20 @@
         "title": "Why Choose This HEIC to JPG Converter?",
         "list": {
           "stable": {
-            "title": "Less likely to stop in the middle of a batch",
-            "content": "Even when you process multiple files at once, the batch is less likely to stall and easier to keep moving."
+            "title": "Start without splitting files into smaller batches first",
+            "content": "Even if you add multiple HEIC files at once, you can usually keep going without first breaking them into smaller batches."
           },
           "continueAfterFailure": {
-            "title": "A failed file is less likely to force a full restart",
-            "content": "If one file cannot be converted, you are less likely to have to start the whole batch over from the beginning."
+            "title": "One failed file is less likely to stop the rest of the batch",
+            "content": "If one file cannot be converted, the rest of the files can usually keep converting."
           },
           "zipNames": {
-            "title": "Easier to tell files apart after a batch download",
-            "content": "Even when files share the same name, they stay distinguishable in the ZIP, which makes the results easier to sort after download."
+            "title": "Files with the same name are less likely to go missing after download",
+            "content": "When you download everything together, files with the same name are saved separately, which helps avoid missing results caused by overwriting."
           },
           "lessManualWork": {
-            "title": "Easier to keep the whole batch moving through to download",
-            "content": "With fewer interruptions, fewer full restarts, and clearer file names after download, it is easier to move from conversion through download in one flow."
+            "title": "So it is easier to carry the batch through to the end",
+            "content": "Taken together, these points make it easier to keep a multi-file job moving and get through conversion and download without breaking the flow."
           }
         }
       },

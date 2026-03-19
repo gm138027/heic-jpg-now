@@ -138,20 +138,20 @@
         "title": "Por qué elegir este convertidor de HEIC a JPG",
         "list": {
           "stable": {
-            "title": "Es menos probable que el lote se detenga a mitad del proceso",
-            "content": "Incluso al procesar varios archivos a la vez, es menos probable que el lote se quede parado y resulta más fácil seguir adelante."
+            "title": "Puedes empezar sin tener que dividir los archivos primero en lotes pequeños",
+            "content": "Incluso si añades varios archivos HEIC de una sola vez, por lo general puedes seguir sin tener que separarlos primero en lotes más pequeños."
           },
           "continueAfterFailure": {
-            "title": "Un archivo fallido no suele obligarte a empezar de nuevo",
-            "content": "Si un archivo no se puede convertir, normalmente no hace falta reiniciar todo el lote desde el principio."
+            "title": "Un archivo fallido tiene menos probabilidades de frenar el resto del lote",
+            "content": "Si un archivo no puede convertirse, el resto de los archivos normalmente puede seguir procesándose."
           },
           "zipNames": {
-            "title": "Es más fácil distinguir los archivos después de descargar el lote",
-            "content": "Aunque haya archivos con el mismo nombre, siguen siendo distinguibles dentro del ZIP, lo que facilita ordenarlos después de la descarga."
+            "title": "Los archivos con el mismo nombre tienen menos probabilidades de perderse al descargar el lote",
+            "content": "Al descargar todo junto, los archivos con el mismo nombre se guardan por separado, lo que ayuda a evitar resultados incompletos por sobrescritura."
           },
           "lessManualWork": {
-            "title": "Es más fácil llevar el proceso hasta la descarga",
-            "content": "Como es menos probable que el proceso se detenga, que tengas que empezar de nuevo o que los archivos queden confusos al descargarlos, resulta más fácil llevar todo desde la conversión hasta la descarga."
+            "title": "Por eso, es más fácil llevar el lote hasta el final",
+            "content": "En conjunto, estos puntos hacen más fácil mantener el lote en marcha y completar la conversión y la descarga sin interrumpir el proceso."
           }
         }
       },

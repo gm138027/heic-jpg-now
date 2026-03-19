@@ -138,20 +138,20 @@
         "title": "Pourquoi choisir ce convertisseur HEIC en JPG ?",
         "list": {
           "stable": {
-            "title": "Le traitement par lot a moins de chances de s’interrompre en cours de route",
-            "content": "Même lorsque plusieurs fichiers sont traités en une seule fois, le lot a moins de chances de se bloquer, ce qui permet d’avancer plus facilement jusqu’au bout."
+            "title": "Vous pouvez commencer sans devoir rediviser les fichiers en petits lots",
+            "content": "Même si vous ajoutez plusieurs fichiers HEIC d’un seul coup, vous pouvez généralement continuer sans devoir les rediviser d’abord en petits lots."
           },
           "continueAfterFailure": {
-            "title": "Un fichier en échec ne vous oblige pas à tout recommencer",
-            "content": "Si un fichier ne peut pas être converti, il est généralement inutile de relancer tout le lot depuis le début."
+            "title": "Un fichier en échec a moins de chances d’arrêter le reste du lot",
+            "content": "Si un fichier ne peut pas être converti, le reste des fichiers peut généralement continuer à être traité."
           },
           "zipNames": {
-            "title": "Les fichiers portant le même nom restent faciles à distinguer après téléchargement",
-            "content": "Même lorsque plusieurs fichiers portent le même nom, ils restent distinguables dans le ZIP, ce qui facilite le tri après téléchargement."
+            "title": "Les fichiers portant le même nom ont moins de chances de manquer après téléchargement",
+            "content": "Quand vous téléchargez l’ensemble, les fichiers portant le même nom sont enregistrés séparément, ce qui aide à éviter qu’une partie des fichiers disparaisse à cause d’un écrasement."
           },
           "lessManualWork": {
-            "title": "Il est plus facile d’aller de la conversion au téléchargement sans casser le flux",
-            "content": "Comme le traitement s’interrompt moins facilement, impose moins de recommencer depuis le début et garde des fichiers plus clairs après téléchargement, il est plus simple d’aller de la conversion au téléchargement dans le même flux."
+            "title": "C’est pourquoi il est plus facile d’aller jusqu’au bout du traitement par lot",
+            "content": "Au final, ces points aident à garder le même rythme et à aller de la conversion au téléchargement jusqu’au bout."
           }
         }
       },
