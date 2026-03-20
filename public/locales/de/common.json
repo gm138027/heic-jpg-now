@@ -207,32 +207,28 @@
       "title": "Häufige Fragen zur Umwandlung von HEIC in JPG",
       "items": [
         {
-          "question": "Wie kann ich HEIC in JPG / JPEG umwandeln?",
-          "answer": "Fügen Sie Ihre HEIC-Dateien hinzu, starten Sie die Umwandlung und laden Sie anschließend die JPG- / JPEG-Dateien herunter."
+          "question": "Wie kann ich HEIC / HEIF unter Windows 10/11 in JPG / JPEG umwandeln?",
+          "answer": "Unter Windows 10/11 können Sie dieses Tool im Browser öffnen, Ihre HEIC- / HEIF-Dateien hinzufügen, sie umwandeln und die JPG- / JPEG-Ergebnisse herunterladen. Wenn Sie viele Dateien haben, ist ein Computer dafür in der Regel besser geeignet als ein Smartphone."
         },
         {
-          "question": "Kann man HEIC-Dateien stapelweise in JPG umwandeln?",
-          "answer": "Ja. Sie können mehrere HEIC-Dateien hinzufügen und sie in einem einzigen Durchgang in JPG / JPEG umwandeln."
-        },
-        {
-          "question": "Kann man HEIC in JPEG umwandeln?",
-          "answer": "Ja. HEIC-Dateien lassen sich in ein besser nutzbares JPG- / JPEG-Format umwandeln. JPG und JPEG bezeichnen dasselbe Bildformat."
-        },
-        {
-          "question": "Wie kann ich HEIC unter Windows 10/11 in JPEG umwandeln?",
-          "answer": "Fügen Sie Ihre HEIC-Dateien hinzu und wandeln Sie sie in JPG / JPEG um. Wenn HEIC-Dateien unter Windows weniger praktisch sind, kann die Umwandlung das Öffnen erleichtern."
-        },
-        {
-          "question": "Lassen sich auch iPhone-Fotos umwandeln?",
-          "answer": "Ja. Auch HEIC-Fotos, die mit einem iPhone aufgenommen wurden, lassen sich direkt im Browser umwandeln."
+          "question": "Kann ich Fotos direkt auf meinem iPhone in JPG umwandeln?",
+          "answer": "Ja. HEIC-Fotos, die mit einem iPhone aufgenommen wurden, können auch direkt im mobilen Browser in JPG / JPEG umgewandelt werden."
         },
         {
           "question": "Ist das kostenlos? Muss ich etwas installieren oder ein Konto anlegen?",
           "answer": "Ja, das Tool ist kostenlos. Es ist weder eine Installation noch eine Registrierung erforderlich, und Sie können direkt im Browser starten."
         },
         {
-          "question": "Gibt es eine Begrenzung für die Anzahl der Dateien?",
-          "answer": "Es gibt keine feste Begrenzung für die Dateianzahl. Wie viele Dateien Ihr Gerät bequem verarbeiten kann, hängt jedoch von der Leistung des Geräts und von der Dateigröße ab. Für eine stabilere Nutzung empfehlen wir bis zu 200 Dateien pro Stapel, bis zu 30 MB pro Datei und insgesamt bis zu 1 GB."
+          "question": "Gibt es eine Begrenzung für die Anzahl der Dateien, die ich umwandeln kann?",
+          "answer": "Es gibt keine feste Begrenzung für die Dateianzahl. Für eine stabilere Nutzung empfehlen wir als Richtwert etwa 200 Dateien pro Stapel, 30 MB pro Datei und 1 GB insgesamt."
+        },
+        {
+          "question": "Warum empfehlen Sie etwa 200 Dateien pro Stapel?",
+          "answer": "Je mehr Dateien verarbeitet werden, desto länger dauern Umwandlung und ZIP-Erstellung in der Regel. Deshalb empfehlen wir als Richtwert etwa 200 Dateien pro Stapel, 30 MB pro Datei und 1 GB insgesamt. Wenn Ihre Dateien größer sind oder Ihr Gerät weniger Leistung hat, kann es besser funktionieren, sie in kleinere Stapel aufzuteilen."
+        },
+        {
+          "question": "Wodurch kann eine Umwandlung fehlschlagen?",
+          "answer": "Eine Umwandlung kann fehlschlagen, wenn eine Datei beschädigt ist, wenn Sie viele Dateien gleichzeitig verarbeiten oder wenn große Dateien das Gerät stark belasten. Unterschiede darin, wie HEIC- / HEIF-Dateien erstellt oder gespeichert wurden, können ebenfalls beeinflussen, wie gut sie sich umwandeln lassen."
         },
         {
           "question": "Was passiert, wenn eine Datei fehlschlägt?",
@@ -240,7 +236,7 @@
         },
         {
           "question": "Warum lassen sich manche HEIC-Dateien leichter umwandeln als andere?",
-          "answer": "Auch wenn alle Dateien die Endung HEIC tragen, kann sich ihre innere Struktur je nach Herkunft und Speicherweise unterscheiden. Deshalb lassen sich manche Dateien leichter umwandeln als andere. Dieses Tool verarbeitet Dateien im Rahmen dessen, was es unterstützen kann, doch manche Dateien können trotzdem fehlschlagen. Selbst dann wird der restliche Stapel seltener unterbrochen."
+          "answer": "Auch bei derselben HEIC- / HEIF-Endung können sich Dateien je nach Herkunft und Speicherweise leicht unterscheiden. Deshalb lassen sich manche Dateien leichter umwandeln, während andere schwieriger zu verarbeiten sind."
         },
         {
           "question": "Werden Dateien mit demselben Namen überschrieben?",
@@ -249,10 +245,6 @@
         {
           "question": "Bleiben EXIF-Daten erhalten?",
           "answer": "Dieses Tool verarbeitet EXIF, soweit es möglich ist, garantiert aber keine vollständige Erhaltung. Wenn EXIF vollständig erhalten bleiben muss, kann ein spezialisiertes lokales Tool besser passen."
-        },
-        {
-          "question": "Kann man HEIF in JPEG umwandeln?",
-          "answer": "Ja. HEIF- / HEIC-Dateien werden unterstützt und lassen sich in ein besser nutzbares JPG- / JPEG-Format umwandeln."
         }
       ]
     }

@@ -207,32 +207,28 @@
       "title": "Preguntas frecuentes sobre la conversión de HEIC a JPG",
       "items": [
         {
-          "question": "¿Cómo convertir HEIC a JPG / JPEG?",
-          "answer": "Agrega tus archivos HEIC, inicia la conversión y luego descarga los archivos JPG / JPEG."
+          "question": "¿Cómo convertir HEIC / HEIF a JPG / JPEG en Windows 10/11?",
+          "answer": "En Windows 10/11, puedes abrir esta herramienta en el navegador, agregar tus archivos HEIC / HEIF, convertirlos y descargar los resultados en JPG / JPEG. Si tienes muchos archivos, usar un ordenador suele ser más fácil que hacerlo desde el móvil."
         },
         {
-          "question": "¿Se puede convertir HEIC a JPG por lotes?",
-          "answer": "Sí. Puedes agregar varios archivos HEIC y convertirlos a JPG / JPEG en un solo lote."
-        },
-        {
-          "question": "¿Se puede convertir HEIC a JPEG?",
-          "answer": "Sí. Los archivos HEIC pueden convertirse a un formato JPG / JPEG más fácil de usar. JPG y JPEG son el mismo formato de imagen."
-        },
-        {
-          "question": "¿Cómo convertir HEIC a JPEG en Windows 10/11?",
-          "answer": "Agrega tus archivos HEIC y conviértelos a JPG / JPEG. Si los archivos HEIC te resultan incómodos de usar en Windows, convertirlos antes puede hacer que sea más fácil abrirlos."
-        },
-        {
-          "question": "¿También se pueden convertir fotos del iPhone?",
-          "answer": "Sí. Las fotos HEIC tomadas con iPhone también pueden convertirse directamente en el navegador."
+          "question": "¿Puedo convertir fotos a JPG directamente en mi iPhone?",
+          "answer": "Sí. Las fotos HEIC tomadas con un iPhone también pueden convertirse a JPG / JPEG directamente desde el navegador del móvil."
         },
         {
           "question": "¿Es gratis? ¿Hace falta instalar algo o registrarse?",
           "answer": "Es gratis. No necesitas instalar nada ni registrarte, y puedes empezar directamente en el navegador."
         },
         {
-          "question": "¿Hay límite en la cantidad de archivos?",
-          "answer": "No hay un límite fijo de cantidad de archivos. Sin embargo, la cantidad que tu dispositivo puede manejar con comodidad depende de su rendimiento y del tamaño de los archivos. Para una experiencia más estable, recomendamos hasta 200 archivos por lote, hasta 30 MB por archivo y hasta 1 GB en total."
+          "question": "¿Hay un límite en la cantidad de archivos que puedo convertir?",
+          "answer": "No hay un límite fijo de cantidad de archivos. Para un uso más estable, recomendamos como referencia unos 200 archivos por lote, 30 MB por archivo y 1 GB en total."
+        },
+        {
+          "question": "¿Por qué se recomiendan unos 200 archivos por lote?",
+          "answer": "A medida que aumenta la cantidad de archivos, la conversión y la creación del ZIP suelen tardar más. Por eso, recomendamos como referencia unos 200 archivos por lote, 30 MB por archivo y 1 GB en total. Si los archivos son más grandes o el dispositivo tiene menos rendimiento, dividirlos en lotes más pequeños puede funcionar mejor."
+        },
+        {
+          "question": "¿Qué puede hacer que falle una conversión?",
+          "answer": "Una conversión puede fallar si un archivo está dañado, si procesas muchos archivos a la vez o si los archivos son lo bastante grandes como para exigir demasiado al dispositivo. Las diferencias en cómo se crearon o guardaron los archivos HEIC / HEIF también pueden afectar a lo fácil que resulta convertirlos."
         },
         {
           "question": "¿Qué pasa si falla un archivo?",
@@ -240,7 +236,7 @@
         },
         {
           "question": "¿Por qué algunos archivos HEIC se convierten más fácilmente que otros?",
-          "answer": "Aunque todos usen la extensión HEIC, su estructura interna puede variar según de dónde vengan y cómo se hayan guardado. Por eso, algunos archivos se convierten con más facilidad que otros. Esta herramienta procesa los archivos dentro de lo que puede admitir, pero algunos pueden fallar. Incluso en esos casos, es menos probable que el resto del lote se interrumpa."
+          "answer": "Incluso con la misma extensión HEIC / HEIF, los archivos pueden variar ligeramente según su origen y cómo se hayan guardado. Por eso algunos se convierten con más facilidad, mientras que otros son más difíciles de procesar."
         },
         {
           "question": "¿Los archivos con el mismo nombre se sobrescriben?",
@@ -249,10 +245,6 @@
         {
           "question": "¿Se conserva el EXIF?",
           "answer": "Esta herramienta maneja EXIF cuando es posible, pero no garantiza una conservación completa. Si necesitas conservar EXIF por completo, una herramienta local especializada puede ser más adecuada."
-        },
-        {
-          "question": "¿Se puede convertir HEIF a JPEG?",
-          "answer": "Sí. Los archivos HEIF / HEIC son compatibles y pueden convertirse a un formato JPG / JPEG más fácil de usar."
         }
       ]
     }
