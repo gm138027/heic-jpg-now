@@ -39,7 +39,8 @@ export function UploadTool() {
   const {
     hasRevealedProgress,
     convertStage,
-    completedCount,
+    successCount,
+    errorCount,
     progressPercent,
     displayQueue,
     primaryState,
@@ -116,7 +117,8 @@ export function UploadTool() {
     openFileDialog();
   }, [openFileDialog]);
 
-  const displayedCompletedCount = hasRevealedProgress ? completedCount : 0;
+  const displayedSuccessCount = hasRevealedProgress ? successCount : 0;
+  const displayedErrorCount = hasRevealedProgress ? errorCount : 0;
   const addButtonLabel =
     convertStage === "ready" && hasDownloadedAll
       ? t("upload.actions.addMore")
@@ -131,7 +133,8 @@ export function UploadTool() {
           <>
             <QueueHeader
               fileCount={queue.length}
-              completedCount={displayedCompletedCount}
+              successCount={displayedSuccessCount}
+              errorCount={displayedErrorCount}
               onClear={handleClearQueue}
               disabled={isProcessing}
             />

@@ -30,7 +30,8 @@
       "subHint": "Supported: HEIC / HEIF. Recommended per batch: keep each batch to no more than 200 files, under 30MB each, and under 1GB total. No registration—add more files and batch convert anytime."
     },
     "queue": {
-      "title": "File Queue {{completed}} / {{total}}",
+      "summarySuccess": "Converted {{success}} / {{total}}",
+      "summaryFailed": "Failed {{error}}",
       "clear": "Clear Queue",
       "empty": "No files yet. Add your HEIC photos to start converting.",
       "scrollDown": "Scroll down",

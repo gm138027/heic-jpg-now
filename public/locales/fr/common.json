@@ -30,7 +30,8 @@
       "subHint": "Formats pris en charge : HEIC / HEIF. Recommandation par lot : restez sous 200 fichiers, 30 Mo max par fichier et 1 Go max au total. Sans inscription - ajoutez des fichiers et convertissez-les en lot quand vous voulez."
     },
     "queue": {
-      "title": "File d’attente {{completed}} / {{total}}",
+      "summarySuccess": "Convertis {{success}} / {{total}}",
+      "summaryFailed": "Échecs {{error}}",
       "clear": "Vider la file",
       "empty": "Aucun fichier pour l’instant. Ajoutez vos photos HEIC pour commencer.",
       "scrollDown": "Faire défiler vers le bas",

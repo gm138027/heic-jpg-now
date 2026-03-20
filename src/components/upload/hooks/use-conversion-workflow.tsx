@@ -306,6 +306,14 @@ export function useConversionWorkflow({
     () => queue.filter((file) => file.status === "done" || file.status === "error").length,
     [queue],
   );
+  const successCount = useMemo(
+    () => queue.filter((file) => file.status === "done").length,
+    [queue],
+  );
+  const errorCount = useMemo(
+    () => queue.filter((file) => file.status === "error").length,
+    [queue],
+  );
 
   const progressPercent = useMemo(() => {
     const packagingUnit = queue.length > 0 ? 1 : 0;
@@ -356,6 +364,8 @@ export function useConversionWorkflow({
     hasRevealedProgress,
     convertStage,
     completedCount,
+    successCount,
+    errorCount,
     progressPercent: displayProgress,
     displayQueue,
     primaryState,

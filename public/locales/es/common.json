@@ -30,7 +30,8 @@
       "subHint": "Formatos admitidos: HEIC / HEIF. Recomendación por lote: como referencia, no más de 200 archivos, menos de 30 MB por archivo y menos de 1 GB en total. Sin registro: añade más archivos y conviértelos en lote cuando quieras."
     },
     "queue": {
-      "title": "Cola de archivos {{completed}} / {{total}}",
+      "summarySuccess": "Convertidos {{success}} / {{total}}",
+      "summaryFailed": "Fallidos {{error}}",
       "clear": "Borrar cola",
       "empty": "Todavía no hay archivos. Agrega tus fotos HEIC para comenzar.",
       "scrollDown": "Desplazar hacia abajo",
