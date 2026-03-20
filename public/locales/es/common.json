@@ -55,7 +55,7 @@
       "addFailed": "No se pudieron agregar los archivos. Inténtalo de nuevo en un momento.",
       "convertFailed": "La conversión falló. Vuelve a intentarlo más tarde.",
       "noDownloadableFiles": "No se convirtió ningún archivo correctamente, por lo que no hay nada para descargar.",
-      "packageFailed": "No se pudo crear el ZIP. Inténtalo nuevamente.",
+      "packageFailed": "No se pudo crear el ZIP, así que la descarga por lote no está disponible. Aun así, puedes descargar los archivos uno por uno. Si quieres descargarlos todos juntos, vuelve a intentarlo con un lote más pequeño. Si sigue fallando, cierra otras pestañas del navegador o aplicaciones y vuelve a intentarlo.",
       "addFileFirst": "Primero agrega archivos, por favor."
     }
   },

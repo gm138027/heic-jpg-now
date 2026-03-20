@@ -234,7 +234,7 @@ export function useConversionWorkflow({
       if (packagingGenerationRef.current === generation) {
         const packagingMessage = t("upload.errors.packageFailed");
         setError((prev) => prev ?? packagingMessage);
-        setDownloadBlob(new Blob([], { type: "application/zip" }));
+        setDownloadBlob(null);
         setConvertStage("ready");
         setPackagingProgress(1);
       }

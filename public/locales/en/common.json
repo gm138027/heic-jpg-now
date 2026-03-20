@@ -55,7 +55,7 @@
       "addFailed": "Could not add files. Please try again in a moment.",
       "convertFailed": "Conversion failed. Please retry later.",
       "noDownloadableFiles": "No files were converted successfully, so there is nothing to download.",
-      "packageFailed": "Packaging for download failed. Please try again.",
+      "packageFailed": "ZIP creation failed, so batch download is not available. You can still download files one by one. If you want everything together, try again with a smaller batch. If it still fails, close other browser tabs or apps and try again.",
       "addFileFirst": "Please add files first."
     }
   },

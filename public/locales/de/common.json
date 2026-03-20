@@ -55,7 +55,7 @@
       "addFailed": "Dateien konnten nicht hinzugefügt werden. Versuchen Sie es in Kürze erneut.",
       "convertFailed": "Konvertierung fehlgeschlagen. Bitte später erneut versuchen.",
       "noDownloadableFiles": "Es wurde keine Datei erfolgreich konvertiert, daher gibt es nichts zum Herunterladen.",
-      "packageFailed": "ZIP-Datei konnte nicht erstellt werden. Bitte erneut versuchen.",
+      "packageFailed": "Die ZIP-Datei konnte nicht erstellt werden, daher ist der Sammeldownload nicht verfügbar. Sie können die Dateien weiterhin einzeln herunterladen. Wenn Sie alles zusammen herunterladen möchten, versuchen Sie es erneut mit weniger Dateien auf einmal. Wenn es weiterhin fehlschlägt, schließen Sie andere Browser-Tabs oder Apps und versuchen Sie es erneut.",
       "addFileFirst": "Bitte zuerst Dateien hinzufügen."
     }
   },

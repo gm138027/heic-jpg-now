@@ -55,7 +55,7 @@
       "addFailed": "Impossible d’ajouter les fichiers. Réessayez dans un instant.",
       "convertFailed": "La conversion a échoué. Veuillez réessayer plus tard.",
       "noDownloadableFiles": "Aucun fichier n’a été converti avec succès, il n’y a donc rien à télécharger.",
-      "packageFailed": "Création du ZIP impossible. Veuillez réessayer.",
+      "packageFailed": "La création du ZIP a échoué, le téléchargement groupé n’est donc pas disponible. Vous pouvez toujours télécharger les fichiers un par un. Si vous voulez tout télécharger en une fois, réessayez avec un lot plus petit. Si le problème persiste, fermez les autres onglets du navigateur ou les applications ouvertes, puis réessayez.",
       "addFileFirst": "Ajoutez des fichiers avant de continuer."
     }
   },
