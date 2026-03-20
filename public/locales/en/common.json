@@ -53,6 +53,7 @@
       "onlyHeic": "Only HEIC/HEIF files are supported. Please choose different files.",
       "addFailed": "Could not add files. Please try again in a moment.",
       "convertFailed": "Conversion failed. Please retry later.",
+      "noDownloadableFiles": "No files were converted successfully, so there is nothing to download.",
       "packageFailed": "Packaging for download failed. Please try again.",
       "addFileFirst": "Please add files first."
     }

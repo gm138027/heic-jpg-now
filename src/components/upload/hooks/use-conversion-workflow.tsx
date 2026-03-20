@@ -250,8 +250,17 @@ export function useConversionWorkflow({
     if (queue.length === 0) return;
     const allFinished = queue.every((file) => file.status === "done" || file.status === "error");
     if (!allFinished) return;
+    const successCount = queue.filter((file) => file.status === "done").length;
+    if (successCount === 0) {
+      setDownloadBlob(null);
+      setPackagingProgress(0);
+      setHasDownloadedAll(false);
+      setConvertStage("idle");
+      setError(t("upload.errors.noDownloadableFiles"));
+      return;
+    }
     void packageResults();
-  }, [convertStage, queue, packageResults]);
+  }, [convertStage, queue, packageResults, setError, t]);
 
   const handleDownloadAll = useCallback(() => {
     if (!downloadBlob) return;
@@ -330,14 +339,18 @@ export function useConversionWorkflow({
     convertStage === "ready" ? "download" : convertStage === "idle" ? "convert" : "progress";
 
   const convertDisabled = useMemo(() => {
+    const allFailedAfterReveal =
+      hasRevealedProgress &&
+      queue.length > 0 &&
+      queue.every((file) => file.status === "error");
     if (convertStage === "ready") {
       return !downloadBlob || isProcessing;
     }
     if (convertStage === "idle") {
-      return !hasFiles || isProcessing;
+      return !hasFiles || isProcessing || allFailedAfterReveal;
     }
     return true;
-  }, [convertStage, downloadBlob, hasFiles, isProcessing]);
+  }, [convertStage, downloadBlob, hasFiles, hasRevealedProgress, isProcessing, queue]);
 
   return {
     hasRevealedProgress,

@@ -53,6 +53,7 @@
       "onlyHeic": "Seuls les fichiers HEIC/HEIF sont pris en charge. Merci d’en choisir d’autres.",
       "addFailed": "Impossible d’ajouter les fichiers. Réessayez dans un instant.",
       "convertFailed": "La conversion a échoué. Veuillez réessayer plus tard.",
+      "noDownloadableFiles": "Aucun fichier n’a été converti avec succès, il n’y a donc rien à télécharger.",
       "packageFailed": "Création du ZIP impossible. Veuillez réessayer.",
       "addFileFirst": "Ajoutez des fichiers avant de continuer."
     }
