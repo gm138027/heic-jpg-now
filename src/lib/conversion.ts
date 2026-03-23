@@ -3,15 +3,37 @@ import { convertWithCanvas } from "./canvas-conversion";
 import { extractExifFromHeic, injectExifIntoJpeg } from "./exif";
 import { detectImageKind, type ImageKind } from "./image-signature";
 
-async function convertWithHeic2Any(file: File): Promise<ConvertResult> {
-  const { default: heic2any } = await import("heic2any");
-  const output = await heic2any({
-    blob: file,
-    toType: "image/jpeg",
+let heic2AnyLock: Promise<void> = Promise.resolve();
+
+async function runHeic2AnyFallback<T>(task: () => Promise<T>): Promise<T> {
+  const previous = heic2AnyLock;
+  let release!: () => void;
+  heic2AnyLock = new Promise<void>((resolve) => {
+    release = resolve;
   });
 
-  const blob = Array.isArray(output) ? output[0] : (output as Blob);
-  return { blob };
+  await previous;
+
+  try {
+    return await task();
+  } finally {
+    release();
+  }
+}
+
+async function convertWithHeic2Any(file: File): Promise<ConvertResult> {
+  // heic2any uses a shared worker. Keep the fallback serial so a malformed
+  // worker reply can only fail the current file instead of a parallel pair.
+  return runHeic2AnyFallback(async () => {
+    const { default: heic2any } = await import("heic2any");
+    const output = await heic2any({
+      blob: file,
+      toType: "image/jpeg",
+    });
+
+    const blob = Array.isArray(output) ? output[0] : (output as Blob);
+    return { blob };
+  });
 }
 
 function normalizeJpegBlob(file: File): Blob {

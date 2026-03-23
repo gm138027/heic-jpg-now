@@ -1,0 +1,43 @@
+diff --git a/node_modules/heic2any/dist/heic2any.js b/node_modules/heic2any/dist/heic2any.js
+index 4c4029d..9bb8f29 100644
+--- a/node_modules/heic2any/dist/heic2any.js
++++ b/node_modules/heic2any/dist/heic2any.js
+@@ -187,15 +187,30 @@ function decodeBuffer(buffer) {
+     return new Promise(function (resolve, reject) {
+         var id = (Math.random() * new Date().getTime()).toString();
+         var message = { id: id, buffer: buffer };
+-        window.__heic2any__worker.postMessage(message);
+-        window.__heic2any__worker.addEventListener("message", function (message) {
+-            if (message.data.id === id) {
+-                if (message.data.error) {
+-                    return reject(message.data.error);
+-                }
+-                return resolve(message.data.imageDataArr);
++        var worker = window.__heic2any__worker;
++        if (!worker) {
++            return reject(utils.error("ERR_UNKNOWN Invalid worker instance"));
++        }
++        var cleanup = function () {
++            worker.removeEventListener("message", handler);
++        };
++        var handler = function (event) {
++            var data = event && event.data;
++            if (!data || typeof data !== "object" || data.id == null) {
++                cleanup();
++                return reject(utils.error("ERR_UNKNOWN Invalid worker message"));
+             }
+-        });
++            if (data.id !== id) {
++                return;
++            }
++            cleanup();
++            if (data.error) {
++                return reject(data.error);
++            }
++            return resolve(data.imageDataArr);
++        };
++        worker.addEventListener("message", handler);
++        worker.postMessage(message);
+     });
+ }
+ function heic2any(ref) {
