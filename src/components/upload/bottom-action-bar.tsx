@@ -29,7 +29,7 @@ export function BottomActionBar({
   downloadLabel,
 }: BottomActionBarProps) {
   const t = useTranslations();
-  const normalizedPercent = Math.min(100, Math.max(0, Math.round(progressPercent)));
+  const normalizedPercent = Math.min(100, Math.max(0, Math.floor(progressPercent)));
   const resolvedAddLabel = addLabel ?? t("upload.actions.add");
   const resolvedConvertLabel = convertLabel ?? t("upload.actions.convert");
   const resolvedDownloadLabel = downloadLabel ?? t("upload.actions.downloadAll");

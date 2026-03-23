@@ -9,6 +9,10 @@ import { useProgressAnimator } from "../use-progress-animator";
 import { trackEvent } from "@/lib/analytics/ga";
 
 const MAX_PARALLEL_CONVERSIONS = getMaxParallelConversions();
+const CONVERSION_PROGRESS_MAX = 89;
+const PACKAGING_PROGRESS_MIN = 90;
+const PACKAGING_PROGRESS_MAX = 99;
+const READY_PROGRESS = 100;
 
 function getMaxParallelConversions() {
   if (typeof navigator === "undefined") return 1;
@@ -316,17 +320,26 @@ export function useConversionWorkflow({
   );
 
   const progressPercent = useMemo(() => {
-    const packagingUnit = queue.length > 0 ? 1 : 0;
-    const totalUnits = queue.length + packagingUnit;
-    if (totalUnits === 0) return 0;
-    const packagingContribution =
-      convertStage === "ready"
-        ? packagingUnit
-        : convertStage === "packaging"
-          ? packagingProgress
-          : 0;
-    const numerator = completedCount + packagingContribution;
-    return Math.min(100, Math.max(0, Math.round((numerator / totalUnits) * 100)));
+    if (queue.length === 0) return 0;
+
+    if (convertStage === "ready") {
+      return READY_PROGRESS;
+    }
+
+    if (convertStage === "packaging") {
+      // Reserve 100% for the point where the ZIP is actually ready to download.
+      return (
+        PACKAGING_PROGRESS_MIN +
+        Math.min(1, Math.max(0, packagingProgress)) *
+          (PACKAGING_PROGRESS_MAX - PACKAGING_PROGRESS_MIN)
+      );
+    }
+
+    if (convertStage === "progress") {
+      return (Math.min(queue.length, completedCount) / queue.length) * CONVERSION_PROGRESS_MAX;
+    }
+
+    return 0;
   }, [queue.length, completedCount, convertStage, packagingProgress]);
 
   const isProgressActive = convertStage === "progress" || convertStage === "packaging";
