@@ -1,3 +1,4 @@
+﻿import { HELP_INDEX_SLUG, getHelpLocales, getHelpPages } from "@/lib/help-center/content";
 import type { MetadataRoute } from "next";
 import { defaultLocale, locales } from "@/lib/i18n/locales";
 import { getAbsoluteUrl } from "@/lib/url";
@@ -33,6 +34,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
       });
     });
+
+  getHelpLocales().forEach((locale) => {
+    const localePrefix = locale === defaultLocale ? "" : `${locale}/`;
+    entries.push({
+      url: toAbsoluteUrl(`${localePrefix}${HELP_INDEX_SLUG}`),
+      lastModified,
+    });
+
+    getHelpPages(locale).forEach((page) => {
+      entries.push({
+        url: toAbsoluteUrl(`${localePrefix}${HELP_INDEX_SLUG}/${page.slug}`),
+        lastModified,
+      });
+    });
+  });
 
   return entries;
 }

@@ -1,3 +1,5 @@
+import { HelpHomeLinks } from "@/components/help/help-home-links";
+import { getHelpIndex } from "@/lib/help-center/content";
 import { defaultLocale, type Locale } from "@/lib/i18n/locales";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { UploadTool } from "@/components/upload/upload-tool";
@@ -161,6 +163,9 @@ export async function SEOContent({ locale }: SEOContentProps) {
 
           {/* FAQ Section */}
           {seo.faq && <FAQAccordion title={seo.faq.title} items={seo.faq.items} />}
+
+          {/* Help Center Section */}
+          {getHelpIndex(locale) && <HelpHomeLinks locale={locale} />}
         </div>
       )}
 
