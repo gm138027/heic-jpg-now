@@ -140,8 +140,8 @@
         "title": "Por qué elegir este convertidor de HEIC a JPG",
         "list": {
           "stable": {
-            "title": "Puedes empezar sin tener que dividir los archivos primero en lotes pequeños",
-            "content": "Incluso si añades varios archivos HEIC de una sola vez, por lo general puedes seguir sin tener que separarlos primero en lotes más pequeños."
+            "title": "Más fácil empezar con varios archivos a la vez",
+            "content": "Puedes añadir varios archivos HEIC de una sola vez y empezar la conversión directamente. En lugar de dividir todo en lotes pequeños desde el principio, puedes probar primero con el lote completo."
           },
           "continueAfterFailure": {
             "title": "Un archivo fallido tiene menos probabilidades de frenar el resto del lote",
@@ -152,8 +152,8 @@
             "content": "Al descargar todo junto, los archivos con el mismo nombre se guardan por separado, lo que ayuda a evitar resultados incompletos por sobrescritura."
           },
           "lessManualWork": {
-            "title": "Por eso, es más fácil llevar el lote hasta el final",
-            "content": "En conjunto, estos puntos hacen más fácil mantener el lote en marcha y completar la conversión y la descarga sin interrumpir el proceso."
+            "title": "Más fácil mantener el lote en marcha",
+            "content": "Desde que añades los archivos hasta que conviertes y descargas, es más fácil seguir con el lote sin ir cortando el proceso. Así es menos probable que tengas que parar para repetir pasos pequeños mientras manejas varios archivos a la vez."
           }
         }
       },

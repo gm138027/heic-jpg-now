@@ -140,8 +140,8 @@
         "title": "Why Choose This HEIC to JPG Converter?",
         "list": {
           "stable": {
-            "title": "Start without splitting files into smaller batches first",
-            "content": "Even if you add multiple HEIC files at once, you can usually keep going without first breaking them into smaller batches."
+            "title": "Easier to start with multiple files at once",
+            "content": "You can add multiple HEIC files at once and start converting right away. Instead of splitting everything into smaller batches first, you can try the whole batch first."
           },
           "continueAfterFailure": {
             "title": "One failed file is less likely to stop the rest of the batch",
@@ -152,8 +152,8 @@
             "content": "When you download everything together, files with the same name are saved separately, which helps avoid missing results caused by overwriting."
           },
           "lessManualWork": {
-            "title": "So it is easier to carry the batch through to the end",
-            "content": "Taken together, these points make it easier to keep a multi-file job moving and get through conversion and download without breaking the flow."
+            "title": "Easier to keep the batch moving",
+            "content": "From adding files to conversion and download, it is easier to keep the batch moving without stopping to redo small parts of the job. That makes multiple files easier to handle in one go."
           }
         }
       },

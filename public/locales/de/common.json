@@ -140,8 +140,8 @@
         "title": "Warum diesen HEIC-zu-JPG-Konverter wählen?",
         "list": {
           "stable": {
-            "title": "Sie können starten, ohne die Dateien zuerst in kleinere Stapel aufzuteilen",
-            "content": "Auch wenn Sie mehrere HEIC-Dateien auf einmal hinzufügen, können Sie in der Regel weitermachen, ohne sie zuerst in kleinere Stapel aufzuteilen."
+            "title": "Einfacher, mit mehreren Dateien auf einmal zu starten",
+            "content": "Sie können mehrere HEIC-Dateien auf einmal hinzufügen und die Konvertierung direkt starten. Statt alles von Anfang an in kleine Batches aufzuteilen, können Sie den Batch erst einmal im Ganzen ausprobieren."
           },
           "continueAfterFailure": {
             "title": "Eine fehlgeschlagene Datei stoppt den Rest des Stapels seltener",
@@ -152,8 +152,8 @@
             "content": "Wenn Sie alles zusammen herunterladen, werden gleichnamige Dateien getrennt gespeichert. Das hilft, damit durch Überschreiben keine Ergebnisse verloren gehen."
           },
           "lessManualWork": {
-            "title": "Dadurch lässt sich die Stapelverarbeitung leichter bis zum Ende fortsetzen",
-            "content": "Zusammen genommen machen diese Punkte es leichter, den Ablauf stabil zu halten und Konvertierung und Download ohne unnötige Unterbrechungen abzuschließen."
+            "title": "Der Batch lässt sich leichter am Stück verarbeiten",
+            "content": "Vom Hinzufügen der Dateien über die Konvertierung bis zum Download lässt sich der Batch leichter am Stück verarbeiten. So müssen zwischendurch seltener kleine Schritte wiederholt werden, wenn mehrere Dateien zusammen verarbeitet werden."
           }
         }
       },
