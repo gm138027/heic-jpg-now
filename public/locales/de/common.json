@@ -65,7 +65,7 @@
     "support": "Support"
   },
   "footer": {
-    "tagline": "Alle Umwandlungen laufen sicher in Ihrem Browser.",
+    "tagline": "Der Hauptteil der Konvertierung läuft in Ihrem Browser. Ergebnisse und Stabilität können je nach Gerät und Browserzustand variieren.",
     "linksTitle": "Links",
     "links": {
       "hero": "Überblick",
