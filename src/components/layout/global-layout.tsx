@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import { LanguageSwitcher } from "./language-switcher";
+import { ABOUT_SLUG, getAboutPage } from "@/lib/about/content";
+import { HELP_INDEX_SLUG, getHelpIndex } from "@/lib/help-center/content";
 import type { Locale } from "@/lib/i18n/locales";
 import { getLocalePath } from "@/lib/i18n/paths";
+import { LanguageSwitcher } from "./language-switcher";
 
 type GlobalLayoutProps = {
   children: React.ReactNode;
@@ -26,6 +28,17 @@ export function GlobalLayout({
   footerLegal,
   footerContactLabel,
 }: GlobalLayoutProps) {
+  const helpIndex = getHelpIndex(locale);
+  const aboutPage = getAboutPage(locale);
+  const headerLinks = [
+    helpIndex
+      ? { href: getLocalePath(locale, HELP_INDEX_SLUG), label: helpIndex.title }
+      : null,
+    aboutPage
+      ? { href: getLocalePath(locale, ABOUT_SLUG), label: aboutPage.navLabel }
+      : null,
+  ].filter((item): item is { href: string; label: string } => item !== null);
+
   return (
     <div 
       className="flex min-h-screen flex-col font-sans"
@@ -39,7 +52,7 @@ export function GlobalLayout({
       }}
     >
       <header className="bg-white/60 backdrop-blur-md">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-6">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 md:px-6">
           <Link
             href={getLocalePath(locale)}
             className="flex items-center gap-2 transition hover:opacity-80 md:gap-3"
@@ -59,7 +72,22 @@ export function GlobalLayout({
               <span className="text-emerald-600">NOW</span>
             </span>
           </Link>
-          <LanguageSwitcher currentLocale={locale} label={languageLabel} options={languageOptions} />
+          <div className="flex flex-wrap items-center justify-end gap-4 md:gap-6">
+            {headerLinks.length > 0 && (
+              <nav aria-label="Primary" className="flex flex-wrap items-center gap-4 text-sm md:gap-5">
+                {headerLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="font-medium text-slate-600 transition hover:text-emerald-600"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </nav>
+            )}
+            <LanguageSwitcher currentLocale={locale} label={languageLabel} options={languageOptions} />
+          </div>
         </div>
       </header>
       <main className="mx-auto w-full max-w-5xl flex-1 space-y-8 px-6 pt-4 pb-12">{children}</main>

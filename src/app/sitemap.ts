@@ -1,9 +1,10 @@
-﻿import { HELP_INDEX_SLUG, getHelpLocales, getHelpPages } from "@/lib/help-center/content";
 import type { MetadataRoute } from "next";
+import { ABOUT_SLUG } from "@/lib/about/content";
+import { HELP_INDEX_SLUG, getHelpLocales, getHelpPages } from "@/lib/help-center/content";
 import { defaultLocale, locales } from "@/lib/i18n/locales";
 import { getAbsoluteUrl } from "@/lib/url";
 
-const BASE_PATHS = ["", "privacy", "terms", "contact"] as const;
+const BASE_PATHS = ["", ABOUT_SLUG, "privacy", "terms", "contact"] as const;
 
 function toAbsoluteUrl(path: string) {
   if (!path) {
