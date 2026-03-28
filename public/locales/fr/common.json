@@ -27,7 +27,7 @@
       "browse": "Choisir des fichiers",
       "busy": "Préparation...",
       "hint": "Choisissez ou glissez-déposez des images HEIC / HEIF",
-      "subHint": "Formats pris en charge : HEIC / HEIF. Recommandation par lot : restez sous 200 fichiers, 30 Mo max par fichier et 1 Go max au total. Sans inscription - ajoutez des fichiers et convertissez-les en lot quand vous voulez."
+      "subHint": "Formats pris en charge : HEIC / HEIF. Recommandation par lot : restez sous 200 fichiers, 30 Mo max par fichier et 1 Go max au total. Si vous avez besoin d’une conservation plus complète d’EXIF et des autres métadonnées, un outil local spécialisé sera souvent plus adapté."
     },
     "queue": {
       "summarySuccess": "Convertis {{success}} / {{total}}",

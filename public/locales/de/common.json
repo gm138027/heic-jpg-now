@@ -27,7 +27,7 @@
       "browse": "Dateien auswählen",
       "busy": "Wird vorbereitet...",
       "hint": "HEIC / HEIF-Bilder auswählen oder hierher ziehen",
-      "subHint": "Unterstützte Formate: HEIC / HEIF. Empfehlung pro Batch: bleiben Sie unter 200 Dateien, unter 30 MB pro Datei und unter 1 GB insgesamt. Keine Registrierung - jederzeit Dateien hinzufügen und im Batch konvertieren."
+      "subHint": "Unterstützte Formate: HEIC / HEIF. Empfehlung pro Batch: bleiben Sie unter 200 Dateien, unter 30 MB pro Datei und unter 1 GB insgesamt. Wenn EXIF und andere Metadaten möglichst vollständig erhalten bleiben sollen, ist ein spezialisiertes lokales Tool meist die bessere Wahl."
     },
     "queue": {
       "summarySuccess": "Konvertiert {{success}} / {{total}}",

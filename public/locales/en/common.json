@@ -27,7 +27,7 @@
       "browse": "Choose Files",
       "busy": "Preparing...",
       "hint": "Choose or drag & drop HEIC / HEIF images",
-      "subHint": "Supported: HEIC / HEIF. Recommended per batch: keep each batch to no more than 200 files, under 30MB each, and under 1GB total. No registration—add more files and batch convert anytime."
+      "subHint": "Supported: HEIC / HEIF. Recommended per batch: keep each batch to no more than 200 files, under 30MB each, and under 1GB total. If you need more complete EXIF retention, a dedicated local tool may be a better fit."
     },
     "queue": {
       "summarySuccess": "Converted {{success}} / {{total}}",

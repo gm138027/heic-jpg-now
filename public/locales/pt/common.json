@@ -27,7 +27,7 @@
       "browse": "Escolher arquivos",
       "busy": "Preparando...",
       "hint": "Escolha ou arraste imagens HEIC / HEIF",
-      "subHint": "Formatos suportados: HEIC / HEIF. Recomendação por lote: mantenha cada lote com no máximo 200 arquivos, até 30 MB por arquivo e até 1 GB no total. Sem cadastro - adicione mais arquivos e converta em lote quando quiser."
+      "subHint": "Formatos suportados: HEIC / HEIF. Recomendação por lote: mantenha cada lote com no máximo 200 arquivos, até 30 MB por arquivo e até 1 GB no total. Se você precisa preservar EXIF e outros metadados de forma mais completa, uma ferramenta local especializada costuma ser mais adequada."
     },
     "queue": {
       "summarySuccess": "Convertidos {{success}} / {{total}}",
